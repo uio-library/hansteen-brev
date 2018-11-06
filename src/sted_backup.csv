@@ -1,0 +1,130 @@
+"sted_id","adresse","fylke","kommune","lokalitet","nasjon","omraade"
+1,,"Oslo","Oslo","Blindern","Norge","Blindern"
+2,,"Oslo","Oslo","Sentrum","Norge","Sentrum"
+3,,"Oslo","Oslo","Tøyen","Norge","Tøyen"
+4,,"Oslo","Oslo","Gaustabekkdalen","Norge ","Gaustad"
+5,,"Buskerud","Hol",,"Norge","Hardangervidda"
+6,,"Akershus","Frogn","Drøbak","Norge",
+7,,"Hordaland","Kvinherad","Rosendal","Norge","Sunnhordaland"
+8,,,,"Roma","Italia",
+9,,,,"Athen","Hellas",
+10,,,,"Svalbard","Norge","Svalbard"
+13,,,,"N.H.Abels hus",,
+14,,"Oslo","Oslo","Domus Media","Norge","Sentrum"
+15,,"Oslo","Oslo","Gymnastikkbygningen","Norge","Sentrum"
+16,,"Rogaland","Rennesøy","Mosterøy","Norge","Boknafjorden"
+17,,"Hedmark",,"Odalen bygdetun","Norge","Odalen"
+18,,"Oslo","Oslo","Nordmarka","Norge","Nordmarka"
+19,,"Oslo","Oslo","Norsk Folkemuseum","Norge","Bygdøy"
+20,,"Oslo","Oslo","Frogner hovedgård","Norge","Frogner"
+21,,"Oppland","Nord-Aurdal","Fagernes","Norge","Valdres"
+24,,"Akershus",,,"Norge","Romerike"
+25,,"Hedmark","Rendalen","Sølensjøen","Norge","Sølensjøen"
+26,,"Oppland","Vestre Slidre",,"Norge",
+27,,"Oslo","Oslo","gamle Rikshospitalet","Norge","St Hanshaugen"
+28,,"Oslo","Oslo","Geologisk museum","Norge","Tøyen"
+29,,,,,"Canada","Arktisk Canada"
+30,,,,"Disko","Danmark","Grønland"
+31,,"Møre og Romsdal","Aure","Reinsjøen","Norge","Reinsjøen"
+32,,,,"Baltimore","USA","Baltimore"
+33,,"Akershus","Bærum","Lysaker","Norge","Lysaker"
+34,,,,"Cernay","Frankrike","Alsace"
+35,,"Hordaland","Bergen",,"Norge","Fana"
+36,,"Oslo","Oslo","Botanisk hage","Norge","Tøyen"
+37,,"Oslo","Oslo","Botanisk museum","Norge","Tøyen"
+38,,"Telemark",,"Langesundsfjorden","Norge","Langesundsfjorden"
+39,,"Akershus","Frogn","Biologisk stasjon Drøbak","Norge","Drøbak"
+40,,,,,"Norge","Oslofjorden"
+41,,"Akershus","Asker","Forsøkshaven Berg","Norge",
+42,,"Akershus","Bærum","Kolsås","Norge","Kolsås"
+43,,"Oppland","Øyer","Tretten","Norge","Gudbrandsdalen"
+44,,"Oslo","Oslo",,"Norge",
+45,,"Sogn og Fjordane",,,"Norge","Sognefjorden"
+46,,"Buskerud",,"Hallingskarvet","Norge","Hardangervidda"
+47,,"Oslo","Oslo","Fyllingen","Norge","Nordmarka"
+48,,"Akershus","Asker","Skaugumåsen","Norge","Skaugum"
+49,,"Sør-Trøndelag","Røros",,"Norge",
+50,,"Buskerud","Hole","Holmevatnet","Norge","Sollihøgda"
+51,,"Akershus","Bærum","Langodden","Norge","Oslofjorden"
+52,,"Buskerud","Drammen","Bragernesåsen","Norge",
+53,,,,"Edinburgh","Storbritannia","Skotland"
+54,,,,"Berlin","Tyskland","Preussen"
+55,,,,"Zürich","Sveits",
+56,,,,"Leipzig","Tyskland","Sachsen"
+57,,,,"Wien","Østerrike",
+58,,,,"London","Storbritannia",
+59,,,,"Cambridge","Storbritannia",
+60,,,,"Köbenhavn","Danmark",
+61,,,,"Königsberg",,"Prøyssen"
+62,,,,"Utrecht","Nederland",
+63,,,,"Åbo","Finland",
+64,,,,"Stockholm","Sverige",
+65,,,,"Kiel","Tyskland",
+66,,,,"Oxøe","Danmark",
+67,,,,"Leipzig","Tyskland","Sachsen"
+68,,,,"Bergen","Norge",
+69,,,,"Breslau",,
+70,,,,"Washington D. C.","USA",
+71,,,,"Woolwish",,
+72,,,,"Eidsvold","Norge",
+73,,,,"Stavanger","Norge",
+74,,,,"Greenwich","Storbritannia",
+79,,,,"Uppsala","Sverige",
+76,,,,"Paris","Frankrike",
+77,,,,"Bonn","Tyskland","Prøyssen"
+78,,,,"Urrugne","Frankrike",
+80,,,,"Lund","Sverige",
+81,,,,"Hamburg","Tyskland",
+86,,,,"München","Tyskland",
+89,,,,"Woolwish","Storbritannia",
+87,,,,"Christiania","Norge",
+90,,,,"Omsk","Russland",
+91,,,,"Dublin","Irland",
+92,,,,"Trondheim","Norge",
+93,,,,"Nirensk","Russland",
+94,,,,"Jakuzk","Russland",
+95,,,,"Bodø","Norge",
+96,,,,"Tromsø","Norge",
+97,,,,"St. Petersburg","Russland",
+98,,,,"Ochozk","Russland",
+99,,,,"Irkutzk","Russland",
+100,,,,"Kristiansand","Norge",
+101,,,,"Fredriksværn","Norge",
+102,,,,"Helsingør","Danmark",
+103,,,,"Modum","Norge",
+104,,,,"Gierpen","Norge",
+105,,,,"Tobolsk","Russland",
+106,,,,"Bremen","Tyskland",
+107,,,,"Detmold","Tyskland",
+108,,,,"Gøteborg","Sverige",
+109,,,,"Eidskog","Norge",
+110,,,,"Manchester","Storbritannia",
+111,,,,"Larvik","Norge",
+112,,,,"Sorøe","Danmark",
+113,,,,"Horten","Norge",
+114,,,,"Hammerfest","Norge",
+115,,,,"Göttingen","Tyskland",
+116,,,,"Dresden","Tyskland",
+117,,,,"Porsgrunn","Norge",
+118,,,,"Ask","Norge",
+120,,,,"Namdalen","Norge",
+121,,,,"York","Storbritannia",
+122,,,,"Altona","Tyskland","Hamburg"
+123,,"Buskerud","Drammen",,"Norge",
+124,,,,"Philadelphia","USA",
+125,,,,"Pulkova",,
+126,,,,"Bonn","Tyskland",
+127,,,,"Freiberg","Tyskland",
+128,,,,"Giessen","Tyskland",
+129,,,,"Ringebu","Norge",
+131,,,,"Lisboa","Portugal",
+132,,,,"Wadstena","Sverige",
+134,,"Dorset",,,"Storbritannia",
+135,,"Skotland",,"Dunse","Storbritannia",
+136,,,,"Augsburg","Tyskland",
+137,,,,"Kiev",,
+138,,,,"Halle","Tyskland",
+139,,,,"Drammen","Norge",
+140,,,,"Uddevalla","Sverige",
+141,,,,"Lyngdal","Norge",
+142,,,,"Allerly by Melrose",,
