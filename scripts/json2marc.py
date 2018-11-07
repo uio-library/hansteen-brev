@@ -138,7 +138,7 @@ with xml.collection:
 
             # 535: Originalens plassering
             with xml.datafield(tag='535', ind1='1', ind2=' '):
-                xml.subfield('Originalene befinner seg i: TODO', code='a')
+                xml.subfield('Originalene befinner seg i: Observatoriets magasin  TODO', code='a')
 
             # 546: Språk
             with xml.datafield(tag='546', ind1=' ', ind2=' '):
