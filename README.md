@@ -7,7 +7,7 @@ Dette repoet inneholder metadata fra 717 brev i brevsamlingen etter
 
 Den vitenskapelige korrespondansen etter Hansten ble gitt til
 [Observatoriet i Oslo](https://no.wikipedia.org/wiki/Observatoriet) etter Hansteens død i 1873.
-I februar 1877 ble i alt 1500 "Videnskabelige Breve" registrert i
+I februar 1877 ble i alt 1591 "Videnskabelige Breve" registrert i
 [en fortegnelse](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/brev/fortegnelse.html)
 av Harald Hansteen.
 Materialet ble overført til
