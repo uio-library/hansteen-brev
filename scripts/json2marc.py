@@ -148,6 +148,10 @@ with xml.collection:
             with xml.datafield(tag='773', ind1='0', ind2=' '):
                 xml.subfield('Hansteens brevsamling', code='a')
 
+            # Alma collection ID
+            with xml.datafield(tag='787', ind1=' ', ind2=' '):
+                xml.subfield('81218451430002204', code='w')
+
             # 856: Filnavn
             # https://developers.exlibrisgroup.com/alma/integrations/digital/almadigital/ingest
             with xml.datafield(tag='856', ind1=' ', ind2=' '):
