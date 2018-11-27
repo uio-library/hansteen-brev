@@ -29,16 +29,16 @@ with xml.collection:
     for row in brev_saml:
 
         # Unik identifikator
-        ident = re.sub(r's[0-9+]\.tif', '', row['filnavn'])
+        ident = row['tilvekstnr']
 
         with xml.record:
 
             # Bearbeid dato
-            if row['klass']['datering_dato'] is None or row['klass']['datering_dato'] == '':
+            if row['datering_dato'] is None or row['datering_dato'] == '':
                 dato = None
                 year = None
             else:
-                dato = row['klass']['datering_dato'].replace('x', 'u').strip()
+                dato = row['datering_dato'].replace('x', 'u').strip()
                 year = dato[:5]
                 if year == 'uuuu':
                     year = None
@@ -133,9 +133,9 @@ with xml.collection:
                 xml.subfield('X sider', code='a')
 
             # 500: Dateringsnote
-            if row['klass']['datering_komm'] is not None:
+            if row['datering_komm'] is not None:
                 with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                    xml.subfield(row['klass']['datering_komm'], code='a')
+                    xml.subfield(row['datering_komm'], code='a')
 
             # 535: Originalens plassering
             with xml.datafield(tag='535', ind1='1', ind2=' '):

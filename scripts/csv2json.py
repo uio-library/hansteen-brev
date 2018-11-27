@@ -62,11 +62,50 @@ def main():
         ids.add(ident)
 
         brev = copy(row)
+        brev['foto_kort_id'] = int(brev['foto_kort_id'])
         brev['klass'] = tab_k[kid]
         brev['klass']['datering_dato'] = brev['klass']['datering_dato'].replace('.', '-')
         brev['steder'] = tab_ks.get(kid, [])
         brev['personer'] = tab_kpr.get(kid, [])
         brev['filer'] = filer[kid]
+
+
+        # Rydd vekk felter som ikke er i bruk og unødvendige felter,
+        # for å gjøre JSON-filen mer oversiktlig.
+
+        for k in list(brev.keys()):
+            if brev[k] == '':
+                brev[k] = None
+        for k in list(brev['klass'].keys()):
+            if k in [
+                'foto_kort_id', 'klassifikasjons_id',  # Nøkler vi ikke trenger i dokumentrepresentasjonen
+                'datering_fra', 'datering_til', # Kun brukt i to poster, med verdien 'uten dato', informasjon som allerede finnes i annet felt
+                'annen_informasjon'  # Ikke i bruk
+            ]:
+                pass
+            elif brev['klass'][k] == '':
+                brev[k] = None
+            else:
+                brev[k] = brev['klass'][k]
+
+        del brev['klass']  # Flyttet til brev
+        del brev['siste_klassifikasjon']  # Fremmednøkkel
+        del brev['filnavn']  # Meningsløst, tilfeldig verdi fra en join
+        del brev['samlings_id']  # Ikke i bruk
+        del brev['tittel']  # Ikke i bruk
+        del brev['registrert']  # I praksis ikke i bruk, kun brukt av post 21
+        del brev['annen_arkivident']  # Meningsløst, tilfeldig verdi fra en join
+        del brev['mediagruppe_enhets_id']  # Meningsløst
+        for val in brev['steder']:
+            for k in list(val.keys()):
+                if k in ['adresse', 'fylke', 'kommune', 'omraade']:  # Ikke i bruk
+                    del val[k]
+                elif val[k] == '':
+                    val[k] = None
+
+        # Normaliser koding av ukjent dato
+        if brev['datering_dato'] == 'xxxx-xx-xx':
+            brev['datering_dato'] = None
 
         # Sorter avsender først, så denne havner i 100
         brev['personer'] = sorted(brev['personer'],
