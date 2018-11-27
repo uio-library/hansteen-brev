@@ -159,7 +159,7 @@
     <leader>     aas          c     </leader>
     <controlfield tag="006">t       TODO</controlfield>
     <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1843.    xx#|||||||||||000|0|nor|d</controlfield>
+    <controlfield tag="008">181105s1843-    xx#|||||||||||000|0|nor|d</controlfield>
     <datafield ind1="8" ind2=" " tag="024">
       <subfield code="a">Boeck120443</subfield>
       <subfield code="2">UIO_FUH</subfield>
@@ -177,7 +177,7 @@
       <subfield code="a">Brev fra Boeck, Chr. til Hansteen, Christopher datert 1. September 2018</subfield>
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1843.04.12</subfield>
+      <subfield code="c">1843-04-12</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -2899,7 +2899,7 @@
     <leader>     aas          c     </leader>
     <controlfield tag="006">t       TODO</controlfield>
     <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1830.    xx#|||||||||||000|0|nor|d</controlfield>
+    <controlfield tag="008">181105s1830-    xx#|||||||||||000|0|nor|d</controlfield>
     <datafield ind1="8" ind2=" " tag="024">
       <subfield code="a">Berzeulius201230</subfield>
       <subfield code="2">UIO_FUH</subfield>
@@ -2919,7 +2919,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">Stockholm, Sverige</subfield>
-      <subfield code="c">1830.12.20</subfield>
+      <subfield code="c">1830-12-20</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -3001,7 +3001,7 @@
     <leader>     aas          c     </leader>
     <controlfield tag="006">t       TODO</controlfield>
     <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1821-    xx#|||||||||||000|0|nor|d</controlfield>
+    <controlfield tag="008">181105s1831-    xx#|||||||||||000|0|nor|d</controlfield>
     <datafield ind1="8" ind2=" " tag="024">
       <subfield code="a">Berzeulius211131</subfield>
       <subfield code="2">UIO_FUH</subfield>
@@ -3021,7 +3021,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">Stockholm, Sverige</subfield>
-      <subfield code="c">1821-11-31</subfield>
+      <subfield code="c">1831-11-21</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -5302,7 +5302,7 @@
     <leader>     aas          c     </leader>
     <controlfield tag="006">t       TODO</controlfield>
     <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1857.    xx#|||||||||||000|0|nor|d</controlfield>
+    <controlfield tag="008">181105s1857-    xx#|||||||||||000|0|nor|d</controlfield>
     <datafield ind1="8" ind2=" " tag="024">
       <subfield code="a">Askengren120957</subfield>
       <subfield code="2">UIO_FUH</subfield>
@@ -5321,7 +5321,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">Stavanger, Norge</subfield>
-      <subfield code="c">1857.09.12</subfield>
+      <subfield code="c">1857-09-12</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -21342,7 +21342,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">St. Petersburg, Russland</subfield>
-      <subfield code="c">1833-05-33</subfield>
+      <subfield code="c">1833-05-23</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -27726,7 +27726,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">London, Storbritannia</subfield>
-      <subfield code="c">1839-11-31</subfield>
+      <subfield code="c">1839-12-31</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -29154,7 +29154,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">London, Storbritannia</subfield>
-      <subfield code="c">1854-23-01</subfield>
+      <subfield code="c">1854-01-23</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -31833,7 +31833,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">Berlin, Tyskland</subfield>
-      <subfield code="c">1853-17-04</subfield>
+      <subfield code="c">1853-04-17</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>
@@ -36144,7 +36144,7 @@
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
       <subfield code="a">Fredriksværn, Norge</subfield>
-      <subfield code="c">1828-20-01</subfield>
+      <subfield code="c">1828-01-20</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
       <subfield code="a">X sider</subfield>

@@ -217,7 +217,7 @@
     "klass": {
       "klassifikasjons_id": "8",
       "foto_kort_id": "8",
-      "datering_dato": "1843.04.12",
+      "datering_dato": "1843-04-12",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -3789,7 +3789,7 @@
     "klass": {
       "klassifikasjons_id": "61",
       "foto_kort_id": "61",
-      "datering_dato": "1830.12.20",
+      "datering_dato": "1830-12-20",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -3924,7 +3924,7 @@
     "klass": {
       "klassifikasjons_id": "63",
       "foto_kort_id": "63",
-      "datering_dato": "1821-11-31",
+      "datering_dato": "1831-11-21",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -6935,7 +6935,7 @@
     "klass": {
       "klassifikasjons_id": "104",
       "foto_kort_id": "104",
-      "datering_dato": "1857.09.12",
+      "datering_dato": "1857-09-12",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -28218,7 +28218,7 @@
     "klass": {
       "klassifikasjons_id": "402",
       "foto_kort_id": "402",
-      "datering_dato": "1833-05-33",
+      "datering_dato": "1833-05-23",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -36758,7 +36758,7 @@
     "klass": {
       "klassifikasjons_id": "520",
       "foto_kort_id": "520",
-      "datering_dato": "1839-11-31",
+      "datering_dato": "1839-12-31",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -38658,7 +38658,7 @@
     "klass": {
       "klassifikasjons_id": "543",
       "foto_kort_id": "543",
-      "datering_dato": "1854-23-01",
+      "datering_dato": "1854-01-23",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -42223,7 +42223,7 @@
     "klass": {
       "klassifikasjons_id": "588",
       "foto_kort_id": "588",
-      "datering_dato": "1853-17-04",
+      "datering_dato": "1853-04-17",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",
@@ -47978,7 +47978,7 @@
     "klass": {
       "klassifikasjons_id": "663",
       "foto_kort_id": "663",
-      "datering_dato": "1828-20-01",
+      "datering_dato": "1828-01-20",
       "datering_fra": "",
       "datering_komm": "",
       "datering_til": "",

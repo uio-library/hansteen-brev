@@ -55,6 +55,7 @@ def main():
         kid = row['siste_klassifikasjon']
         brev = copy(row)
         brev['klass'] = tab_k[kid]
+        brev['klass']['datering_dato'] = brev['klass']['datering_dato'].replace('.', '-')
         brev['steder'] = tab_ks.get(kid, [])
         brev['personer'] = tab_kpr.get(kid, [])
         brev['filer'] = filer[kid]
