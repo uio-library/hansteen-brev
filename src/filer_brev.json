@@ -2366,11 +2366,6 @@
    ],
    "157": [
       {
-         "filename": "Unknown.tif",
-         "basename": "Unknown",
-         "page_designation": null
-      },
-      {
          "filename": "AAstrand120659s1.tif",
          "basename": "AAstrand120659",
          "page_designation": "Side 1"
@@ -2384,6 +2379,11 @@
          "filename": "AAstrand120659s3.tif",
          "basename": "AAstrand120659",
          "page_designation": "Side 3"
+      },
+      {
+         "filename": "AAstrand120659s4.tif",
+         "basename": "AAstrand120659",
+         "page_designation": "Side 4"
       }
    ],
    "158": [

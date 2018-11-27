@@ -8033,10 +8033,6 @@
       <subfield code="w">81218451430002204</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="856">
-      <subfield code="a" />
-      <subfield code="u">Unknown.tif</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="856">
       <subfield code="a">Side 1</subfield>
       <subfield code="u">AAstrand120659s1.tif</subfield>
     </datafield>
@@ -8047,6 +8043,10 @@
     <datafield ind1=" " ind2=" " tag="856">
       <subfield code="a">Side 3</subfield>
       <subfield code="u">AAstrand120659s3.tif</subfield>
+    </datafield>
+    <datafield ind1=" " ind2=" " tag="856">
+      <subfield code="a">Side 4</subfield>
+      <subfield code="u">AAstrand120659s4.tif</subfield>
     </datafield>
   </record>
   <record>
