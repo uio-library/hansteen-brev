@@ -44,6 +44,9 @@ def main():
     tab_p = simle_map('person.csv', 'person_id')
     tab_r = simle_map('personrolle.csv', 'personrolle_id')
 
+    with open(os.path.join(src_folder, 'filer_brev.json')) as fp:
+        filer = json.load(fp)
+
     tab_ks = one_to_many('klassifikasjon_sted.csv', 'klassifikasjons_id', tab_s, 'sted_id')
     tab_kpr = one_to_many('klassifikasjon_person_rolle.csv', 'klassifikasjons_id', tab_p, 'person_id', {'rolle': [tab_r, 'personrolle_id']})
 
@@ -54,6 +57,7 @@ def main():
         brev['klass'] = tab_k[kid]
         brev['steder'] = tab_ks.get(kid, [])
         brev['personer'] = tab_kpr.get(kid, [])
+        brev['filer'] = filer[kid]
 
         # Sorter avsender først, så denne havner i 100
         brev['personer'] = sorted(brev['personer'],

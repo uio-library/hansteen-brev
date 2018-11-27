@@ -155,8 +155,11 @@ with xml.collection:
 
             # 856: Filnavn
             # https://developers.exlibrisgroup.com/alma/integrations/digital/almadigital/ingest
-            with xml.datafield(tag='856', ind1=' ', ind2=' '):
-                xml.subfield(row['filnavn'], code='u')
-                # TODO: Loop over all files
+
+            for fil in row['filer']:
+                with xml.datafield(tag='856', ind1=' ', ind2=' '):
+                    page_designation = fil['page_designation']
+                    xml.subfield(page_designation, code='a')
+                    xml.subfield(fil['filename'], code='u')
 
 print(xml)

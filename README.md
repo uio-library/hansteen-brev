@@ -29,9 +29,10 @@ Repoet inneholder script for å konvertere CSV-tabellene til en JSON-representas
 og til en MARC21XML-utgave.
 Kjør `make clean && make` om du vil gjøre konverteringen på nytt:
 
-1. `scripts/csv2json.py` leser inn tabellene fra `src/*.csv` og lager en
+1. `scripts/linkfiles.py` kobler filnavn med brev. Informasjonen lagres i `filer_brev.json`.
+2. `scripts/csv2json.py` leser inn tabellene fra `src/*.csv` og lager en
    forenklet JSON-struktur som lagres som `build/hansteen.json`.
-2. `scripts/json2marc.py` leser inn `build/hansteen.json`, kombinerer dette med
+3. `scripts/json2marc.py` leser inn `build/hansteen.json`, kombinerer dette med
    navneautoriteter fra `aut/person_autoriteter.json` og lager en MARC21-utgave
    som lagres som `build/hansteen.marc21.xml`.
 
