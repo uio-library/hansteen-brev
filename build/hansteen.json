@@ -145,61 +145,6 @@
     ]
   },
   {
-    "foto_kort_id": "7",
-    "tittel": "",
-    "siste_klassifikasjon": "7",
-    "registrert": "",
-    "registrert_av": "0",
-    "registrert_dato": "2004-05-19",
-    "opprettet_av": "0",
-    "opprettet_dato": "2004-05-19",
-    "samlings_id": "",
-    "mediagruppe_enhets_id": "1876151",
-    "samling": "UIO FUH",
-    "tilvekstnr": "Boeck120443",
-    "annen_arkivident": "Boeck120443s1.tif",
-    "filnavn": "Boeck120443s1.tif",
-    "klass": {
-      "klassifikasjons_id": "7",
-      "foto_kort_id": "7",
-      "datering_dato": "1843-04-12",
-      "datering_fra": "",
-      "datering_komm": "",
-      "datering_til": "",
-      "motivbeskrivelse": "",
-      "stedkommentar": "",
-      "annen_informasjon": ""
-    },
-    "steder": [],
-    "personer": [
-      {
-        "person_id": "6",
-        "navn": "Boeck, Chr.",
-        "adresse": "",
-        "rolle": {
-          "personrolle_id": "74",
-          "navn": "Avsender"
-        }
-      },
-      {
-        "person_id": "3",
-        "navn": "Hansteen, Christopher",
-        "adresse": "",
-        "rolle": {
-          "personrolle_id": "75",
-          "navn": "Mottaker"
-        }
-      }
-    ],
-    "filer": [
-      {
-        "filename": "Boeck120443s1.tif",
-        "basename": "Boeck120443",
-        "page_designation": "Side 1"
-      }
-    ]
-  },
-  {
     "foto_kort_id": "8",
     "tittel": "",
     "siste_klassifikasjon": "8",
@@ -16513,7 +16458,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6652355",
     "samling": "UIO FUH",
-    "tilvekstnr": "Duexxxxxx",
+    "tilvekstnr": "Duexxxxxx_1",
     "annen_arkivident": "Duexxxxxxs4.tif",
     "filnavn": "Duexxxxxxs4.tif",
     "klass": {
@@ -16593,7 +16538,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6652387",
     "samling": "UIO FUH",
-    "tilvekstnr": "Duexxxxxx",
+    "tilvekstnr": "Duexxxxxx_2",
     "annen_arkivident": "Duexxxxxxs4.tif",
     "filnavn": "Duexxxxxxs4.tif",
     "klass": {
@@ -16988,7 +16933,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6652539",
     "samling": "UIO FUH",
-    "tilvekstnr": "Duexxxxxx",
+    "tilvekstnr": "Duexxxxxx_3",
     "annen_arkivident": "Duexxxxxxs3.tif",
     "filnavn": "Duexxxxxxs3.tif",
     "klass": {
@@ -18323,7 +18268,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6653345",
     "samling": "UIO FUH",
-    "tilvekstnr": "Ermanxxxxxx",
+    "tilvekstnr": "Ermanxxxxxx_1",
     "annen_arkivident": "Ermannxxxxxxs4.tif",
     "filnavn": "Ermannxxxxxxs4.tif",
     "klass": {
@@ -19238,7 +19183,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6661107",
     "samling": "UIO FUH",
-    "tilvekstnr": "Ermanxxxxxx",
+    "tilvekstnr": "Ermanxxxxxx_2",
     "annen_arkivident": "Ermanxxxxs4.tif",
     "filnavn": "Ermanxxxxs4.tif",
     "klass": {
@@ -19413,7 +19358,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6661211",
     "samling": "UIO FUH",
-    "tilvekstnr": "Ermanxxxxxx",
+    "tilvekstnr": "Ermanxxxxxx_3",
     "annen_arkivident": "Ermanxxxxxxs3.tif",
     "filnavn": "Ermanxxxxxxs3.tif",
     "klass": {
@@ -19553,7 +19498,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6661259",
     "samling": "UIO FUH",
-    "tilvekstnr": "Ermanxxxxxx",
+    "tilvekstnr": "Ermanxxxxxx_4",
     "annen_arkivident": "Ermansenxxxxxxs1.tif",
     "filnavn": "Ermansenxxxxxxs1.tif",
     "klass": {
@@ -19618,7 +19563,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6661267",
     "samling": "UIO FUH",
-    "tilvekstnr": "Ermanxxxxxx",
+    "tilvekstnr": "Ermanxxxxxx_5",
     "annen_arkivident": "Ermanxxxxxxs5.tif",
     "filnavn": "Ermanxxxxxxs5.tif",
     "klass": {
@@ -44127,7 +44072,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6806733",
     "samling": "UIO FUH",
-    "tilvekstnr": "Sommer011033",
+    "tilvekstnr": "Sommer011033_1",
     "annen_arkivident": "Sommerfeldta011033s3.tif",
     "filnavn": "Sommerfeldta011033s3.tif",
     "klass": {
@@ -44202,7 +44147,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6806765",
     "samling": "UIO FUH",
-    "tilvekstnr": "Sommer011033",
+    "tilvekstnr": "Sommer011033_2",
     "annen_arkivident": "Sommerfeldtb011033s2.tif",
     "filnavn": "Sommerfeldtb011033s2.tif",
     "klass": {
@@ -46252,7 +46197,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6816223",
     "samling": "UIO FUH",
-    "tilvekstnr": "Svanbe220551",
+    "tilvekstnr": "Svanbe220551_1",
     "annen_arkivident": "Svanberg220551s3.tif",
     "filnavn": "Svanberg220551s3.tif",
     "klass": {
@@ -46332,7 +46277,7 @@
     "samlings_id": "",
     "mediagruppe_enhets_id": "6816255",
     "samling": "UIO FUH",
-    "tilvekstnr": "Svanbe220551",
+    "tilvekstnr": "Svanbe220551_2",
     "annen_arkivident": "Svanberg220551bs3.tif",
     "filnavn": "Svanberg220551bs3.tif",
     "klass": {
@@ -49997,81 +49942,6 @@
         "filename": "Cronstrand261124s3.tif",
         "basename": "Cronstrand261124",
         "page_designation": "Side 3"
-      }
-    ]
-  },
-  {
-    "foto_kort_id": "691",
-    "tittel": "",
-    "siste_klassifikasjon": "691",
-    "registrert": "",
-    "registrert_av": "0",
-    "registrert_dato": "2005-09-23",
-    "opprettet_av": "0",
-    "opprettet_dato": "2005-09-23",
-    "samlings_id": "",
-    "mediagruppe_enhets_id": "7228804",
-    "samling": "UIO FUH",
-    "tilvekstnr": "Baeyer010964",
-    "annen_arkivident": "Baeyer010964s1.tif",
-    "filnavn": "Baeyer010964s1.tif",
-    "klass": {
-      "klassifikasjons_id": "691",
-      "foto_kort_id": "691",
-      "datering_dato": "1864-09-01",
-      "datering_fra": "",
-      "datering_komm": "",
-      "datering_til": "",
-      "motivbeskrivelse": "",
-      "stedkommentar": "",
-      "annen_informasjon": ""
-    },
-    "steder": [
-      {
-        "sted_id": "54",
-        "adresse": "",
-        "fylke": "",
-        "kommune": "",
-        "lokalitet": "Berlin",
-        "nasjon": "Tyskland",
-        "omraade": ""
-      }
-    ],
-    "personer": [
-      {
-        "person_id": "63",
-        "navn": "Baeyer",
-        "adresse": "",
-        "rolle": {
-          "personrolle_id": "74",
-          "navn": "Avsender"
-        }
-      },
-      {
-        "person_id": "3",
-        "navn": "Hansteen, Christopher",
-        "adresse": "",
-        "rolle": {
-          "personrolle_id": "75",
-          "navn": "Mottaker"
-        }
-      }
-    ],
-    "filer": [
-      {
-        "filename": "Baeyer010964b.tif",
-        "basename": "Baeyer010964",
-        "page_designation": "Bakside"
-      },
-      {
-        "filename": "Baeyer010964f.tif",
-        "basename": "Baeyer010964",
-        "page_designation": "Forside"
-      },
-      {
-        "filename": "Baeyer010964s1.tif",
-        "basename": "Baeyer010964",
-        "page_designation": "Side 1"
       }
     ]
   },

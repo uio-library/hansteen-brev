@@ -51,8 +51,16 @@ def main():
     tab_kpr = one_to_many('klassifikasjon_person_rolle.csv', 'klassifikasjons_id', tab_p, 'person_id', {'rolle': [tab_r, 'personrolle_id']})
 
     brev_saml = []
+
+    ids = set()
     for row in get_table_rows('foto_kort.csv'):
         kid = row['siste_klassifikasjon']
+
+        ident = row['tilvekstnr']
+        if ident in ids:
+            sys.stderr.write('Tilvekstnr. er IKKE unikt: %s\n' % ident)
+        ids.add(ident)
+
         brev = copy(row)
         brev['klass'] = tab_k[kid]
         brev['klass']['datering_dato'] = brev['klass']['datering_dato'].replace('.', '-')

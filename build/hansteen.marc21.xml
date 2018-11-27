@@ -152,53 +152,6 @@
     </datafield>
     <datafield ind1=" " ind2=" " tag="856">
       <subfield code="a">Side 1</subfield>
-      <subfield code="u">Boeck120443s1.tif</subfield>
-    </datafield>
-  </record>
-  <record>
-    <leader>     aas          c     </leader>
-    <controlfield tag="006">t       TODO</controlfield>
-    <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1843-    xx#|||||||||||000|0|nor|d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">Boeck120443</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Boeck, Chr.</subfield>
-      <subfield code="4">aut</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">Brev fra Boeck, Chr. til Hansteen, Christopher datert 1. September 2018</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1843-04-12</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">X sider</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a" />
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="a">Originalene befinner seg i: Observatoriets magasin  TODO</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="546">
-      <subfield code="a">Kan vi si noe om språk?</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="a">Hansteens brevsamling</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="856">
-      <subfield code="a">Side 1</subfield>
       <subfield code="u">Boeck120443s1_2.tif</subfield>
     </datafield>
   </record>
@@ -37647,62 +37600,6 @@
     <datafield ind1=" " ind2=" " tag="856">
       <subfield code="a">Side 3</subfield>
       <subfield code="u">Cronstrand261124s3.tif</subfield>
-    </datafield>
-  </record>
-  <record>
-    <leader>     aas          c     </leader>
-    <controlfield tag="006">t       TODO</controlfield>
-    <controlfield tag="007">ta</controlfield>
-    <controlfield tag="008">181105s1864-    xx#|||||||||||000|0|nor|d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">Baeyer010964</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Baeyer</subfield>
-      <subfield code="4">aut</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">Brev fra Baeyer til Hansteen, Christopher datert 1. September 2018</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="a">Berlin, Tyskland</subfield>
-      <subfield code="c">1864-09-01</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">X sider</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a" />
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="a">Originalene befinner seg i: Observatoriets magasin  TODO</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="546">
-      <subfield code="a">Kan vi si noe om språk?</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="a">Hansteens brevsamling</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="856">
-      <subfield code="a">Bakside</subfield>
-      <subfield code="u">Baeyer010964b.tif</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="856">
-      <subfield code="a">Forside</subfield>
-      <subfield code="u">Baeyer010964f.tif</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="856">
-      <subfield code="a">Side 1</subfield>
-      <subfield code="u">Baeyer010964s1.tif</subfield>
     </datafield>
   </record>
   <record>

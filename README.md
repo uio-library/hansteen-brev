@@ -2,7 +2,7 @@
 
 ## Kilde
 
-Dette repoet inneholder metadata fra 717 brev i brevsamlingen etter
+Dette repoet inneholder metadata fra 715 brev i brevsamlingen etter
 [Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/).
 
 Den vitenskapelige korrespondansen etter Hansten ble gitt til
@@ -14,14 +14,16 @@ Materialet ble overført til
 [Institutt for teoretisk astrofysikk](https://no.wikipedia.org/wiki/Institutt_for_teoretisk_astrofysikk)
 da instituttet sto ferdig i 1934, og innlemmet i instituttets bibliotek og arkiv.
 
-I 2004/2005 ble 717 brev digitalisert av Museumsprosjektet (senere splittet i EDD og MUV)
+I 2004/2005 ble <s>717</s> (715 etter duplikatfjerning) brev digitalisert av Museumsprosjektet (senere splittet i EDD og MUV)
 i samarbeid med Universitetsbiblioteket, og metadata ble registrert i en Oracle-database.
 Mappa `src` i dette repoet er en dump fra denne Oracle-databasen.
 Enkelte av tabellene (som "tema" og "sjanger") og tabellfeltene er aldri tatt i bruk,
 men er inkludert for kompletthets skyld.
 
 Selve bildefilene er ikke inkludert i dette repoet pg.a. størrelsen, men blir arkivert i Alma-D
-(lenke kommer).
+(lenke kommer). De er også kopiert til ub-prod01-imgs:
+
+    rsync -avz --progress files/* imgs:/www/htdocs/arkiv/hansteen/files/
 
 ## Konvertering
 
@@ -35,6 +37,32 @@ Kjør `make clean && make` om du vil gjøre konverteringen på nytt:
 3. `scripts/json2marc.py` leser inn `build/hansteen.json`, kombinerer dette med
    navneautoriteter fra `aut/person_autoriteter.json` og lager en MARC21-utgave
    som lagres som `build/hansteen.marc21.xml`.
+
+
+## Duplikate tilvekstnumre
+
+Tabellen `foto_kort.csv` inneholder en rad per brev.
+Kolonnnen `tilvekstnr` er stort sett unik, men med følgende unntak:
+
+Tilvekstnr | foto_kort_id | filer | Løsning
+---|---|---
+`Boeck120443` | 7 | Boeck120443s1.tif | Forkastes. Samme brev som 8 og ingen forskjell i klassifikasjon.
+| 8 | Boeck120443s1_2.tif | Ingen endring
+`Duexxxxxx` | 243 | Duexxxxxxs1.tif<br>Duexxxxxxs2.tif<br>Duexxxxxxs3.tif<br>Duexxxxxxs4.tif | Endres til `Duexxxxxx_1`
+| 244 | Duexxxxxxs1_2.tif<br>Duexxxxxxs2_2.tif<br>Duexxxxxxs3_2.tif<br>Duexxxxxxs4_2.tif<br>Duexxxxxxv1s1.tif<br>Duexxxxxxv1s2.tif | Endres til `Duexxxxxx_2`
+| 249 | Duexxxxxxs1_3.tif<br>Duexxxxxxs2_3.tif<br>Duexxxxxxs3_3.tif | Endres til `Duexxxxxx_3`
+`Ermanxxxxxx` | 266 | Ermannxxxxxxs1.tif<br>Ermannxxxxxxs2.tif<br>Ermannxxxxxxs3.tif<br>Ermannxxxxxxs4.tif | Endres til `Ermanxxxxxx_1`
+| 278 | Ermanxxxxf.tif<br>Ermanxxxxs1.tif<br>Ermanxxxxs2.tif<br>Ermanxxxxs3.tif<br>Ermanxxxxs4.tif | Endres til `Ermanxxxxxx_2`
+| 280 | Ermanxxxxxxf_2.tif<br>Ermanxxxxxxs1_2.tif<br>Ermanxxxxxxs2_2.tif<br>Ermanxxxxxxs3.tif | Endres til `Ermanxxxxxx_3`
+| 282 | Ermansenxxxxxxs1.tif | Endres til `Ermanxxxxxx_4`
+| 283 | Ermanxxxxxxf_3.tif<br>Ermanxxxxxxs1_3.tif<br>Ermanxxxxxxs2_3.tif<br>Ermanxxxxxxs3_2.tif<br>Ermanxxxxxxs4.tif<br>Ermanxxxxxxs5.tif  | Endres til `Ermanxxxxxx_5`
+`Sommer011033` | 612 | Sommerfeldta011033s1.tif<br>Sommerfeldta011033s2.tif<br>Sommerfeldta011033s3.tif | Endres til `Sommer011033_1`
+| 613 | Sommerfeldtb011033f.tif<br>Sommerfeldtb011033s1.tif<br>Sommerfeldtb011033s2.tif | Endres til `Sommer011033_2` 
+`Svanbe220551` | 641 | Svanberg220551f.tif<br>Svanberg220551s1.tif<br>Svanberg220551s2.tif<br>Svanberg220551s3.tif | Endres til `Svanbe220551_1`
+| 642 | Svanberg220551bf.tif<br>Svanberg220551bs1.tif<br>Svanberg220551bs2.tif<br>Svanberg220551bs3.tif | Endres til `Svanbe220551_2`
+`Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Forkastes. Samme brev som 691 og ingen forskjell i klassifikasjon.
+| 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | Ingen endring
+
 
 ## Antall brev etter avsender
 
