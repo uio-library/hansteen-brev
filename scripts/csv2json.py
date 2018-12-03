@@ -111,6 +111,19 @@ def main():
         brev['personer'] = sorted(brev['personer'],
                                   key=lambda person: 0 if person['rolle']['navn'] == 'Avsender' else 1)
 
+        # Normaliser avsender og mottaker
+        for val in brev['personer']:
+            for k in list(val.keys()):
+                if k in ['adresse']:  # Ikke i bruk
+                    del val[k]
+                elif val[k] == '':
+                    val[k] = None
+        brev['personer'] = {
+            person['rolle']['navn'].lower(): person for person in brev['personer']
+        }
+        if 'avsender' not in brev['personer']:
+            sys.stderr.write('Ukjent avsender: %s\n' % ident)
+
         brev_saml.append(brev)
 
     sys.stderr.write('Leste %d brev, %d personer, %d steder fra %s\n' % (

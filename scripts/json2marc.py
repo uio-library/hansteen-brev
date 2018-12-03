@@ -166,31 +166,23 @@ with xml.collection:
                 xml.subfield('katreg', code='e')
 
             # ---------------------------------------------------------------------------
-            # 100/700: Avsender og mottaker
+            # 100: Avsender
             # ---------------------------------------------------------------------------
 
-            sender = None
-            rcpt = None
-            for n, person in enumerate(row['personer']):
-                tag = '100' if n == 0 else '700'
-                with xml.datafield(tag=tag, ind1='1', ind2=' '):
-
+            if 'avsender' not in row['personer']:
+                # TODO: Hvordan koder vi det?
+                sys.stderr.write('Mangler avsender: %s\n' % row['tilvekstnr'])
+            else:
+                with xml.datafield(tag='100', ind1='1', ind2=' '):
+                    person = row['personer']['avsender']
                     aut = autoritetsdata.get(person['navn'], {'a': None, '0': None})
-
                     if aut['a'] is not None:
                         xml.subfield(aut['a'], code='a')
                     else:
                         xml.subfield(person['navn'], code='a')
 
-                    if person['rolle']['navn'] == 'Avsender':
-                        xml.subfield('aut', code='4')
-                        sender = person['navn']
-                    elif person['rolle']['navn'] == 'Mottaker':
-                        xml.subfield('rcp', code='4')
-                        rcpt = person['navn']
-                    else:
-                        xml.subfield(person['rolle']['navn'], code='e')
-                        # print('WARNING: Ukjent rolle ' + person['rolle_navn'])
+                    xml.subfield('aut', code='4')
+                    sender = person['navn']
 
                     if aut['0'] is not None:
                         aut_id = '(NO-TrBIB)%s' % aut['0']
@@ -227,7 +219,7 @@ with xml.collection:
             with xml.datafield(tag='245', ind1='0', ind2='0'):
                 xml.subfield(title, code='a')
 
-            sys.stderr.write('%s\n' % title)
+            # sys.stderr.write('%s\n' % title)
 
             # ---------------------------------------------------------------------------
             # 264: Sted og dato
@@ -283,6 +275,28 @@ with xml.collection:
             # TODO:
             # with xml.datafield(tag='546', ind1=' ', ind2=' '):
             #     xml.subfield('Kan vi si noe om språk?', code='a')
+
+            # ---------------------------------------------------------------------------
+            # 700: Avsender
+            # ---------------------------------------------------------------------------
+
+            if 'mottaker' not in row['personer']:
+                sys.stderr.write('Mangler mottaker: %s\n' % row['tilvekstnr'])
+            else:
+                with xml.datafield(tag='700', ind1='1', ind2=' '):
+                    person = row['personer']['mottaker']
+                    aut = autoritetsdata.get(person['navn'], {'a': None, '0': None})
+                    if aut['a'] is not None:
+                        xml.subfield(aut['a'], code='a')
+                    else:
+                        xml.subfield(person['navn'], code='a')
+
+                    xml.subfield('rcp', code='4')
+                    sender = person['navn']
+
+                    if aut['0'] is not None:
+                        aut_id = '(NO-TrBIB)%s' % aut['0']
+                        xml.subfield(aut_id, code='0')
 
             # TODO:
             # YALE-guiden bruker 580, men er ikke 773 bedre? Eller?
