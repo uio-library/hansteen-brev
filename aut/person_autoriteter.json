@@ -56,7 +56,7 @@
         "a": null
     },
     "Banks, Joseph": {
-        "0": null,
+        "0": "90333869",
         "a": null
     },
     "Barlow, Peter": {
@@ -93,7 +93,7 @@
     },
     "Berzelius, J.": {
         "0": "90182863",
-        "a": null
+        "a": "Berzelius, Jöns Jacob"
     },
     "Bloomfield": {
         "0": null,
@@ -428,8 +428,8 @@
         "a": null
     },
     "Geelmuyden": {
-        "0": null,
-        "a": null
+        "0": "97045692",
+        "a": "Geelmuyden, Hans"
     },
     "Gibson, Milner": {
         "0": null,
@@ -508,8 +508,8 @@
         "a": null
     },
     "Sabine": {
-        "0": null,
-        "a": null
+        "0": "1049022",
+        "a": "Sabine, Edward"
     },
     "Sandels, Johan A.": {
         "0": null,
@@ -540,8 +540,8 @@
         "a": null
     },
     "Schumacher, S. H.": {
-        "0": null,
-        "a": null
+        "0": "90135669",
+        "a": "Schumacher, Heinrich Christian"
     },
     "Schweigger": {
         "0": null,
@@ -632,8 +632,8 @@
         "a": null
     },
     "Struve, W.": {
-        "0": null,
-        "a": null
+        "0": "5082395",
+        "a": "Struve, F.G.W."
     },
     "Suchtelen": {
         "0": null,
@@ -664,7 +664,7 @@
         "a": null
     },
     "Åstrand, J. J.": {
-        "0": null,
+        "0": "12728",
         "a": null
     }
 }
