@@ -102,6 +102,9 @@ def main():
                     del val[k]
                 elif val[k] == '':
                     val[k] = None
+            val['kommentar'] = brev['stedkommentar']
+
+        del brev['stedkommentar']
 
         # Normaliser koding av ukjent dato
         if brev['datering_dato'] == 'xxxx-xx-xx':

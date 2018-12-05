@@ -95,7 +95,7 @@ with xml.collection:
                 else:
                     sted_s = sted['nasjon']
             elif len(row['steder']) > 1:
-                sys.stderr.write('%s : FLERE STEDER\n' % ident)
+                sys.stderr.write('%s : Knyttet til flere steder!\n' % ident)
 
             # ---------------------------------------------------------------------------
             # LDR
@@ -119,8 +119,9 @@ with xml.collection:
             # 007 Physical Description Fixed Field
             # ---------------------------------------------------------------------------
 
-            # SPØRSMÅL: Mulig å kode at det er håndskrift?
             xml.controlfield('ta', tag='007')
+
+            # SPØRSMÅL: Mulig å kode at det er håndskrift på noen måte?
 
             # ---------------------------------------------------------------------------
             # 008: Fixed-Length Data Elements
@@ -146,14 +147,14 @@ with xml.collection:
 
             f008[15:18] = 'xx '  # No place, unknown, or undetermined
 
-            # Språk: Ser ikke ut som det er katalogisert.
-            # Kan gjette basert på avsendersted, men risky.
+            # Språk er ikke katalogisert, så setter denne foreløpig som 'ukjent'.
             f008[35:38] = '   '
 
             f008[39] = 'd'  # Cataloging source: Other, more info in 040.
 
             xml.controlfield(''.join(f008), tag='008')
-            # Eks: {}{}{}    xx#|||||||||||000|0|nor|d'  # TODO: Legg inn ||||||... ???
+
+            # SPØRSMÅL: Hvilke posisjoner bør ha vertikalstreker?
 
             # ---------------------------------------------------------------------------
             # 024: Identifier
@@ -177,7 +178,7 @@ with xml.collection:
             # ---------------------------------------------------------------------------
 
             if 'avsender' not in row['personer']:
-                sys.stderr.write('Mangler avsender: %s\n' % row['tilvekstnr'])
+                sys.stderr.write('%s: Mangler avsender\n' % row['tilvekstnr'])
             else:
                 with xml.datafield(tag='100', ind1='1', ind2=' '):
                     person = row['personer']['avsender']
@@ -201,21 +202,10 @@ with xml.collection:
             # Eksempler fra Katalogiseringsregler 4.1B2
             #  - [Brev] 1926-11-04, Paris [til] Jappe Nilssen, Oslo
             #  - [Brev] 1901 March 6, Dublin [til] Henrik Ibsen, Kristiania
-            # if receiver is
-            # if sender is None:
-            #     title = '[til] %s [fra ukjent avsender]' % rcpt
-            # elif sender is not None and rcpt is not None:
-            #     title = '[til] %s fra %s' % (rcpt, sender)
-            # else:
-            #     sys.stderr.write('ERR: %s : Ukjent mottaker!\n' % ident)
-            #     title = 'til ukjent mottaker fra %s' % sender
-            # if dato is None:
-            #     title = 'Udatert brev %s' % title
-            # else:
-            #     title = 'Brev %s, datert %s' % (title, dato_s)
+
             title = '[Brev]'
             if dato is None:
-                title += ' [u.d.]'  # TODO: Sjekk mot katregler
+                title += ' [u.d.]'  # SPØRSMÅL: Riktig måte å føre dette på?
             else:
                 dato_s = formater_dato(dato)
                 title += ' ' + dato_s
@@ -224,8 +214,6 @@ with xml.collection:
             title += ' [til] Hansteen, Christopher'
             with xml.datafield(tag='245', ind1='0', ind2='0'):
                 xml.subfield(title, code='a')
-
-            # sys.stderr.write('%s\n' % title)
 
             # ---------------------------------------------------------------------------
             # 264: Sted og dato
@@ -244,27 +232,42 @@ with xml.collection:
 
             with xml.datafield(tag='300', ind1=' ', ind2=' '):
                 npages = len(row['filer'])
-                # TODO: Sjekke formatering mot katregler.
-                #       Forside, bakside, x sider.., vedlegg, del 1, 2...
                 xml.subfield('%d s.' % npages, code='a')
 
+            # SPØRSMÅL: Nå oppgir vi bare antall sider (eks.: "3 s."), men i
+            #    mange tilfeller har vi informasjon om at sider er forside/bakside,
+            #    vedlegg, del 1, 2, ... Er det ønskelig å kode denne informasjonen,
+            #    og isåfall hvordan?
+
+
             # ---------------------------------------------------------------------------
-            # 500: Noter
+            # 500: Merknader
             # ---------------------------------------------------------------------------
 
-            # TODO: Sjekk hva som skal i hvilket notefelt
-
-            if row['datering_komm'] is not None:
-                with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                    xml.subfield(row['datering_komm'], code='a')
-
-            if row['stedkommentar'] is not None:
-                with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                    xml.subfield(row['stedkommentar'], code='a')
-
+            # SPØRSMÅL: Er 500 greit for disse, eller er det et annet felt som er bedre?
+            #    Tredie Bidrag til geographiske Længdebestemmelser
+            #    Vedlegg til brev av samme dato
+            #    Vedlegg til brev av samme dato
+            #    Vedlegg til brev av samme dato
+            #    Telegram
+            #    Første vedlegg til brev av samme dato
+            #    Vedlegg til brev av samme dato
+            #    Første vedlegg til brev av samme dato
+            #    Andre vedlegg til brev av samme dato
+            #    Artikkel av J. J. Aastrand.
             if row['motivbeskrivelse'] is not None:
                 with xml.datafield(tag='500', ind1=' ', ind2=' '):
                     xml.subfield(row['motivbeskrivelse'], code='a')
+
+            # Dateringskommentar
+            if row['datering_komm'] is not None:
+                with xml.datafield(tag='500', ind1=' ', ind2=' '):
+                    xml.subfield('Datering: ' + row['datering_komm'], code='a')
+
+            # Stedkomentar
+            if sted is not None and sted['kommentar'] is not None:
+                with xml.datafield(tag='500', ind1=' ', ind2=' '):
+                    xml.subfield('Sted: ' + sted['kommentar'], code='a')
 
             # ---------------------------------------------------------------------------
             # 535: Originalens plassering
@@ -275,19 +278,11 @@ with xml.collection:
                 xml.subfield('Originalene befinner seg i: Observatoriets magasin', code='a')
 
             # ---------------------------------------------------------------------------
-            # UAVKLARTE FELTER
-            # ---------------------------------------------------------------------------
-
-            # TODO:
-            # with xml.datafield(tag='546', ind1=' ', ind2=' '):
-            #     xml.subfield('Kan vi si noe om språk?', code='a')
-
-            # ---------------------------------------------------------------------------
             # 700: Avsender
             # ---------------------------------------------------------------------------
 
             if 'mottaker' not in row['personer']:
-                sys.stderr.write('Mangler mottaker: %s\n' % row['tilvekstnr'])
+                sys.stderr.write('%s: Mangler mottaker\n' % row['tilvekstnr'])
             else:
                 with xml.datafield(tag='700', ind1='1', ind2=' '):
                     person = row['personer']['mottaker']
@@ -304,13 +299,26 @@ with xml.collection:
                         aut_id = '(NO-TrBIB)%s' % aut['0']
                         xml.subfield(aut_id, code='0')
 
-            # TODO:
-            # YALE-guiden bruker 580, men er ikke 773 bedre? Eller?
+            # ---------------------------------------------------------------------------
+            # ???: Samling
+            # ---------------------------------------------------------------------------
+
+            # SPØRSMÅL:
+            # YALE-guiden bruker 580, men er ikke 773 bedre?
             with xml.datafield(tag='773', ind1='0', ind2=' '):
                 xml.subfield('Hansteens brevsamling', code='a')
 
-            # TODO:
-            # Avsendersted: Legge til som 751 med $4 prp f.eks.???
+            # ---------------------------------------------------------------------------
+            # 751: Avsendersted
+            # ---------------------------------------------------------------------------
+
+            # SPØRSMÅL:
+            # Gir det mening å putte dette i 751?
+            # Gir det mening med $4 prp? Har vi evt. en bedre kode?
+            if sted is not None:
+                with xml.datafield(tag='751', ind1=' ', ind2=' '):
+                    xml.subfield(sted_s, code='a')
+                    xml.subfield('prp', code='4')
 
             # ---------------------------------------------------------------------------
             # 787: Alma collection ID
