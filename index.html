@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hansteens brevsamling</title>
+    <link rel="stylesheet" href="">
+
+    <!-- development version, includes helpful console warnings-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="https://unpkg.com/vuetable-2@next"></script>
+    <script src="https://unpkg.com/lodash"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div id="app"></div>
+<script>
+var app = new Vue({
+    el: '#app',
+    template: `
+<div>
+    <p>
+        <a href="https://github.com/uio-library/hansteen-brev">https://github.com/uio-library/hansteen-brev</a>
+    </p>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 160px;">Tilvekstnr.</th>
+          <th scope="col" style="width: 220px;">Avsender</th>
+          <th scope="col" style="width: 140px;">Dato</th>
+          <th scope="col">Filer</th>
+        </tr>
+        <tr>
+          <th scope="col"><input placeholder="Søk" v-model="filter_tilvekstnr" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filter_avsender" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filter_dato" style="width:100%"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="row in rows">
+          <td>{{ row.tilvekstnr }}</td>
+          <td>{{ row.avsender }}</td>
+          <td>{{ row.dato }}</td>
+          <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
+            <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.filer">
+                <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
+                <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '.jpg')" alt=""><br>
+
+                {{ page.page_designation }}</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+    `,
+    components: {
+        vuetable: Vuetable.Vuetable,
+    },
+    data: {
+        allRows: [],
+        filter_tilvekstnr: '',
+        filter_avsender: '',
+        filter_dato: '',
+    },
+    computed: {
+        rows: function() {
+            let filters = [];
+            ['tilvekstnr', 'avsender', 'dato'].forEach(columnName => {
+                if (this['filter_' + columnName].length) {
+                    let v = this['filter_' + columnName].toLowerCase();
+                    filters.push(x => x[columnName] && x[columnName].toLowerCase().indexOf(v) !== -1);
+                }
+            });
+
+            return this.allRows.filter(row => {
+                for (var i = filters.length - 1; i >= 0; i--) {
+                    if (!filters[i](row)) return false;
+                }
+                return true;
+            });
+        },
+    },
+    mounted: function() {
+        axios.get('https://uio-library.github.io/hansteen-brev/build/hansteen.json').then((resp) => {
+            let processed = resp.data.map(function(row) {
+                return {
+                    tilvekstnr: _.get(row, 'tilvekstnr'),
+                    avsender: _.get(row, 'personer.avsender.navn'),
+                    dato: _.get(row, 'datering_dato'),
+                    filer: row.filer,
+                };
+            });
+            this.allRows = processed;
+        });
+    }
+})
+</script>
+</body>
+</html>
