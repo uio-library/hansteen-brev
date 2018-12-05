@@ -116,6 +116,13 @@ with xml.collection:
             xml.controlfield(current_datetime, tag='005')
 
             # ---------------------------------------------------------------------------
+            # 007 Physical Description Fixed Field
+            # ---------------------------------------------------------------------------
+
+            # SPØRSMÅL: Mulig å kode at det er håndskrift?
+            xml.controlfield('ta', tag='007')
+
+            # ---------------------------------------------------------------------------
             # 008: Fixed-Length Data Elements
             # ---------------------------------------------------------------------------
 
@@ -170,7 +177,6 @@ with xml.collection:
             # ---------------------------------------------------------------------------
 
             if 'avsender' not in row['personer']:
-                # TODO: Hvordan koder vi det?
                 sys.stderr.write('Mangler avsender: %s\n' % row['tilvekstnr'])
             else:
                 with xml.datafield(tag='100', ind1='1', ind2=' '):
