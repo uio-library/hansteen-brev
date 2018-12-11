@@ -1,9 +1,10 @@
-# Hansteens vitenskapelige korrespondanse
+# Christopher Hansteens korrespondanse
 
 ## Kilde
 
-Dette repoet inneholder metadata fra 715 brev i brevsamlingen etter
-[Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/).
+Dette repoet inneholder metadata for 715 brev mottatt av
+[Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/),
+som oppbevares i [Observatoriet](https://no.wikipedia.org/wiki/Observatoriet).
 
 Den vitenskapelige korrespondansen etter Hansten ble gitt til
 [Observatoriet i Oslo](https://no.wikipedia.org/wiki/Observatoriet) etter Hansteens død i 1873.
