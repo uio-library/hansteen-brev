@@ -109,7 +109,7 @@ def build_doc(xml, row, authorities):
         # ---------------------------------------------------------------------------
 
         ldr = [' ' for c in range(24)] # Start with a blank 24-character string
-        ldr[5]  = 'a'  # Record status: New
+        ldr[5]  = 'n'  # Record status: New
         ldr[6]  = 't'  # Type of record: Manuscript language material
         ldr[7]  = 'm'  # Bibliographic level: Monograph/Item
         ldr[9]  = 'a'  # Character coding scheme: UCS/Unicode
@@ -127,8 +127,6 @@ def build_doc(xml, row, authorities):
         # ---------------------------------------------------------------------------
 
         xml.controlfield('ta', tag='007')
-
-        # SPØRSMÅL: Mulig å kode at det er håndskrift på noen måte?
 
         # ---------------------------------------------------------------------------
         # 008: Fixed-Length Data Elements
@@ -307,15 +305,6 @@ def build_doc(xml, row, authorities):
                     xml.subfield(aut_id, code='0')
 
         # ---------------------------------------------------------------------------
-        # ???: Samling
-        # ---------------------------------------------------------------------------
-
-        # SPØRSMÅL:
-        # YALE-guiden bruker 580, men er ikke 773 bedre?
-        with xml.datafield(tag='773', ind1='0', ind2=' '):
-            xml.subfield('Hansteens brevsamling', code='a')
-
-        # ---------------------------------------------------------------------------
         # 751: Avsendersted
         # ---------------------------------------------------------------------------
 
@@ -326,6 +315,14 @@ def build_doc(xml, row, authorities):
             with xml.datafield(tag='751', ind1=' ', ind2=' '):
                 xml.subfield(sted_s, code='a')
                 xml.subfield('prp', code='4')
+
+        # ---------------------------------------------------------------------------
+        # 773: Samling (lenkefelt)
+        # ---------------------------------------------------------------------------
+
+        # Vi kan evt. også generere en 580-note.
+        with xml.datafield(tag='773', ind1='0', ind2=' '):
+            xml.subfield('Christopher Hansteens korrespondanse', code='t')
 
         # ---------------------------------------------------------------------------
         # 787: Alma collection ID
