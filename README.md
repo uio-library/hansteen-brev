@@ -46,7 +46,7 @@ Tabellen `foto_kort.csv` inneholder en rad per brev.
 Kolonnnen `tilvekstnr` er stort sett unik, men med følgende unntak:
 
 Tilvekstnr | foto_kort_id | filer | Løsning
----|---|---
+---|---|---|---
 `Boeck120443` | 7 | Boeck120443s1.tif | Forkastes. Samme brev som 8 og ingen forskjell i klassifikasjon.
 | 8 | Boeck120443s1_2.tif | Ingen endring
 `Duexxxxxx` | 243 | Duexxxxxxs1.tif<br>Duexxxxxxs2.tif<br>Duexxxxxxs3.tif<br>Duexxxxxxs4.tif | Endres til `Duexxxxxx_1`
