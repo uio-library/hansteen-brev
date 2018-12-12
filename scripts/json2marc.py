@@ -126,7 +126,8 @@ def build_doc(xml, row, authorities):
         # 007 Physical Description Fixed Field
         # ---------------------------------------------------------------------------
 
-        xml.controlfield('ta', tag='007')
+        # Vi bruker 'tz' fremfor 'ta' siden brevene ikke er trykt.
+        xml.controlfield('tz', tag='007')
 
         # ---------------------------------------------------------------------------
         # 008: Fixed-Length Data Elements
@@ -152,8 +153,16 @@ def build_doc(xml, row, authorities):
 
         f008[15:18] = 'xx '  # No place, unknown, or undetermined
 
+        f008[18:35] = '|||||||||||||||||'  # no attempt to code
+        f008[28] = ' '  # Not a government publication
+        f008[29] = '0'  # Not a conference publication
+        f008[30] = '0'  # Not a conference publication
+        f008[33] = 'i'  # Literary form: letter
+
         # Språk er ikke katalogisert, så setter denne foreløpig som 'ukjent'.
         f008[35:38] = '   '
+
+        f008[38] = '|'  # Modified record: no attempt to code
 
         f008[39] = 'd'  # Cataloging source: Other, more info in 040.
 
@@ -193,7 +202,7 @@ def build_doc(xml, row, authorities):
                 else:
                     xml.subfield(person['navn'], code='a')
 
-                xml.subfield('aut', code='4')
+                xml.subfield('crp', code='4')
                 sender = person['navn']
 
                 if aut['0'] is not None:
@@ -210,7 +219,7 @@ def build_doc(xml, row, authorities):
 
         title = '[Brev]'
         if dato is None:
-            title += ' [u.d.]'  # SPØRSMÅL: Riktig måte å føre dette på?
+            title += ' [Udatert]'
         else:
             dato_s = format_date(dato)
             title += ' ' + dato_s
@@ -219,6 +228,8 @@ def build_doc(xml, row, authorities):
         title += ' [til] Hansteen, Christopher'
         with xml.datafield(tag='245', ind1='0', ind2='0'):
             xml.subfield(title, code='a')
+            if 'mottaker' in row['personer']:
+                xml.subfield('[fra] ' + row['personer']['mottaker']['navn'], code='c')
 
         # ---------------------------------------------------------------------------
         # 264: Sted og dato
@@ -283,7 +294,7 @@ def build_doc(xml, row, authorities):
             xml.subfield('Originalene befinner seg i: Observatoriets magasin', code='a')
 
         # ---------------------------------------------------------------------------
-        # 700: Avsender
+        # 700: Mottaker
         # ---------------------------------------------------------------------------
 
         if 'mottaker' not in row['personer']:
@@ -328,7 +339,7 @@ def build_doc(xml, row, authorities):
         # 787: Alma collection ID
         # ---------------------------------------------------------------------------
 
-        with xml.datafield(tag='787', ind1=' ', ind2=' '):
+        with xml.datafield(tag='787', ind1='1', ind2=' '):
             xml.subfield('81218451430002204', code='w')
 
         # ---------------------------------------------------------------------------
