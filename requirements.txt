@@ -1,2 +1,4 @@
 psycopg2-binary
 xmlwitch
+python-magic
+pycountry

@@ -53,7 +53,7 @@ def format_date(dato):
 
 def build(metadata, authorities, filename=None):
 
-    # Ex: build('build/{tilvekstnr}/record.xml')
+    # Ex: build('build/{id}/record.xml')
     if filename is None:
         xml = xmlwitch.Builder(version='1.0', encoding='utf-8')
         with xml.collection:
@@ -73,17 +73,19 @@ def build(metadata, authorities, filename=None):
 
 def build_doc(xml, row, authorities):
     # Unik identifikator
-    ident = row['tilvekstnr']
+    ident = row['id']
 
     with xml.record:
 
+        desc = row['descriptive']
+
         # Bearbeid dato
-        if row['datering_dato'] is None:
+        if desc['date'] is None:
             dato = None
             year = 'uuuu'
             dato_type = 'n'  # Ukjent
         else:
-            dato = row['datering_dato'].replace('x', 'u').strip()
+            dato = desc['date'].replace('x', 'u').strip()
             if re.match(r'^[0-9]{4}-[0-9]{2}', dato):
                 dato_type = 'e'  # Detaljert dato
             else:
@@ -91,17 +93,17 @@ def build_doc(xml, row, authorities):
             year = dato[:5]
 
         # Bearbeid sted
-        sted = None
-        sted_s = None
-        if len(row['steder']) == 1:
-            sted = row['steder'][0]
-            #if sted['lokalitet'] is not None and sted['nasjon'] is not None:
-            #    sted_s = '%s, %s' % (sted['lokalitet'], sted['nasjon'])
-            if sted['lokalitet'] is not None:
-                sted_s = sted['lokalitet']
+        place = None
+        place_s = None
+        if len(desc['places']) == 1:
+            place = desc['places'][0]
+            #if place['place'] is not None and place['country'] is not None:
+            #    place_s = '%s, %s' % (place['place'], place['country'])
+            if place['place'] is not None:
+                place_s = place['place']
             else:
-                sted_s = sted['nasjon']
-        elif len(row['steder']) > 1:
+                place_s = place['country']
+        elif len(desc['places']) > 1:
             sys.stderr.write('%s : Knyttet til flere steder!\n' % ident)
 
         # ---------------------------------------------------------------------------
@@ -191,19 +193,18 @@ def build_doc(xml, row, authorities):
         # 100: Avsender
         # ---------------------------------------------------------------------------
 
-        if 'avsender' not in row['personer']:
-            sys.stderr.write('%s: Mangler avsender\n' % row['tilvekstnr'])
+        if 'correspondent' not in desc['agents']:
+            sys.stderr.write('%s: Correspondent missing\n' % row['id'])
         else:
             with xml.datafield(tag='100', ind1='1', ind2=' '):
-                person = row['personer']['avsender']
-                aut = authorities.get(person['navn'], {'a': None, '0': None})
+                agent = desc['agents']['correspondent']
+                aut = authorities.get(agent['name'], {'a': None, '0': None})
                 if aut['a'] is not None:
                     xml.subfield(aut['a'], code='a')
                 else:
-                    xml.subfield(person['navn'], code='a')
+                    xml.subfield(agent['name'], code='a')
 
                 xml.subfield('crp', code='4')
-                sender = person['navn']
 
                 if aut['0'] is not None:
                     aut_id = '(NO-TrBIB)%s' % aut['0']
@@ -223,22 +224,22 @@ def build_doc(xml, row, authorities):
         else:
             dato_s = format_date(dato)
             title += ' ' + dato_s
-        if sted_s is not None:
-            title += ', ' + sted_s
+        if place_s is not None:
+            title += ', ' + place_s
         title += ' [til] Hansteen, Christopher'
         with xml.datafield(tag='245', ind1='0', ind2='0'):
             xml.subfield(title, code='a')
-            if 'mottaker' in row['personer']:
-                xml.subfield('[fra] ' + row['personer']['mottaker']['navn'], code='c')
+            if 'correspondent' in desc['agents']:
+                xml.subfield('[fra] ' + desc['agents']['correspondent']['name'], code='c')
 
         # ---------------------------------------------------------------------------
         # 264: Sted og dato
         # ---------------------------------------------------------------------------
 
-        if sted is not None or dato is not None:
+        if place is not None or dato is not None:
             with xml.datafield(tag='264', ind1=' ', ind2='0'):
-                if sted is not None:
-                    xml.subfield(sted_s, code='a')
+                if place is not None:
+                    xml.subfield(place_s, code='a')
                 if dato is not None:
                     xml.subfield(dato, code='c')
 
@@ -247,7 +248,7 @@ def build_doc(xml, row, authorities):
         # ---------------------------------------------------------------------------
 
         with xml.datafield(tag='300', ind1=' ', ind2=' '):
-            npages = len(row['filer'])
+            npages = len(row['structure'])
             xml.subfield('%d s.' % npages, code='a')
 
         # SPØRSMÅL: Nå oppgir vi bare antall sider (eks.: "3 s."), men i
@@ -271,45 +272,62 @@ def build_doc(xml, row, authorities):
         #    Første vedlegg til brev av samme dato
         #    Andre vedlegg til brev av samme dato
         #    Artikkel av J. J. Aastrand.
-        if row['motivbeskrivelse'] is not None:
+        if desc['comment'] is not None:
             with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                xml.subfield(row['motivbeskrivelse'], code='a')
+                xml.subfield(desc['comment'], code='a')
 
         # Dateringskommentar
-        if row['datering_komm'] is not None:
+        if desc['date_comment'] is not None:
             with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                xml.subfield('Datering: ' + row['datering_komm'], code='a')
+                xml.subfield('Datering: ' + desc['date_comment'], code='a')
 
         # Stedkomentar
-        if sted is not None and sted['kommentar'] is not None:
+        if place is not None and place['comment'] is not None:
             with xml.datafield(tag='500', ind1=' ', ind2=' '):
-                xml.subfield('Sted: ' + sted['kommentar'], code='a')
+                xml.subfield('Sted: ' + place['comment'], code='a')
 
         # ---------------------------------------------------------------------------
         # 535: Originalens plassering
         # ---------------------------------------------------------------------------
 
         with xml.datafield(tag='535', ind1='1', ind2=' '):
-            # TODO: Fyll ut mer detaljert
-            xml.subfield('Originalene befinner seg i: Observatoriets magasin', code='a')
+            xml.subfield('Christopher Hansteens korrespondanse', code='3')
+            xml.subfield('Observatoriet', code='a')
+            xml.subfield('Observatoriegata 1, Oslo', code='b')
+            xml.subfield('no', code='g')
+
+        # ---------------------------------------------------------------------------
+        # 540 / 542: Tilgang
+        # ---------------------------------------------------------------------------
+
+        with xml.datafield(tag='540', ind1=' ', ind2=' '):
+            xml.subfield('Falt i det fri', code='a')
+
+        with xml.datafield(tag='542', ind1=' ', ind2=' '):
+            if 'u' not in year:
+                # SPØRSMÅL:
+                # Hansteen døde i 1873, så brevene med ukjent årstall må være
+                # produsert senest 1873. Kan vi kode dette på noen måte?
+                xml.subfield(year, code='j')  # Year of creation for an unpublished resource
+            xml.subfield('Falt i det fri', code='l')  # Copyright status
+            xml.subfield('Upublisert', code='m')  # Whether the item is published or unpublished
 
         # ---------------------------------------------------------------------------
         # 700: Mottaker
         # ---------------------------------------------------------------------------
 
-        if 'mottaker' not in row['personer']:
-            sys.stderr.write('%s: Mangler mottaker\n' % row['tilvekstnr'])
+        if 'addressee' not in desc['agents']:
+            sys.stderr.write('%s: Addressee missing\n' % row['id'])
         else:
             with xml.datafield(tag='700', ind1='1', ind2=' '):
-                person = row['personer']['mottaker']
-                aut = authorities.get(person['navn'], {'a': None, '0': None})
+                agent = desc['agents']['addressee']
+                aut = authorities.get(agent['name'], {'a': None, '0': None})
                 if aut['a'] is not None:
                     xml.subfield(aut['a'], code='a')
                 else:
-                    xml.subfield(person['navn'], code='a')
+                    xml.subfield(agent['name'], code='a')
 
                 xml.subfield('rcp', code='4')
-                sender = person['navn']
 
                 if aut['0'] is not None:
                     aut_id = '(NO-TrBIB)%s' % aut['0']
@@ -322,9 +340,9 @@ def build_doc(xml, row, authorities):
         # SPØRSMÅL:
         # Gir det mening å putte dette i 751?
         # Gir det mening med $4 prp? Har vi evt. en bedre kode?
-        if sted is not None:
+        if place is not None:
             with xml.datafield(tag='751', ind1=' ', ind2=' '):
-                xml.subfield(sted_s, code='a')
+                xml.subfield(place_s, code='a')
                 xml.subfield('prp', code='4')
 
         # ---------------------------------------------------------------------------
@@ -345,12 +363,17 @@ def build_doc(xml, row, authorities):
         # ---------------------------------------------------------------------------
         # 856: Filnavn
         # ---------------------------------------------------------------------------
+        # Brukes av Alma for å avgjøre hvilke filer som hører til hvilke MARC-poster.
 
-        for fil in row['filer']:
-            with xml.datafield(tag='856', ind1=' ', ind2=' '):
-                page_designation = fil['page_designation']
-                xml.subfield(page_designation, code='a')
-                xml.subfield(fil['filename'], code='u')
+        for page in row['structure']:
+            with xml.datafield(tag='856', ind1='4', ind2='0'):
+                xml.subfield('ub-media.uio.no', code='a')        # Host
+                xml.subfield('/arkiv/hansteen/files/', code='d') # Path
+                xml.subfield(page['filename'], code='f')         # Filename
+                xml.subfield('image/tiff', code='q')             # Electronic format type
+                xml.subfield(page['label'], code='y')            # Link text
+                if 'filesize' in page:
+                    xml.subfield(str(page['filesize']), code='s')     # File size
 
 
 def main():

@@ -6,10 +6,15 @@ import os
 import re
 import csv
 import json
+from tqdm import tqdm
 import xmlwitch
 from copy import copy
 from glob import glob
 from datetime import datetime
+import magic
+import hashlib
+from collections import OrderedDict
+
 
 files_folder = sys.argv[1]
 
@@ -69,18 +74,15 @@ for real_filename in brev_map_r.keys():
 
 sys.stderr.write('Verified file existence\n')
 
-rows = []
-for letter_id, real_filenames in brev_map.items():
-    for real_filename in real_filenames:
-        m = re.match(r'(.*?)((v[0-9])?([bfs][0-9]{0,2})?(d[0-9])?)(_2)?\.tif', real_filename)
-        if m is None:
-            sys.stderr.write('Inconsistent data!\n')
-            sys.exit(1)
-        fn_part = m.group(1)
-        page_part = m.group(2)
-        rows.append([letter_id, real_filename, fn_part, page_part])
 
-rows = sorted(rows, key=lambda x: (int(x[0]), x[3]))
+def sha1sum(filename):
+    h  = hashlib.sha1()
+    b  = bytearray(128*1024)
+    mv = memoryview(b)
+    with open(filename, 'rb', buffering=0) as f:
+        for n in iter(lambda : f.readinto(mv), 0):
+            h.update(mv[:n])
+    return h.hexdigest()
 
 
 def format_page_designations(x):
@@ -105,13 +107,40 @@ def format_page_designations(x):
 
     return x
 
-from collections import OrderedDict
+
+rows = []
+for letter_id, real_filenames in tqdm(brev_map.items()):
+    for real_filename in real_filenames:
+        path = 'files/' + real_filename
+        m = re.match(r'(.*?)((v[0-9])?([abfs]{1,2}[0-9]{0,2})?(d[0-9])?)(_2)?\.tif', real_filename)
+        if m is None:
+            sys.stderr.write('Inconsistent data!\n')
+            sys.exit(1)
+        fn_part = m.group(1)
+        page_part = m.group(2)
+        filesize = os.path.getsize(path)
+        mimetype = magic.from_file(path, mime=True)
+        checksum = sha1sum(path)
+        page_part = format_page_designations(page_part)
+        rows.append({
+            'letter_id': int(letter_id),
+            'filename': real_filename,
+            'basename': fn_part,
+            'label': page_part,
+            'filesize': filesize,
+            'mimetype': mimetype,
+            'sha1': checksum,
+        })
+
+rows = sorted(rows, key=lambda row: (row['letter_id'], page_part))
+
 out = OrderedDict([])
 for row in rows:
-    if row[0] not in out:
-        out[row[0]] = []
+    letter_id = row['letter_id']
+    if letter_id not in out:
+        out[letter_id] = []
 
-    pd = format_page_designations(row[3])
-    out[row[0]].append({'filename': row[1], 'basename': row[2], 'page_designation': pd})
+    del row['letter_id']
+    out[letter_id].append(row)
 
 print(json.dumps(out, indent=3))
