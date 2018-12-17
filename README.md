@@ -45,7 +45,7 @@ Kjør `make clean && make` om du vil gjøre konverteringen på nytt:
 Tabellen `foto_kort.csv` inneholder en rad per brev.
 Kolonnnen `tilvekstnr` er stort sett unik, men med følgende unntak:
 
-Tilvekstnr | foto_kort_id | filer | Løsning
+Tilvekstnr | Foto_kort_id | Filnavn | Konklusjon
 ---|---|---|---
 `Boeck120443` | 7 | Boeck120443s1.tif | Forkastes. Samme brev som 8 og ingen forskjell i klassifikasjon.
 | 8 | Boeck120443s1_2.tif | Ingen endring
@@ -63,6 +63,47 @@ Tilvekstnr | foto_kort_id | filer | Løsning
 | 642 | Svanberg220551bf.tif<br>Svanberg220551bs1.tif<br>Svanberg220551bs2.tif<br>Svanberg220551bs3.tif | Endres til `Svanbe220551_2`
 `Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Forkastes. Samme brev som 691 og ingen forskjell i klassifikasjon.
 | 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | Ingen endring
+
+
+## TIFF-filer med flere sider
+
+Tre av tiff-filene inneholdt flere sider:
+
+Originalt filnavn | Side | Konklusjon
+---|---|---
+`Perthes-Besser290854s1.tif` | `Perthes-Besser290854s1-0.tif` | duplikat av `Perthes-Besser290854f.tif`, slettes
+ | `Perthes-Besser290854s1-1.tif` | → `Perthes-Besser290854s1.tif`
+Perthes-Besser300861s1.tif | Perthes-Besser300861s1-0.tif | fargeprøve, slettes
+ | Perthes-Besser300861s1-1.tif | → Perthes-Besser300861s1.tif
+Perthes-Besser300861v1s1.tif | Perthes-Besser300861v1s1-0.tif | fargeprøve, slettes
+| Perthes-Besser300861v1s1-1.tif | duplikat av Perthes-Besser300861s1.tif, slettes
+Perthes-Besser300861v1s1-2.tif | → Perthes-Besser300861v1.tif
+```
+
+## Standardisering av filnavn
+
+Fra | Til
+---|---
+Akrell180144sf.tif | Akrell180144f.tif
+Berzeulius080844sf.tif | Berzeulius080844f.tif
+Bohr310718s2s1.tif | Bohr310718s2d1.tif
+Bohr310718s2s2.tif | Bohr310718s2d2.tif
+Droysonvls1.tif Droysonvs1.tif
+Droysonvls2.tif Droysonvs2.tif
+erman111261s1.tif | Erman111261s1.tif
+Forchhammr160362s1.tif | Forchhammer160362s1.tif
+Forchhammr160362s2.tif | Forchhammer160362s2.tif
+Gurhans220142s1d1 | Guthans220142s1d1
+Guthns190254s1.tif | Guthans190254s1.tif
+Schuma090127s1.tif | Schumacher090127s1.tif
+Schumcher060332s1.tif | Schumacher060332s1.tif
+sebald140354 | Sebald140354s1.tif
+Brewter110324s1.tif | Brewster110324s1.tif
+Brimont110457s1.tif | Brimont110857s1.tif
+
+
+---
+
 
 
 ## Antall brev etter avsender
