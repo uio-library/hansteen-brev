@@ -147,7 +147,7 @@ def build_doc(xml, row, authorities):
         elif dato_type == 's':
             # Single known date/probable date
             f008[6] = 's'
-            f008[7:11] = dato[:5]
+            f008[7:11] = dato[:4]
         else:
             # Dates unknown
             f008[6] = 'n'
@@ -168,9 +168,10 @@ def build_doc(xml, row, authorities):
 
         f008[39] = 'd'  # Cataloging source: Other, more info in 040.
 
-        xml.controlfield(''.join(f008), tag='008')
+        if len(f008) != 40:
+            sys.stderr.write('Field 008 has wrong length afte processing: %d\n' % len(f008))
 
-        # SPØRSMÅL: Hvilke posisjoner bør ha vertikalstreker?
+        xml.controlfield(''.join(f008), tag='008')
 
         # ---------------------------------------------------------------------------
         # 024: Identifier

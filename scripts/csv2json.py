@@ -129,6 +129,8 @@ def main():
                 }
 
         # Normaliser koding av ukjent dato
+        if metadata['descriptive']['date'] == '':
+            metadata['descriptive']['date'] = None
         if metadata['descriptive']['date'] == 'xxxx-xx-xx':
             metadata['descriptive']['date'] = None
 
