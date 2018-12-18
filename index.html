@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="">
 
     <!-- development version, includes helpful console warnings-->
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.js"></script>
-    <script src="https://unpkg.com/vuetable-2@next"></script>
-    <script src="https://unpkg.com/lodash"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js" integrity="sha256-TuNPk8D8FMWPo5dDIBWwBuu+lxtA7yyN+i8LmHQudrc=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
@@ -32,9 +34,9 @@ var app = new Vue({
           <th scope="col">Filer</th>
         </tr>
         <tr>
-          <th scope="col"><input placeholder="Søk" v-model="filter_tilvekstnr" style="width:100%"></th>
-          <th scope="col"><input placeholder="Søk" v-model="filter_avsender" style="width:100%"></th>
-          <th scope="col"><input placeholder="Søk" v-model="filter_dato" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.tilvekstnr" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.avsender" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.dato" style="width:100%"></th>
         </tr>
       </thead>
       <tbody>
@@ -55,21 +57,20 @@ var app = new Vue({
     </table>
 </div>
     `,
-    components: {
-        vuetable: Vuetable.Vuetable,
-    },
     data: {
         allRows: [],
-        filter_tilvekstnr: '',
-        filter_avsender: '',
-        filter_dato: '',
+        filters: {
+            tilvekstnr: '',
+            avsender: '',
+            dato: '',
+        },
     },
     computed: {
         rows: function() {
             let filters = [];
             ['tilvekstnr', 'avsender', 'dato'].forEach(columnName => {
-                if (this['filter_' + columnName].length) {
-                    let v = this['filter_' + columnName].toLowerCase();
+                if (this.filters[columnName].length) {
+                    let v = this.filters[columnName].toLowerCase();
                     filters.push(x => x[columnName] && x[columnName].toLowerCase().indexOf(v) !== -1);
                 }
             });
@@ -86,10 +87,10 @@ var app = new Vue({
         axios.get('https://uio-library.github.io/hansteen-brev/build/hansteen.json').then((resp) => {
             let processed = resp.data.map(function(row) {
                 return {
-                    tilvekstnr: _.get(row, 'tilvekstnr'),
-                    avsender: _.get(row, 'personer.avsender.navn'),
-                    dato: _.get(row, 'datering_dato'),
-                    filer: row.filer,
+                    tilvekstnr: _.get(row, 'id'),
+                    avsender: _.get(row, 'descriptive.agents.correspondent.name'),
+                    dato: _.get(row, 'descriptive.date'),
+                    filer: _.get(row, 'structure'),
                 };
             });
             this.allRows = processed;
