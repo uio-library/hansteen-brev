@@ -39,12 +39,8 @@ filnavn_map = {}  # Forward map: Baeyer010964b_2.tif (unique) -> USD_UNIHIST_BRE
 filnavn_map_r = {}   # Reverse map: USD_UNIHIST_BREV_2042953.tif (unique) -> Baeyer010964b_2.tif (unique)
 for row in get_table_rows(csv_filer_oversettelse):
     usd_filename = row['file_name']
-    if row['filnavn_a'] != '' and row['filnavn_b'] != '':
-        sys.stderr.write('ERR: Inconsistent data!\n')
-    elif row['filnavn_a'] != '':
-        real_filename = row['filnavn_a']
-    elif row['filnavn_b'] != '':
-        real_filename = row['filnavn_b']
+    if row['new_file_name'] != '':
+        real_filename = row['new_file_name']
     else:
         sys.stderr.write('ERR: Inconsistent data!\n')
 
