@@ -368,8 +368,8 @@ def build_doc(xml, row, authorities):
 
         for page in row['structure']:
             with xml.datafield(tag='856', ind1='4', ind2='0'):
-                xml.subfield('ub-media.uio.no', code='a')        # Host
-                xml.subfield('/arkiv/hansteen/files/', code='d') # Path
+                # xml.subfield('ub-media.uio.no', code='a')        # Host
+                # xml.subfield('/arkiv/hansteen/files/', code='d') # Path
                 xml.subfield(page['filename'], code='f')         # Filename
                 xml.subfield('image/tiff', code='q')             # Electronic format type
                 xml.subfield(page['label'], code='y')            # Link text
