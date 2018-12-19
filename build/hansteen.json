@@ -12684,7 +12684,7 @@
     "id": "Ermanxxxxxx1",
     "descriptive": {
       "date": null,
-      "date_comment": "uten dato",
+      "date_comment": "Uten dato. Antakelig fra Berlin etter 1835.",
       "places": [
         {
           "place": "Berlin",
@@ -12891,8 +12891,8 @@
   {
     "id": "Erman011232",
     "descriptive": {
-      "date": "1832-12-01",
-      "date_comment": null,
+      "date": "1833-08-04",
+      "date_comment": "Brevet ble påbegynt 1.12.1832, men ble etter 1,5 sider liggende til 4.8.1833 (se siste tredjedel s.2) da de siste 4,5 sider ble skrevet.",
       "places": [
         {
           "place": "Berlin",
@@ -13159,7 +13159,7 @@
           "name": "Erman, A."
         }
       },
-      "comment": null
+      "comment": "Brevet er ikke fra Erman. Det ble postlagt i Petersburg på et tidspunkt Erman var i Rio de Janeiro. Avsenderens navn står på s. 2 i 5. linje nedenfra, de to siste ord: Robert [Etternavn, ikke lesbart for meg]."
     },
     "administrative": {
       "described_by": "Marianne Kern",
@@ -13245,8 +13245,8 @@
   {
     "id": "Erman180828",
     "descriptive": {
-      "date": "1828-08-18",
-      "date_comment": null,
+      "date": "1828-01-15",
+      "date_comment": "Riktig dato tatt fra stempelet. Datoen 1828-08-18 som er ført med håndskrift på konvolutten kan ikke stemme da Erman og Hansteen var sammen i Kasan/Russland i august 1828. Korrigert 2018-12-19.",
       "places": [
         {
           "place": "Berlin",
@@ -13290,9 +13290,16 @@
   {
     "id": "Ermanxxxxxx6",
     "descriptive": {
-      "date": null,
-      "date_comment": "uten dato",
-      "places": [],
+      "date": "1829-07-15",
+      "date_comment": "Dato er nevnt på s.1, etter første avsnitt.",
+      "places": [
+        {
+          "place": "Ochozk",
+          "country": "Russland",
+          "country_code": "RU",
+          "comment": null
+        }
+      ],
       "agents": {
         "addressee": {
           "name": "Hansteen, Christopher"
@@ -13481,8 +13488,8 @@
   {
     "id": "Ermanxxxxxx3",
     "descriptive": {
-      "date": null,
-      "date_comment": "uten dato",
+      "date": "1829-02-xx",
+      "date_comment": "Usikker dato.",
       "places": [],
       "agents": {
         "addressee": {
@@ -13616,8 +13623,8 @@
   {
     "id": "Ermanxxxxxx5",
     "descriptive": {
-      "date": null,
-      "date_comment": "uten dato",
+      "date": "1828-xx-xx",
+      "date_comment": "Oktober eller november 1828",
       "places": [
         {
           "place": "Berlin",
@@ -13836,7 +13843,7 @@
           "name": "Hansteen, Christopher"
         },
         "correspondent": {
-          "name": "Erman, senior"
+          "name": "Erman, A."
         }
       },
       "comment": null
@@ -13859,8 +13866,8 @@
   {
     "id": "Erman250528",
     "descriptive": {
-      "date": "1828-05-10",
-      "date_comment": null,
+      "date": "1827-07-24",
+      "date_comment": "Riktig dato nederst på s. 2. Måneden er vanskelig å lese, men Hansteen sier selv at brevet ble skrevet 24.7.1827 (Jmf. Hansteen, Reise-Erinnerungen aus Sibirien, Leipzig 1854, s. 6f.)",
       "places": [
         {
           "place": "Berlin",
