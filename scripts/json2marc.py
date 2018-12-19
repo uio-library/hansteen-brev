@@ -83,11 +83,12 @@ with xml.collection:
                 xml.subfield(ident, code='a')
                 xml.subfield('UIO_FUH', code='2')
 
-            # 100: Avsender og mottaker
+            # 100/700: Avsender og mottaker
             sender = None
             rcpt = None
-            for person in row['personer']:
-                with xml.datafield(tag='100', ind1='1', ind2=' '):
+            for n, person in enumerate(row['personer']):
+                tag = '100' if n == 0 else '700'
+                with xml.datafield(tag=tag, ind1='1', ind2=' '):
 
                     aut = autoritetsdata.get(person['navn'], {'a': None, '0': None})
 

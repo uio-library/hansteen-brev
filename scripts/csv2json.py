@@ -54,6 +54,11 @@ def main():
         brev['klass'] = tab_k[kid]
         brev['steder'] = tab_ks.get(kid, [])
         brev['personer'] = tab_kpr.get(kid, [])
+
+        # Sorter avsender først, så denne havner i 100
+        brev['personer'] = sorted(brev['personer'],
+                                  key=lambda person: 0 if person['rolle']['navn'] == 'Avsender' else 1)
+
         brev_saml.append(brev)
 
     sys.stderr.write('Leste %d brev, %d personer, %d steder fra %s\n' % (
