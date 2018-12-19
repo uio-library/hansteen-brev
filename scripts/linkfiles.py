@@ -16,69 +16,17 @@ import hashlib
 from collections import OrderedDict
 
 
-files_folder = sys.argv[1]
+files_folder = 'files'
+filename_foto_kort = 'src/foto_kort.csv'
+filename_filer = 'src/filer.csv'
+filename_oversettelse = 'src/filer_oversettelse.csv'
 
 # 1. The filenames in the 'files/' folder matches either the column "filnavn_a"
 #    or "filnavn_b" in `filer_oversettelse.csv` table uniquely.
 # 2.  From this match we find the `file_name`, which is the file name used in the
 #     `filer.csv` table, from which we find the corresponding `foto_kort_id`,
 #     which identifies the letter the file belongs to.
-csv_filer_oversettelse = 'src/filer_oversettelse.csv'
-csv_filer = 'src/filer.csv'
 
-
-def get_table_rows(path):
-    with open(path) as fp:
-        reader = csv.DictReader(fp)
-        for row in reader:
-            yield row
-
-
-# Create filename maps
-filnavn_map = {}  # Forward map: Baeyer010964b_2.tif (unique) -> USD_UNIHIST_BREV_2042953.tif (unique)
-filnavn_map_r = {}   # Reverse map: USD_UNIHIST_BREV_2042953.tif (unique) -> Baeyer010964b_2.tif (unique)
-for row in get_table_rows(csv_filer_oversettelse):
-    usd_filename = row['file_name']
-    if row['new_file_name'] != '':
-        real_filename = row['new_file_name']
-    else:
-        sys.stderr.write('ERR: Inconsistent data!\n')
-
-    filnavn_map[real_filename] = usd_filename
-    filnavn_map_r[usd_filename] = real_filename
-
-brev_map = {}
-brev_map_r = {}
-for row in get_table_rows(csv_filer):
-    brev_id = row['foto_kort_id']
-    usd_filename = row['file_name']
-    real_filename = filnavn_map_r[usd_filename]
-    if brev_id not in brev_map:
-        brev_map[brev_id] = []
-    brev_map[brev_id].append(real_filename)
-    if real_filename in brev_map_r:
-        sys.stderr.write('ERR, duplicate: %s\n' % real_filename)
-    brev_map_r[real_filename] = brev_id
-
-sys.stderr.write('%d files mapped to %d letters\n' % (len(brev_map_r.keys()), len(brev_map)))
-
-# Check that all files are actually found
-for real_filename in brev_map_r.keys():
-    fp = 'files/' + real_filename
-    if not os.path.exists(fp):
-        sys.stderr.write('ERR: File not found: files/%s\n' % real_filename)
-
-sys.stderr.write('Verified file existence\n')
-
-
-def sha1sum(filename):
-    h  = hashlib.sha1()
-    b  = bytearray(128*1024)
-    mv = memoryview(b)
-    with open(filename, 'rb', buffering=0) as f:
-        for n in iter(lambda : f.readinto(mv), 0):
-            h.update(mv[:n])
-    return h.hexdigest()
 
 
 def format_page_designations(x):
@@ -86,10 +34,10 @@ def format_page_designations(x):
         return None
 
     if x == 'f':
-        return 'Forside'
+        return 'Konvolutt-forside'
 
     if x == 'b':
-        return 'Bakside'
+        return 'Konvolutt-bakside'
 
     # Add spacing
     x = re.sub(r'([0-9])([a-z])', r'\1, \2', x)
@@ -104,39 +52,112 @@ def format_page_designations(x):
     return x
 
 
-rows = []
-for letter_id, real_filenames in tqdm(brev_map.items()):
-    for real_filename in real_filenames:
-        path = 'files/' + real_filename
-        m = re.match(r'(.*?)((v[0-9])?([abfs]{1,2}[0-9]{0,2})?(d[0-9])?)(_2)?\.tif', real_filename)
+def write_csv(filename, reader, rows):
+    with open(filename, 'w') as fp:
+        writer = csv.DictWriter(fp, fieldnames=reader.fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(row)
+
+
+# Create map: foto_kort_id -> tilvekstnr
+tilvekstnr = {}
+with open(filename_foto_kort) as fp:
+    for row in csv.DictReader(fp):
+        tilvekstnr[row['foto_kort_id']] = row['tilvekstnr']
+
+# Create map: file_name -> foto_kort_id
+foto_kort_id = {}
+with open(filename_filer) as fp:
+    for row in csv.DictReader(fp):
+        foto_kort_id[row['file_name']] = row['foto_kort_id']
+
+
+# Create filename maps
+filnavn_map = {}  # Forward map: Baeyer010964b_2.tif (unique) -> USD_UNIHIST_BREV_2042953.tif (unique)
+filnavn_map_r = {}   # Reverse map: USD_UNIHIST_BREV_2042953.tif (unique) -> Baeyer010964b_2.tif (unique)
+
+letters = OrderedDict()
+with open(filename_oversettelse) as fp:
+    reader = csv.DictReader(fp)
+    out = []
+    for row in reader:
+        usd_filename = row['file_name']
+        real_filename = row['new_file_name']
+
+        filnavn_map[real_filename] = usd_filename
+        filnavn_map_r[usd_filename] = real_filename
+
+        fkid = foto_kort_id[row['file_name']]
+        if fkid not in tilvekstnr:
+            sys.stderr.write('File %s is linked to a non-existent record %s!\n' % (usd_filename, fkid))
+            continue
+
+        ident = tilvekstnr[fkid]
+
+        m = re.match(r'(.*?)((v[0-9]?)?([abfs]{1,2}[0-9]{0,3})?(d[0-9])?)(_[0-9])?\.tif', real_filename)
         if m is None:
-            sys.stderr.write('Inconsistent data!\n')
-            sys.exit(1)
+            sys.stderr.write('Inconsistent data: %s\n' % real_filename)
+            continue
+
         fn_part = m.group(1)
         page_part = m.group(2)
-        filesize = os.path.getsize(path)
-        mimetype = magic.from_file(path, mime=True)
-        checksum = sha1sum(path)
-        page_part = format_page_designations(page_part)
-        rows.append({
-            'letter_id': int(letter_id),
-            'filename': real_filename,
-            'basename': fn_part,
-            'label': page_part,
-            'filesize': filesize,
-            'mimetype': mimetype,
-            'sha1': checksum,
-        })
 
-rows = sorted(rows, key=lambda row: (row['letter_id'], page_part))
+        if len(page_part) != 0:
+            new_fname = '%s_%s.tif' % (ident, page_part)
+        else:
+            new_fname = '%s.tif' % (ident,)
 
-out = OrderedDict([])
-for row in rows:
-    letter_id = row['letter_id']
-    if letter_id not in out:
-        out[letter_id] = []
+        if new_fname != real_filename:
+            if os.path.exists(os.path.join(files_folder, new_fname)):
+                sys.stderr.write('Won\'t overwrite %s → %s\n' % (real_filename, new_fname))
+            else:
+                sys.stderr.write('Rename %s -> %s\n' % (real_filename, new_fname))
+                row['new_file_name'] = new_fname
+                os.rename(
+                    os.path.join(files_folder, real_filename),
+                    os.path.join(files_folder, new_fname)
+                )
 
-    del row['letter_id']
-    out[letter_id].append(row)
+        if not os.path.exists(os.path.join(files_folder, new_fname)):
+            sys.stderr.write('ERR: File not found: %s\n' % os.path.join(files_folder, new_fname))
 
-print(json.dumps(out, indent=3))
+        out.append(row)
+
+        label = format_page_designations(page_part)
+        if label is None or label == '':
+            sys.stderr.write('ERR: Couldn\'t generate label for %s\n' % new_fname)
+
+        letters[ident] = letters.get(ident, []) + [{
+            'filename': new_fname,
+            'label': label
+        }]
+
+    write_csv('tmp.csv', reader, out)
+
+os.rename('tmp.csv', filename_oversettelse)
+
+sys.stderr.write('Verified validity of all filenames\n')
+
+for k in letters:
+    letters[k] = sorted(letters[k], key=lambda page: page['label'])
+
+def sha1sum(filename):
+    h  = hashlib.sha1()
+    b  = bytearray(128*1024)
+    mv = memoryview(b)
+    with open(filename, 'rb', buffering=0) as f:
+        for n in iter(lambda : f.readinto(mv), 0):
+            h.update(mv[:n])
+    return h.hexdigest()
+
+rows = []
+for ident, pages in tqdm(letters.items()):
+    for page in pages:
+        path = os.path.join(files_folder, page['filename'])
+        page['filesize'] = os.path.getsize(path)
+        page['mimetype'] = magic.from_file(path, mime=True)
+        page['sha1'] = sha1sum(path)
+
+
+print(json.dumps(letters, indent=3))

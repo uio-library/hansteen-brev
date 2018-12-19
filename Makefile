@@ -3,7 +3,7 @@ LOCALE:="no_NO"
 all: build/hansteen.json build/hansteen.marc21.xml
 
 src/filer_brev.json: src/filer.csv src/filer_oversettelse.csv scripts/linkfiles.py
-	LC_ALL=$(LOCALE) python scripts/linkfiles.py files > src/filer_brev.json
+	LC_ALL=$(LOCALE) python scripts/linkfiles.py > src/filer_brev.json
 
 build/hansteen.json: src/filer_brev.json src/*.csv scripts/csv2json.py
 	LC_ALL=$(LOCALE) python scripts/csv2json.py src > build/hansteen.json

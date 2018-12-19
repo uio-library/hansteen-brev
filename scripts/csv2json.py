@@ -86,11 +86,6 @@ def main():
 
         klass = tab_k[kid]
 
-
-        basenames = set([x['basename'] for x in filer[kid]])
-        if len(basenames) > 1:
-            sys.stderr.write('Basename differs: %s -- for %s\n' % (', '.join(basenames), ident))
-
         metadata = {
             'id': ident,
             'descriptive': {
@@ -105,7 +100,7 @@ def main():
                 'described_at': row['registrert_dato'],
                 'collection': row['samling'],
             },
-            'structure': filer[kid],
+            'structure': filer[ident],
         }
 
         for val in tab_ks.get(kid, []):
