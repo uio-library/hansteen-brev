@@ -95,7 +95,7 @@ with open(filename_oversettelse) as fp:
 
         ident = tilvekstnr[fkid]
 
-        m = re.match(r'(.*?)((v[0-9]?)?([abfs]{1,2}[0-9]{0,3})?(d[0-9])?)(_[0-9])?\.tif', real_filename)
+        m = re.match(r'(.*?)((v[0-9]?)?([abfs]{1,2}[0-9]{0,3})?(d[0-9])?)\.tif', real_filename)
         if m is None:
             sys.stderr.write('Inconsistent data: %s\n' % real_filename)
             continue
@@ -136,7 +136,6 @@ with open(filename_oversettelse) as fp:
     write_csv('tmp.csv', reader, out)
 
 os.rename('tmp.csv', filename_oversettelse)
-
 sys.stderr.write('Verified validity of all filenames\n')
 
 for k in letters:
