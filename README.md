@@ -1,112 +1,81 @@
-# Christopher Hansteens korrespondanse
+# Christopher Hansteen's correspondence
 
-## Kilde
+This repo contains metadata for 715 scientific letters received by
+[Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/).
+The letters themselves are stored in [Observatoriet](https://no.wikipedia.org/wiki/Observatoriet) in Oslo.
+Digitized representations are available at https://uio-library.github.io/hansteen-brev/ .
 
-Dette repoet inneholder metadata for 715 brev mottatt av
-[Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/),
-som oppbevares i [Observatoriet](https://no.wikipedia.org/wiki/Observatoriet).
+## History
 
-Den vitenskapelige korrespondansen etter Hansten ble gitt til
-[Observatoriet i Oslo](https://no.wikipedia.org/wiki/Observatoriet) etter Hansteens død i 1873.
-I februar 1877 ble i alt 1591 "Videnskabelige Breve" registrert i
-[en fortegnelse](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/brev/fortegnelse.html)
-av Harald Hansteen.
-Materialet ble overført til
-[Institutt for teoretisk astrofysikk](https://no.wikipedia.org/wiki/Institutt_for_teoretisk_astrofysikk)
-da instituttet sto ferdig i 1934, og innlemmet i instituttets bibliotek og arkiv.
+### 1877 Registration
 
-I 2004/2005 ble <s>717</s> (715 etter duplikatfjerning) brev digitalisert av Museumsprosjektet (senere splittet i EDD og MUV)
-i samarbeid med Universitetsbiblioteket, og metadata ble registrert i en Oracle-database.
-Mappa `src` i dette repoet er en dump fra denne Oracle-databasen.
-Enkelte av tabellene (som "tema" og "sjanger") og tabellfeltene er aldri tatt i bruk,
-men er inkludert for kompletthets skyld.
+The scientific correspondence after Hansteen was handed of to 
+[Observatoriet i Oslo](https://no.wikipedia.org/wiki/Observatoriet) 
+after Hansteen's death in 1873.
+In February 1877 Harald Hansteen created a catalogue of 1591 scientific letters
+([Fortegnelse over Videnskabelige Breve]((https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/brev/fortegnelse.html)).
+The material was transferred to the library of
+[Institute of Theoretical Astrophysics](https://no.wikipedia.org/wiki/Institutt_for_teoretisk_astrofysikk)
+when the new building was conceived in 1934.
 
-Selve bildefilene er ikke inkludert i dette repoet pg.a. størrelsen, men blir arkivert i Alma-D
-(lenke kommer). De er også kopiert til ub-prod01-imgs:
+### 2004/2005 digitization project
+
+In 2004/2005 <s>717</s> (715 after removing duplicates) letters were digitized by
+Museumsprosjektet (later split into EDD og MUV) in collaboration with the University Library,
+and metadata was registered in an Oracle database.
+The digitization was brought to a stop halfways because of lack of funding
+and the completed part was never published as intended.
+
+### 2018 conversion and cleanup
+
+As part of a project piloting Alma Digital for storing digitized and born-digital material,
+this collection was cleaned up and converted.
+
+The folder `initial_conversion` contains a copy of the Oracle database tables and the
+scripts used to convert it to a new JSON representation, which is now kept in `src/hansteen.json`
+as the master representation of the metadata.
+
+There is a separate README.md in the initial_conversion folder with some details about
+the issues encountered during the initial conversion.
+
+The structure of the JSON representation is so that it can easily be converted to other formats.
+
+As a start, the script `scripts/json2marc.py` converts the JSON representation to MARC21,
+as used in Alma Digital.
+
+The scanned images are not included in this repo because of the size, but will be archived in Alma D,
+and are also archived at ub-prod01-imgs.
 
     rsync -avz --progress files/* imgs:/www/htdocs/arkiv/hansteen/files/
 
-## Konvertering
+## Metadata structure
 
-Repoet inneholder script for å konvertere CSV-tabellene til en JSON-representasjon
-og til en MARC21XML-utgave.
-Kjør `make clean && make` om du vil gjøre konverteringen på nytt:
-
-1. `scripts/linkfiles.py` kobler filnavn med brev. Informasjonen lagres i `filer_brev.json`.
-2. `scripts/csv2json.py` leser inn tabellene fra `src/*.csv` og lager en
-   forenklet JSON-struktur som lagres som `build/hansteen.json`.
-3. `scripts/json2marc.py` leser inn `build/hansteen.json`, kombinerer dette med
-   navneautoriteter fra `aut/person_autoriteter.json` og lager en MARC21-utgave
-   som lagres som `build/hansteen.marc21.xml`.
+Brevsamlingen har følgende metadatastruktur:
 
 
-## Duplikate tilvekstnumre
-
-Tabellen `foto_kort.csv` inneholder en rad per brev.
-Kolonnnen `tilvekstnr` er stort sett unik, men med følgende unntak:
-
-Tilvekstnr | Foto_kort_id | Filnavn | Konklusjon
----|---|---|---
-`Boeck120443` | 7 | Boeck120443s1.tif | Forkastes. Samme brev som 8 og ingen forskjell i klassifikasjon.
-| 8 | Boeck120443s1_2.tif | Ingen endring
-`Duexxxxxx` | 243 | Duexxxxxxs1.tif<br>Duexxxxxxs2.tif<br>Duexxxxxxs3.tif<br>Duexxxxxxs4.tif | Endres til `Duexxxxxx_1`
-| 244 | Duexxxxxxs1_2.tif<br>Duexxxxxxs2_2.tif<br>Duexxxxxxs3_2.tif<br>Duexxxxxxs4_2.tif<br>Duexxxxxxv1s1.tif<br>Duexxxxxxv1s2.tif | Endres til `Duexxxxxx_2`
-| 249 | Duexxxxxxs1_3.tif<br>Duexxxxxxs2_3.tif<br>Duexxxxxxs3_3.tif | Endres til `Duexxxxxx_3`
-`Ermanxxxxxx` | 266 | Ermannxxxxxxs1.tif<br>Ermannxxxxxxs2.tif<br>Ermannxxxxxxs3.tif<br>Ermannxxxxxxs4.tif | Endres til `Ermanxxxxxx_1`
-| 278 | Ermanxxxxf.tif<br>Ermanxxxxs1.tif<br>Ermanxxxxs2.tif<br>Ermanxxxxs3.tif<br>Ermanxxxxs4.tif | Endres til `Ermanxxxxxx_2`
-| 280 | Ermanxxxxxxf_2.tif<br>Ermanxxxxxxs1_2.tif<br>Ermanxxxxxxs2_2.tif<br>Ermanxxxxxxs3.tif | Endres til `Ermanxxxxxx_3`
-| 282 | Ermansenxxxxxxs1.tif | Endres til `Ermanxxxxxx_4`
-| 283 | Ermanxxxxxxf_3.tif<br>Ermanxxxxxxs1_3.tif<br>Ermanxxxxxxs2_3.tif<br>Ermanxxxxxxs3_2.tif<br>Ermanxxxxxxs4.tif<br>Ermanxxxxxxs5.tif  | Endres til `Ermanxxxxxx_5`
-`Sommer011033` | 612 | Sommerfeldta011033s1.tif<br>Sommerfeldta011033s2.tif<br>Sommerfeldta011033s3.tif | Endres til `Sommer011033_1`
-| 613 | Sommerfeldtb011033f.tif<br>Sommerfeldtb011033s1.tif<br>Sommerfeldtb011033s2.tif | Endres til `Sommer011033_2` 
-`Svanbe220551` | 641 | Svanberg220551f.tif<br>Svanberg220551s1.tif<br>Svanberg220551s2.tif<br>Svanberg220551s3.tif | Endres til `Svanbe220551_1`
-| 642 | Svanberg220551bf.tif<br>Svanberg220551bs1.tif<br>Svanberg220551bs2.tif<br>Svanberg220551bs3.tif | Endres til `Svanbe220551_2`
-`Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Forkastes. Samme brev som 691 og ingen forskjell i klassifikasjon.
-| 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | Ingen endring
+    id: Tilvekstnummer, unik ID for hvert brev
+    descriptive:
+        date: 
+        date_comment:
+        places:
+        agents:
+        comment:
+    administrative:
+        described_by:
+        created_at:
+        updated_at:
+        collection:
+    structure:
+        filename:
+        label:
+        filesize:
+        mimetype:
+        sha1: checksum
 
 
-## TIFF-filer med flere sider
+## Stats
 
-Tre av tiff-filene inneholdt flere sider:
-
-Originalt filnavn | Side | Konklusjon
----|---|---
-`Perthes-Besser290854s1.tif` | `Perthes-Besser290854s1-0.tif` | duplikat av `Perthes-Besser290854f.tif`, slettes
- | `Perthes-Besser290854s1-1.tif` | → `Perthes-Besser290854s1.tif`
-Perthes-Besser300861s1.tif | Perthes-Besser300861s1-0.tif | fargeprøve, slettes
- | Perthes-Besser300861s1-1.tif | → Perthes-Besser300861s1.tif
-Perthes-Besser300861v1s1.tif | Perthes-Besser300861v1s1-0.tif | fargeprøve, slettes
-| Perthes-Besser300861v1s1-1.tif | duplikat av Perthes-Besser300861s1.tif, slettes
-Perthes-Besser300861v1s1-2.tif | → Perthes-Besser300861v1.tif
-```
-
-## Standardisering av filnavn
-
-Fra | Til
----|---
-Akrell180144sf.tif | Akrell180144f.tif
-Berzeulius080844sf.tif | Berzeulius080844f.tif
-Bohr310718s2s1.tif | Bohr310718s2d1.tif
-Bohr310718s2s2.tif | Bohr310718s2d2.tif
-Droysonvls1.tif Droysonvs1.tif
-Droysonvls2.tif Droysonvs2.tif
-erman111261s1.tif | Erman111261s1.tif
-Forchhammr160362s1.tif | Forchhammer160362s1.tif
-Forchhammr160362s2.tif | Forchhammer160362s2.tif
-Gurhans220142s1d1 | Guthans220142s1d1
-Guthns190254s1.tif | Guthans190254s1.tif
-Schuma090127s1.tif | Schumacher090127s1.tif
-Schumcher060332s1.tif | Schumacher060332s1.tif
-sebald140354 | Sebald140354s1.tif
-Brewter110324s1.tif | Brewster110324s1.tif
-Brimont110457s1.tif | Brimont110857s1.tif
-
-
----
-
-
-
-## Antall brev etter avsender
+### Antall brev etter avsender
 
 3 brev har ukjent avsender.
 
@@ -119,7 +88,7 @@ Perthes-Besser & Maucke | 35
 Berzelius, J. | 26
 Airz, G. B. | 19
 Due, Chr. | 18
-Erman, A. | 18
+Erman, A. | 19
 Forchhammer | 17
 Sebald, W. | 16
 Struve, W. | 15
@@ -132,7 +101,7 @@ Svanberg, G. | 11
 Goldschmidt | 11
 Forbes, J. | 10
 Argelander, Friedrich Wilhelm August | 7
-Erman, senior | 7
+Erman, senior | 6
 Schmidt, J. W. | 6
 Fiandt, A. | 6
 Schweigger | 6
