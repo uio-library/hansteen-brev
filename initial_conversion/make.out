@@ -1,0 +1,15 @@
+LC_ALL="no_NO" python linkfiles.py > build/filer_brev.json
+ERR: Couldn't generate label for Arago190833.tif
+ERR: Couldn't generate label for Bloomfiel020824.tif
+ERR: Couldn't generate label for dAbbadie140956.tif
+ERR: Couldn't generate label for Daubru0107xx.tif
+ERR: Couldn't generate label for Gyldend311239.tif
+Verified validity of all filenames
+LC_ALL="no_NO" python csv2json.py > build/hansteen.json
+Correspondent missing: TilBrandesU
+Correspondent missing: AAstrand090959
+Correspondent missing: AAstrand110561
+Ignoring unknown person role: Forhandler
+Correspondent missing: AAstrand160958
+Correspondent missing: AAstrand190255
+Leste 715 brev, 167 personer, 76 steder fra src

@@ -12681,7 +12681,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx1",
+    "id": "Ermanxxxxxx_1",
     "descriptive": {
       "date": null,
       "date_comment": "Uten dato. Antakelig fra Berlin etter 1835.",
@@ -12710,28 +12710,28 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx1_s1.tif",
+        "filename": "Ermanxxxxxx_1_s1.tif",
         "label": "Side 1",
         "filesize": 13936164,
         "mimetype": "image/tiff",
         "sha1": "5087962a0c32214b606b3ac8764028628d38e4fe"
       },
       {
-        "filename": "Ermanxxxxxx1_s2.tif",
+        "filename": "Ermanxxxxxx_1_s2.tif",
         "label": "Side 2",
         "filesize": 14216468,
         "mimetype": "image/tiff",
         "sha1": "ad9f46d516c587d178b7188091404da3c0e07f1d"
       },
       {
-        "filename": "Ermanxxxxxx1_s3.tif",
+        "filename": "Ermanxxxxxx_1_s3.tif",
         "label": "Side 3",
         "filesize": 14841660,
         "mimetype": "image/tiff",
         "sha1": "cc5c5f5952181dd143e80f4305dd1edb3fbf8ff2"
       },
       {
-        "filename": "Ermanxxxxxx1_s4.tif",
+        "filename": "Ermanxxxxxx_1_s4.tif",
         "label": "Side 4",
         "filesize": 14194212,
         "mimetype": "image/tiff",
@@ -13288,7 +13288,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx6",
+    "id": "Ermanxxxxxx_6",
     "descriptive": {
       "date": "1829-07-15",
       "date_comment": "Dato er nevnt på s.1, etter første avsnitt.",
@@ -13317,21 +13317,21 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx6_f.tif",
+        "filename": "Ermanxxxxxx_6_f.tif",
         "label": "Konvolutt-forside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "3a938afd2fb2913a004533b8f7c95b0dcc5f5312"
       },
       {
-        "filename": "Ermanxxxxxx6_s1.tif",
+        "filename": "Ermanxxxxxx_6_s1.tif",
         "label": "Side 1",
         "filesize": 22760308,
         "mimetype": "image/tiff",
         "sha1": "be6d3c009efcb908c32737384cf3a067bfbdf1f2"
       },
       {
-        "filename": "Ermanxxxxxx6_s2.tif",
+        "filename": "Ermanxxxxxx_6_s2.tif",
         "label": "Side 2",
         "filesize": 23973380,
         "mimetype": "image/tiff",
@@ -13340,7 +13340,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx2",
+    "id": "Ermanxxxxxx_2",
     "descriptive": {
       "date": null,
       "date_comment": null,
@@ -13362,35 +13362,35 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx2_f.tif",
+        "filename": "Ermanxxxxxx_2_f.tif",
         "label": "Konvolutt-forside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "c245a258b1e439c41f5c48fd6582f210c38c6ace"
       },
       {
-        "filename": "Ermanxxxxxx2_s1.tif",
+        "filename": "Ermanxxxxxx_2_s1.tif",
         "label": "Side 1",
         "filesize": 25318812,
         "mimetype": "image/tiff",
         "sha1": "cfa1fe7eedc7393133106abe68f7072fa120dd0d"
       },
       {
-        "filename": "Ermanxxxxxx2_s2.tif",
+        "filename": "Ermanxxxxxx_2_s2.tif",
         "label": "Side 2",
         "filesize": 25074188,
         "mimetype": "image/tiff",
         "sha1": "ba702f9697076da61c83a9e441877ae7daed0722"
       },
       {
-        "filename": "Ermanxxxxxx2_s3.tif",
+        "filename": "Ermanxxxxxx_2_s3.tif",
         "label": "Side 3",
         "filesize": 25685748,
         "mimetype": "image/tiff",
         "sha1": "1c14f29701b4a8c00f1c0bdb4ce8cc080ae70a9e"
       },
       {
-        "filename": "Ermanxxxxxx2_s4.tif",
+        "filename": "Ermanxxxxxx_2_s4.tif",
         "label": "Side 4",
         "filesize": 25441124,
         "mimetype": "image/tiff",
@@ -13486,7 +13486,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx3",
+    "id": "Ermanxxxxxx_3",
     "descriptive": {
       "date": "1829-02-xx",
       "date_comment": "Usikker dato.",
@@ -13508,28 +13508,28 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx3_f.tif",
+        "filename": "Ermanxxxxxx_3_f.tif",
         "label": "Konvolutt-forside",
         "filesize": 23973380,
         "mimetype": "image/tiff",
         "sha1": "1c4261dab766ce5f9c3967ee17c18929410d43bb"
       },
       {
-        "filename": "Ermanxxxxxx3_s1.tif",
+        "filename": "Ermanxxxxxx_3_s1.tif",
         "label": "Side 1",
         "filesize": 24462628,
         "mimetype": "image/tiff",
         "sha1": "e1f4227908d37a554038f03e20e6b18c34266a01"
       },
       {
-        "filename": "Ermanxxxxxx3_s2.tif",
+        "filename": "Ermanxxxxxx_3_s2.tif",
         "label": "Side 2",
         "filesize": 23851068,
         "mimetype": "image/tiff",
         "sha1": "a9569d7cf59fa3f2ac0aeb31ff43b70c1ff5580b"
       },
       {
-        "filename": "Ermanxxxxxx3_s3.tif",
+        "filename": "Ermanxxxxxx_3_s3.tif",
         "label": "Side 3",
         "filesize": 23495276,
         "mimetype": "image/tiff",
@@ -13583,7 +13583,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx4",
+    "id": "Ermanxxxxxx_4",
     "descriptive": {
       "date": null,
       "date_comment": "uten dato",
@@ -13612,7 +13612,7 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx4_s1.tif",
+        "filename": "Ermanxxxxxx_4_s1.tif",
         "label": "Side 1",
         "filesize": 24095692,
         "mimetype": "image/tiff",
@@ -13621,7 +13621,7 @@
     ]
   },
   {
-    "id": "Ermanxxxxxx5",
+    "id": "Ermanxxxxxx_5",
     "descriptive": {
       "date": "1828-xx-xx",
       "date_comment": "Oktober eller november 1828",
@@ -13650,42 +13650,42 @@
     },
     "structure": [
       {
-        "filename": "Ermanxxxxxx5_f.tif",
+        "filename": "Ermanxxxxxx_5_f.tif",
         "label": "Konvolutt-forside",
         "filesize": 14546796,
         "mimetype": "image/tiff",
         "sha1": "3f7386de74206d1afceede894eecbe506d09380e"
       },
       {
-        "filename": "Ermanxxxxxx5_s1.tif",
+        "filename": "Ermanxxxxxx_5_s1.tif",
         "label": "Side 1",
         "filesize": 14565988,
         "mimetype": "image/tiff",
         "sha1": "f3ed337a23da6648abe0284de9378959077c86e2"
       },
       {
-        "filename": "Ermanxxxxxx5_s2.tif",
+        "filename": "Ermanxxxxxx_5_s2.tif",
         "label": "Side 2",
         "filesize": 14971492,
         "mimetype": "image/tiff",
         "sha1": "b712fb0b9b5ecbfff3a66aab1f6bc8e28b435e08"
       },
       {
-        "filename": "Ermanxxxxxx5_s3.tif",
+        "filename": "Ermanxxxxxx_5_s3.tif",
         "label": "Side 3",
         "filesize": 14648748,
         "mimetype": "image/tiff",
         "sha1": "52ed683a5986fb0ca217241f8384974b942fdb51"
       },
       {
-        "filename": "Ermanxxxxxx5_s4.tif",
+        "filename": "Ermanxxxxxx_5_s4.tif",
         "label": "Side 4",
         "filesize": 14667364,
         "mimetype": "image/tiff",
         "sha1": "ba3b52eed0b2cad2338f85ca07ee151672c4c72e"
       },
       {
-        "filename": "Ermanxxxxxx5_s5.tif",
+        "filename": "Ermanxxxxxx_5_s5.tif",
         "label": "Side 5",
         "filesize": 14483228,
         "mimetype": "image/tiff",

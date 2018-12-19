@@ -1,5 +1,5 @@
 # Convert CSV files into a simple JSON structure
-# Usage: python csv2json.py src > build/hansteen.json
+# Usage: python csv2json.py > hansteen.json
 #
 import sys
 import os
@@ -22,7 +22,8 @@ countries['Russland'] = 'RU'
 countries['USA'] = 'US'
 countries['Portugal'] = 'PT'
 
-src_folder = sys.argv[1]
+src_folder = 'src'
+build_folder = 'build'
 
 roles = {
     'Avsender': 'correspondent',
@@ -67,7 +68,7 @@ def main():
     tab_r = simle_map('personrolle.csv', 'personrolle_id')
     tab_b = simle_map('bruker.csv', 'bruker_id')
 
-    with open(os.path.join(src_folder, 'filer_brev.json')) as fp:
+    with open(os.path.join(build_folder, 'filer_brev.json')) as fp:
         filer = json.load(fp)
 
     tab_ks = one_to_many('klassifikasjon_sted.csv', 'klassifikasjons_id', tab_s, 'sted_id')

@@ -150,7 +150,6 @@ def sha1sum(filename):
             h.update(mv[:n])
     return h.hexdigest()
 
-rows = []
 for ident, pages in tqdm(letters.items()):
     for page in pages:
         path = os.path.join(files_folder, page['filename'])
