@@ -31,12 +31,14 @@ var app = new Vue({
           <th scope="col" style="width: 160px;">Tilvekstnr.</th>
           <th scope="col" style="width: 220px;">Avsender</th>
           <th scope="col" style="width: 140px;">Dato</th>
+          <th scope="col" style="width: 200px;">Sted</th>
           <th scope="col">Filer</th>
         </tr>
         <tr>
           <th scope="col"><input placeholder="Søk" v-model="filters.tilvekstnr" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.avsender" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.dato" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.place" style="width:100%"></th>
         </tr>
       </thead>
       <tbody>
@@ -44,6 +46,7 @@ var app = new Vue({
           <td>{{ row.tilvekstnr }}</td>
           <td>{{ row.avsender }}</td>
           <td>{{ row.dato }}</td>
+          <td>{{ row.place }}</td>
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
             <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.filer">
                 <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
@@ -63,12 +66,13 @@ var app = new Vue({
             tilvekstnr: '',
             avsender: '',
             dato: '',
+            place: '',
         },
     },
     computed: {
         rows: function() {
             let filters = [];
-            ['tilvekstnr', 'avsender', 'dato'].forEach(columnName => {
+            ['tilvekstnr', 'avsender', 'dato', 'place'].forEach(columnName => {
                 if (this.filters[columnName].length) {
                     let v = this.filters[columnName].toLowerCase();
                     filters.push(x => x[columnName] && x[columnName].toLowerCase().indexOf(v) !== -1);
@@ -86,11 +90,16 @@ var app = new Vue({
     mounted: function() {
         axios.get('https://uio-library.github.io/hansteen-brev/build/hansteen.json').then((resp) => {
             let processed = resp.data.map(function(row) {
+                let place = _.get(row, 'descriptive.places.0');
+                if (place) {
+                    place = _.get(place, 'place') + ', ' + _.get(place, 'country');
+                }
                 return {
                     tilvekstnr: _.get(row, 'id'),
                     avsender: _.get(row, 'descriptive.agents.correspondent.name'),
                     dato: _.get(row, 'descriptive.date'),
                     filer: _.get(row, 'structure'),
+                    place: place
                 };
             });
             this.allRows = processed;
