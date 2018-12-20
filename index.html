@@ -14,6 +14,18 @@
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js" integrity="sha256-7/yoZS3548fXSRXqc/xYzjsmuW3sFKzuvOCHd06Pmps=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <style type="text/css">
+        th button.btn {
+            padding: 0 !important;
+        }
+        th button.btn span {
+            display: inline-block;
+            width: 20px;
+        }
+    </style>
 </head>
 <body>
     <div id="app"></div>
@@ -28,27 +40,59 @@ var app = new Vue({
     <table class="table table-striped">
       <thead>
         <tr>
-          <th scope="col" style="width: 160px;">Tilvekstnr.</th>
-          <th scope="col" style="width: 220px;">Avsender</th>
-          <th scope="col" style="width: 140px;">Dato</th>
-          <th scope="col" style="width: 200px;">Sted</th>
+          <th scope="col" style="width: 160px;">
+            <button class="btn btn-link" @click="setSortKey('id')">
+                <span>
+                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'id' && sortOrder == 'asc'"></i>
+                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'id' && sortOrder == 'desc'"></i>
+                </span>
+                Tilvekstnr.
+            </button>
+          </th>
+          <th scope="col" style="width: 220px;">
+            <button class="btn btn-link" @click="setSortKey('sender')">
+                <span style="width:20px;">
+                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'sender' && sortOrder == 'asc'"></i>
+                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'sender' && sortOrder == 'desc'"></i>
+                </span>
+                Avsender
+            </button>
+          </th>
+          <th scope="col" style="width: 220px;">
+            <button class="btn btn-link" @click="setSortKey('date')">
+                <span style="width:20px;">
+                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'date' && sortOrder == 'asc'"></i>
+                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'date' && sortOrder == 'desc'"></i>
+                </span>
+                Dato
+            </button>
+          </th>
+          <th scope="col" style="width: 220px;">
+            <button class="btn btn-link" @click="setSortKey('place')">
+                <span style="width:20px;">
+                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'place' && sortOrder == 'asc'"></i>
+                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'place' && sortOrder == 'desc'"></i>
+                </span>
+                Sted
+            </button>
+          </th>
           <th scope="col">Filer</th>
         </tr>
         <tr>
-          <th scope="col"><input placeholder="Søk" v-model="filters.tilvekstnr" style="width:100%"></th>
-          <th scope="col"><input placeholder="Søk" v-model="filters.avsender" style="width:100%"></th>
-          <th scope="col"><input placeholder="Søk" v-model="filters.dato" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.id" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.sender" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.date" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.place" style="width:100%"></th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="row in rows">
-          <td>{{ row.tilvekstnr }}</td>
-          <td>{{ row.avsender }}</td>
-          <td>{{ row.dato }}</td>
+          <td>{{ row.id }}</td>
+          <td>{{ row.sender }}</td>
+          <td>{{ row.date }}</td>
           <td>{{ row.place }}</td>
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
-            <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.filer">
+            <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.files">
                 <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
                 <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '_thumb.jpg')" alt=""><br>
 
@@ -60,31 +104,45 @@ var app = new Vue({
     </table>
 </div>
     `,
+    components: {
+        octicon: window.VueOcticon,
+    },
     data: {
         allRows: [],
+        sortKey: 'id',
+        sortOrder: 'asc',
         filters: {
-            tilvekstnr: '',
-            avsender: '',
-            dato: '',
+            id: '',
+            sender: '',
+            date: '',
             place: '',
+        },
+    },
+    methods: {
+        setSortKey: function(key) {
+            if (this.sortKey == key) {
+                this.sortOrder = (this.sortOrder == 'asc') ? 'desc' : 'asc';
+            } else {
+                this.sortKey = key;
+            }
         },
     },
     computed: {
         rows: function() {
             let filters = [];
-            ['tilvekstnr', 'avsender', 'dato', 'place'].forEach(columnName => {
+            ['id', 'sender', 'date', 'place'].forEach(columnName => {
                 if (this.filters[columnName].length) {
                     let v = this.filters[columnName].toLowerCase();
                     filters.push(x => x[columnName] && x[columnName].toLowerCase().indexOf(v) !== -1);
                 }
             });
 
-            return this.allRows.filter(row => {
+            return _.orderBy(this.allRows.filter(row => {
                 for (var i = filters.length - 1; i >= 0; i--) {
                     if (!filters[i](row)) return false;
                 }
                 return true;
-            });
+            }), row => (row[this.sortKey] + '').toLowerCase(), [this.sortOrder]);
         },
     },
     mounted: function() {
@@ -95,11 +153,11 @@ var app = new Vue({
                     place = _.get(place, 'place') + ', ' + _.get(place, 'country');
                 }
                 return {
-                    tilvekstnr: _.get(row, 'id'),
-                    avsender: _.get(row, 'descriptive.agents.correspondent.name'),
-                    dato: _.get(row, 'descriptive.date'),
-                    filer: _.get(row, 'structure'),
-                    place: place
+                    id: _.get(row, 'id'),
+                    sender: _.get(row, 'descriptive.agents.correspondent.name'),
+                    date: _.get(row, 'descriptive.date'),
+                    place: place,
+                    files: _.get(row, 'structure'),
                 };
             });
             this.allRows = processed;
