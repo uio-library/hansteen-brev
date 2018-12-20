@@ -10142,15 +10142,15 @@
         "sha1": "0e8127c0aeb4f3cffdf00a95a08ffd1620f3304e"
       },
       {
-        "filename": "Droyson061058_vs1.tif",
-        "label": "Vside 1",
+        "filename": "Droyson061058_v1s1.tif",
+        "label": "Vedlegg 1, side 1",
         "filesize": 4790676,
         "mimetype": "image/tiff",
         "sha1": "09998f0d8cb1e1b0ff787a32a82355d591021c3a"
       },
       {
-        "filename": "Droyson061058_vs2.tif",
-        "label": "Vside 2",
+        "filename": "Droyson061058_v1s2.tif",
+        "label": "Vedlegg 1, side 2",
         "filesize": 5064868,
         "mimetype": "image/tiff",
         "sha1": "8ed054753a598f85860c414ea77de4aed3014dfb"
@@ -32089,29 +32089,29 @@
     },
     "structure": [
       {
-        "filename": "Svanbe220551_2_bf.tif",
-        "label": "Bf",
+        "filename": "Svanbe220551_2_f.tif",
+        "label": "Konvoluttforside",
         "filesize": 19080900,
         "mimetype": "image/tiff",
         "sha1": "98c0cdc1749126ceb4a00d55498032e6831332a5"
       },
       {
-        "filename": "Svanbe220551_2_bs1.tif",
-        "label": "Bside 1",
+        "filename": "Svanbe220551_2_s1.tif",
+        "label": "Side 1",
         "filesize": 23933508,
         "mimetype": "image/tiff",
         "sha1": "9f8cd2989527b9340caf61ca36dc0717dd36547c"
       },
       {
-        "filename": "Svanbe220551_2_bs2.tif",
-        "label": "Bside 2",
+        "filename": "Svanbe220551_2_s2.tif",
+        "label": "Side 2",
         "filesize": 23349812,
         "mimetype": "image/tiff",
         "sha1": "942a93d036d7db3876c5e5162aec5a35a8530be8"
       },
       {
-        "filename": "Svanbe220551_2_bs3.tif",
-        "label": "Bside 3",
+        "filename": "Svanbe220551_2_s3.tif",
+        "label": "Side 3",
         "filesize": 23816188,
         "mimetype": "image/tiff",
         "sha1": "20c8fa3abcda034702bdccb6b28bb83f20871bad"
@@ -34885,8 +34885,8 @@
     },
     "structure": [
       {
-        "filename": "BrochUdat2_s.tif",
-        "label": "S",
+        "filename": "BrochUdat2_sx.tif",
+        "label": "???",
         "filesize": 21881052,
         "mimetype": "image/tiff",
         "sha1": "141f164cfa9039d4d69b5cd3bb84ed2448253d85"
@@ -35228,25 +35228,25 @@
     },
     "structure": [
       {
-        "filename": "Boignet080659_as1.tif",
-        "label": "Aside 1",
-        "filesize": 14687748,
-        "mimetype": "image/tiff",
-        "sha1": "d7fdd1d06eb1957ae3e25d31a233c12f0556b7ff"
-      },
-      {
-        "filename": "Boignet080659_bs1.tif",
-        "label": "Bside 1",
-        "filesize": 14333460,
-        "mimetype": "image/tiff",
-        "sha1": "84197f944421fcc826809ac1d7bf4317b3b2784b"
-      },
-      {
         "filename": "Boignet080659_f.tif",
         "label": "Konvoluttforside",
         "filesize": 14306436,
         "mimetype": "image/tiff",
         "sha1": "ea2c8c6398e93ab9a733af10aac89e1d42936d76"
+      },
+      {
+        "filename": "Boignet080659_s1.tif",
+        "label": "Side 1",
+        "filesize": 14687748,
+        "mimetype": "image/tiff",
+        "sha1": "d7fdd1d06eb1957ae3e25d31a233c12f0556b7ff"
+      },
+      {
+        "filename": "Boignet080659_s2.tif",
+        "label": "Side 2",
+        "filesize": 14333460,
+        "mimetype": "image/tiff",
+        "sha1": "84197f944421fcc826809ac1d7bf4317b3b2784b"
       }
     ]
   },

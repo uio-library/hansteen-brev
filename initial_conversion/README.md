@@ -6,11 +6,11 @@ Run `make clean && make` to re-do the conversion.
 2. `csv2json.py` reads the tables from`src/*.csv` and creates a simpler JSON structure
    that is stored in `build/hansteen.json`.
 
-## Cleanup
+## Cleanup steps
 
-### Establishing `tilvekstnr` as a unique identifier
+### Establish `tilvekstnr` as a unique identifier
 
-The column `tilvekstnr` was *mostly* unique, but with a few exceptions.
+The column `tilvekstnr` was *mostly* unique, but with a few exceptions listed below.
 
 Tilvekstnr | Foto_kort_id | Filnavn | Action taken
 ---|---|---|---
@@ -31,22 +31,34 @@ Tilvekstnr | Foto_kort_id | Filnavn | Action taken
 `Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Delete. This is the same letter as 691 and there is no difference in the description.
 | 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | No change needed.
 
-This process reduced the number of records from 717 to 715.
+This cleanup step reduced the number of records from 717 to 715.
 
-### Establishing filenames based on the `tilvekstnr`
+### Establish filenames based on `tilvekstnr`
 
-The files had filenames whose base were *similar* to the `tilvekstnr`, but it seems like they had been entered manually since they could vary quite a bit, sometimes an abbreviated
-version, sometimes an elongated version, sometimes a typo in the name, and so on.
-Since there is no need to have this degree of freedom, the filenames were normalized based on the `tilvekstnr`, taking care that no files were overwritten or lost in the renaming process.
-The new filenames are similar to the old ones, but are much more consistent.
+The files had filenames whose base were *similar* to the `tilvekstnr`,
+but the similarity varied from record to records and showed clear signs
+of having been entered manually by a human.
+Since there is no need for this degree of freedom in the filenames,
+they were normalized to be based on the `tilvekstnr`,
+always containing the `tilvekstnr` plus a page-specific suffix.
+
+The page-specific suffixes were also normalized:
+
+* `f`: envelope front
+* `b`: envelope back
+* `sX`: page X
+* `vX`: attachment X
+* `dX`: part X (when the same page is split into multiple scans)
 
 ### Cleaning up invalid dates
 
 
 
-### TIFF-files with multiple pages
+### Splitting multi-page TIFF-files
 
 A few tiff files contained multiple pages.
+These were split into multiple files.
+It turned out that in each case, only one of the pages were necessary to keep.
 
 Original filename | Page | Action taken
 ---|---|---
