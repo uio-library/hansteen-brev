@@ -50,9 +50,9 @@ var app = new Vue({
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
             <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.filer">
                 <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
-                <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '.jpg')" alt=""><br>
+                <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '_thumb.jpg')" alt=""><br>
 
-                {{ page.page_designation }}</a>
+                {{ page.label }}</a>
             </div>
           </td>
         </tr>
