@@ -12694,30 +12694,6 @@
       <subfield code="s">22341348</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrandArtikke_s10.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 10</subfield>
-      <subfield code="s">20826044</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrandArtikke_s11.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 11</subfield>
-      <subfield code="s">21045700</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrandArtikke_s12.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 12</subfield>
-      <subfield code="s">20826044</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrandArtikke_s13.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 13</subfield>
-      <subfield code="s">20714676</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
       <subfield code="f">AAstrandArtikke_s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 2</subfield>
@@ -12763,6 +12739,30 @@
       <subfield code="f">AAstrandArtikke_s9.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 9</subfield>
+      <subfield code="s">20714676</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">AAstrandArtikke_s10.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 10</subfield>
+      <subfield code="s">20826044</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">AAstrandArtikke_s11.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 11</subfield>
+      <subfield code="s">21045700</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">AAstrandArtikke_s12.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 12</subfield>
+      <subfield code="s">20826044</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">AAstrandArtikke_s13.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 13</subfield>
       <subfield code="s">20714676</subfield>
     </datafield>
   </record>
@@ -15213,15 +15213,15 @@
       <subfield code="s">14051564</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Droyson061058_vs1.tif</subfield>
+      <subfield code="f">Droyson061058_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Vside 1</subfield>
+      <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">4790676</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Droyson061058_vs2.tif</subfield>
+      <subfield code="f">Droyson061058_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Vside 2</subfield>
+      <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">5064868</subfield>
     </datafield>
   </record>
@@ -47705,27 +47705,27 @@
       <subfield code="w">81218451430002204</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Svanbe220551_2_bf.tif</subfield>
+      <subfield code="f">Svanbe220551_2_f.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Bf</subfield>
+      <subfield code="y">Konvoluttforside</subfield>
       <subfield code="s">19080900</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Svanbe220551_2_bs1.tif</subfield>
+      <subfield code="f">Svanbe220551_2_s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Bside 1</subfield>
+      <subfield code="y">Side 1</subfield>
       <subfield code="s">23933508</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Svanbe220551_2_bs2.tif</subfield>
+      <subfield code="f">Svanbe220551_2_s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Bside 2</subfield>
+      <subfield code="y">Side 2</subfield>
       <subfield code="s">23349812</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Svanbe220551_2_bs3.tif</subfield>
+      <subfield code="f">Svanbe220551_2_s3.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Bside 3</subfield>
+      <subfield code="y">Side 3</subfield>
       <subfield code="s">23816188</subfield>
     </datafield>
   </record>
@@ -49034,42 +49034,6 @@
       <subfield code="s">25196500</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s10.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 10</subfield>
-      <subfield code="s">25074188</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s11.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 11</subfield>
-      <subfield code="s">25074188</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s12.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 12</subfield>
-      <subfield code="s">25318812</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s13.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 13</subfield>
-      <subfield code="s">24829564</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s14.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 14</subfield>
-      <subfield code="s">25318812</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Hansteenxxxxxx_s15.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 15</subfield>
-      <subfield code="s">24951876</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
       <subfield code="f">Hansteenxxxxxx_s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 2</subfield>
@@ -49115,6 +49079,42 @@
       <subfield code="f">Hansteenxxxxxx_s9.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 9</subfield>
+      <subfield code="s">24951876</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s10.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 10</subfield>
+      <subfield code="s">25074188</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s11.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 11</subfield>
+      <subfield code="s">25074188</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s12.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 12</subfield>
+      <subfield code="s">25318812</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s13.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 13</subfield>
+      <subfield code="s">24829564</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s14.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 14</subfield>
+      <subfield code="s">25318812</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Hansteenxxxxxx_s15.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 15</subfield>
       <subfield code="s">24951876</subfield>
     </datafield>
   </record>
@@ -49586,12 +49586,6 @@
       <subfield code="s">19453948</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Segelck201231_s10.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Side 10</subfield>
-      <subfield code="s">19493508</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
       <subfield code="f">Segelck201231_s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 2</subfield>
@@ -49638,6 +49632,12 @@
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Side 9</subfield>
       <subfield code="s">20094484</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Segelck201231_s10.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 10</subfield>
+      <subfield code="s">19493508</subfield>
     </datafield>
   </record>
   <record>
@@ -51728,9 +51728,9 @@
       <subfield code="w">81218451430002204</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">BrochUdat2_s.tif</subfield>
+      <subfield code="f">BrochUdat2_sx.tif</subfield>
       <subfield code="q">image/tiff</subfield>
-      <subfield code="y">S</subfield>
+      <subfield code="y">???</subfield>
       <subfield code="s">21881052</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
@@ -52251,22 +52251,22 @@
       <subfield code="w">81218451430002204</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Boignet080659_as1.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Aside 1</subfield>
-      <subfield code="s">14687748</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Boignet080659_bs1.tif</subfield>
-      <subfield code="q">image/tiff</subfield>
-      <subfield code="y">Bside 1</subfield>
-      <subfield code="s">14333460</subfield>
-    </datafield>
-    <datafield ind1="4" ind2="0" tag="856">
       <subfield code="f">Boignet080659_f.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Konvoluttforside</subfield>
       <subfield code="s">14306436</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Boignet080659_s1.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 1</subfield>
+      <subfield code="s">14687748</subfield>
+    </datafield>
+    <datafield ind1="4" ind2="0" tag="856">
+      <subfield code="f">Boignet080659_s2.tif</subfield>
+      <subfield code="q">image/tiff</subfield>
+      <subfield code="y">Side 2</subfield>
+      <subfield code="s">14333460</subfield>
     </datafield>
   </record>
   <record>

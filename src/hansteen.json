@@ -8461,34 +8461,6 @@
         "sha1": "72fae9ae9083bbf785dd96f28bcc119df96f4ab8"
       },
       {
-        "filename": "AAstrandArtikke_s10.tif",
-        "label": "Side 10",
-        "filesize": 20826044,
-        "mimetype": "image/tiff",
-        "sha1": "3cdcbc66eb00fd1770dd78b13f3171071f044767"
-      },
-      {
-        "filename": "AAstrandArtikke_s11.tif",
-        "label": "Side 11",
-        "filesize": 21045700,
-        "mimetype": "image/tiff",
-        "sha1": "dcb959e0e263a95f0ae5d31801025ce21f66f6bb"
-      },
-      {
-        "filename": "AAstrandArtikke_s12.tif",
-        "label": "Side 12",
-        "filesize": 20826044,
-        "mimetype": "image/tiff",
-        "sha1": "bb2d8259b3e81dae4e14029afab5ba5303bec5d1"
-      },
-      {
-        "filename": "AAstrandArtikke_s13.tif",
-        "label": "Side 13",
-        "filesize": 20714676,
-        "mimetype": "image/tiff",
-        "sha1": "5b865537dd8fe3ccf38f623db98096057ece6a57"
-      },
-      {
         "filename": "AAstrandArtikke_s2.tif",
         "label": "Side 2",
         "filesize": 20826044,
@@ -8543,6 +8515,34 @@
         "filesize": 20714676,
         "mimetype": "image/tiff",
         "sha1": "004258d4088f362605ace3adbb6ade43ae0540d8"
+      },
+      {
+        "filename": "AAstrandArtikke_s10.tif",
+        "label": "Side 10",
+        "filesize": 20826044,
+        "mimetype": "image/tiff",
+        "sha1": "3cdcbc66eb00fd1770dd78b13f3171071f044767"
+      },
+      {
+        "filename": "AAstrandArtikke_s11.tif",
+        "label": "Side 11",
+        "filesize": 21045700,
+        "mimetype": "image/tiff",
+        "sha1": "dcb959e0e263a95f0ae5d31801025ce21f66f6bb"
+      },
+      {
+        "filename": "AAstrandArtikke_s12.tif",
+        "label": "Side 12",
+        "filesize": 20826044,
+        "mimetype": "image/tiff",
+        "sha1": "bb2d8259b3e81dae4e14029afab5ba5303bec5d1"
+      },
+      {
+        "filename": "AAstrandArtikke_s13.tif",
+        "label": "Side 13",
+        "filesize": 20714676,
+        "mimetype": "image/tiff",
+        "sha1": "5b865537dd8fe3ccf38f623db98096057ece6a57"
       }
     ]
   },
@@ -32994,48 +32994,6 @@
         "sha1": "3905c146544f05b76afdd5a4f8924ad0716899e2"
       },
       {
-        "filename": "Hansteenxxxxxx_s10.tif",
-        "label": "Side 10",
-        "filesize": 25074188,
-        "mimetype": "image/tiff",
-        "sha1": "8247520765fc2c3b57e85c570e6ed3373d161dd6"
-      },
-      {
-        "filename": "Hansteenxxxxxx_s11.tif",
-        "label": "Side 11",
-        "filesize": 25074188,
-        "mimetype": "image/tiff",
-        "sha1": "2018be34b6a336e309e9a4702b7c8c54968ebf14"
-      },
-      {
-        "filename": "Hansteenxxxxxx_s12.tif",
-        "label": "Side 12",
-        "filesize": 25318812,
-        "mimetype": "image/tiff",
-        "sha1": "06f078a57803f8836b972c6fa7fb21077544dc98"
-      },
-      {
-        "filename": "Hansteenxxxxxx_s13.tif",
-        "label": "Side 13",
-        "filesize": 24829564,
-        "mimetype": "image/tiff",
-        "sha1": "cc4edf3dc7556d0c974ce0a7e3d378d7f9bbe46f"
-      },
-      {
-        "filename": "Hansteenxxxxxx_s14.tif",
-        "label": "Side 14",
-        "filesize": 25318812,
-        "mimetype": "image/tiff",
-        "sha1": "3ad1fee603660e6f0ba50b8231e1bfd86a77d239"
-      },
-      {
-        "filename": "Hansteenxxxxxx_s15.tif",
-        "label": "Side 15",
-        "filesize": 24951876,
-        "mimetype": "image/tiff",
-        "sha1": "689aa913103b14c902a821bc0685acb141ab41f5"
-      },
-      {
         "filename": "Hansteenxxxxxx_s2.tif",
         "label": "Side 2",
         "filesize": 25196500,
@@ -33090,6 +33048,48 @@
         "filesize": 24951876,
         "mimetype": "image/tiff",
         "sha1": "71ea9c20fcc4dc06971f6c99e8573d34dd7ad2e5"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s10.tif",
+        "label": "Side 10",
+        "filesize": 25074188,
+        "mimetype": "image/tiff",
+        "sha1": "8247520765fc2c3b57e85c570e6ed3373d161dd6"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s11.tif",
+        "label": "Side 11",
+        "filesize": 25074188,
+        "mimetype": "image/tiff",
+        "sha1": "2018be34b6a336e309e9a4702b7c8c54968ebf14"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s12.tif",
+        "label": "Side 12",
+        "filesize": 25318812,
+        "mimetype": "image/tiff",
+        "sha1": "06f078a57803f8836b972c6fa7fb21077544dc98"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s13.tif",
+        "label": "Side 13",
+        "filesize": 24829564,
+        "mimetype": "image/tiff",
+        "sha1": "cc4edf3dc7556d0c974ce0a7e3d378d7f9bbe46f"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s14.tif",
+        "label": "Side 14",
+        "filesize": 25318812,
+        "mimetype": "image/tiff",
+        "sha1": "3ad1fee603660e6f0ba50b8231e1bfd86a77d239"
+      },
+      {
+        "filename": "Hansteenxxxxxx_s15.tif",
+        "label": "Side 15",
+        "filesize": 24951876,
+        "mimetype": "image/tiff",
+        "sha1": "689aa913103b14c902a821bc0685acb141ab41f5"
       }
     ]
   },
@@ -33411,13 +33411,6 @@
         "sha1": "1702f652ef42c47d94990b24aaed0794c61b1f8d"
       },
       {
-        "filename": "Segelck201231_s10.tif",
-        "label": "Side 10",
-        "filesize": 19493508,
-        "mimetype": "image/tiff",
-        "sha1": "d639ea6c1b07406d733109d0cd44233c017fc604"
-      },
-      {
         "filename": "Segelck201231_s2.tif",
         "label": "Side 2",
         "filesize": 19660156,
@@ -33472,6 +33465,13 @@
         "filesize": 20094484,
         "mimetype": "image/tiff",
         "sha1": "667fa030f254c5622db991b19dd597c5be827885"
+      },
+      {
+        "filename": "Segelck201231_s10.tif",
+        "label": "Side 10",
+        "filesize": 19493508,
+        "mimetype": "image/tiff",
+        "sha1": "d639ea6c1b07406d733109d0cd44233c017fc604"
       }
     ]
   },
