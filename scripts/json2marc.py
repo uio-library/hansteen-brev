@@ -116,6 +116,7 @@ def build_doc(xml, row, authorities):
         ldr[7]  = 'm'  # Bibliographic level: Monograph/Item
         ldr[9]  = 'a'  # Character coding scheme: UCS/Unicode
         ldr[18] = 'c'  # Descriptive cataloging form: ISBD punctuation omitted
+        ldr[20:24] = '4500'  # Alma vil gjerne ha dette
         xml.leader(''.join(ldr))
 
         # ---------------------------------------------------------------------------
