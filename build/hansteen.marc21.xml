@@ -6608,7 +6608,7 @@
       <subfield code="c">1864-01-01</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">3 s.</subfield>
+      <subfield code="a">7 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -6657,84 +6657,26 @@
       <subfield code="y">Side 3</subfield>
       <subfield code="s">24829564</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18640101xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand010164v</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 1. januar 1864 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1864-01-01</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">4 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1864-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010164v_v1s1.tif</subfield>
+      <subfield code="f">AAstrand010164_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">24111068</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010164v_v1s2.tif</subfield>
+      <subfield code="f">AAstrand010164_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">24218004</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010164v_v1s3.tif</subfield>
+      <subfield code="f">AAstrand010164_v1s3.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 3</subfield>
       <subfield code="s">24225692</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010164v_v1s4.tif</subfield>
+      <subfield code="f">AAstrand010164_v1s4.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 4</subfield>
       <subfield code="s">24103956</subfield>
@@ -7067,7 +7009,7 @@
       <subfield code="c">1819-09-14</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">3 s.</subfield>
+      <subfield code="a">4 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -7116,66 +7058,8 @@
       <subfield code="y">Side 2</subfield>
       <subfield code="s">18469708</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18190914xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">Banks140919v</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Banks, Joseph</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)90333869</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 14. september 1819 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Banks, Joseph</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1819-09-14</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">1 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1819-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">Banks140919v_v1s1.tif</subfield>
+      <subfield code="f">Banks140919_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">23117196</subfield>
@@ -10201,7 +10085,7 @@
       <subfield code="c">1860-09-01</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">2 s.</subfield>
+      <subfield code="a">9 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -10244,102 +10128,44 @@
       <subfield code="y">Side 1</subfield>
       <subfield code="s">22120164</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18600901xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand010960v</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 1. september 1860 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1860-09-01</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">7 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1860-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s1.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">22224988</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s2.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">22224988</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s3.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s3.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 3</subfield>
       <subfield code="s">22341348</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s4.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s4.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 4</subfield>
       <subfield code="s">22004956</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s5.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s5.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 5</subfield>
       <subfield code="s">22235372</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s6.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s6.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 6</subfield>
       <subfield code="s">22346540</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand010960v_v1s7.tif</subfield>
+      <subfield code="f">AAstrand010960_v1s7.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 7</subfield>
       <subfield code="s">22346540</subfield>
@@ -10918,7 +10744,7 @@
       <subfield code="c">1859-06-12</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">4 s.</subfield>
+      <subfield code="a">7 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -10973,133 +10799,20 @@
       <subfield code="y">Side 4</subfield>
       <subfield code="s">21999188</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18590612xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand12065v1</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 12. juni 1859 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1859-06-12</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">2 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Første vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1859-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand12065v1_v1s1.tif</subfield>
+      <subfield code="f">AAstrand120659_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">21784924</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand12065v1_v1s2.tif</subfield>
+      <subfield code="f">AAstrand120659_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">21665676</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18590612xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand12065v2</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 12. juni 1859 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1859-06-12</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">1 s.</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1859-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand12065v2_v2s1.tif</subfield>
+      <subfield code="f">AAstrand120659_v2s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 2, side 1</subfield>
       <subfield code="s">23728756</subfield>
@@ -11880,7 +11593,7 @@
       <subfield code="c">1861-09-19</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">3 s.</subfield>
+      <subfield code="a">5 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -11929,72 +11642,14 @@
       <subfield code="y">Side 2</subfield>
       <subfield code="s">24956108</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18610919xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand190961v</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 19. september 1861 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1861-09-19</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">2 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1861-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand190961v_v1s1.tif</subfield>
+      <subfield code="f">AAstrand190961_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">25074188</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand190961v_v1s2.tif</subfield>
+      <subfield code="f">AAstrand190961_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">25441124</subfield>
@@ -12346,7 +12001,7 @@
       <subfield code="c">1860-06-25</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">3 s.</subfield>
+      <subfield code="a">6 s.</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="535">
       <subfield code="3">Christopher Hansteens korrespondanse</subfield>
@@ -12395,136 +12050,20 @@
       <subfield code="y">Side 2</subfield>
       <subfield code="s">25441124</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18600625xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand25066v1</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 25. juni 1860 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1860-06-25</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">2 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Første vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1860-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand25066v1_v1s1.tif</subfield>
+      <subfield code="f">AAstrand250660_v1s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 1</subfield>
       <subfield code="s">11157484</subfield>
     </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand25066v1_v1s2.tif</subfield>
+      <subfield code="f">AAstrand250660_v1s2.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 1, side 2</subfield>
       <subfield code="s">11386804</subfield>
     </datafield>
-  </record>
-  <record>
-    <leader>     ntm a        c     </leader>
-    <controlfield tag="005">20181127225134.9</controlfield>
-    <controlfield tag="007">tz</controlfield>
-    <controlfield tag="008">181101e18600625xx |||||||||| 00||i|   |d</controlfield>
-    <datafield ind1="8" ind2=" " tag="024">
-      <subfield code="a">AAstrand25066v2</subfield>
-      <subfield code="2">UIO_FUH</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="040">
-      <subfield code="a">NoOU</subfield>
-      <subfield code="b">nob</subfield>
-      <subfield code="e">katreg</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="100">
-      <subfield code="a">Åstrand, J. J.</subfield>
-      <subfield code="4">crp</subfield>
-      <subfield code="0">(NO-TrBIB)12728</subfield>
-    </datafield>
-    <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 25. juni 1860 [til] Hansteen, Christopher</subfield>
-      <subfield code="c">[fra] Åstrand, J. J.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="c">1860-06-25</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="300">
-      <subfield code="a">1 s.</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="500">
-      <subfield code="a">Andre vedlegg til brev av samme dato</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="535">
-      <subfield code="3">Christopher Hansteens korrespondanse</subfield>
-      <subfield code="a">Observatoriet</subfield>
-      <subfield code="b">Observatoriegata 1, Oslo</subfield>
-      <subfield code="g">no</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="540">
-      <subfield code="a">Falt i det fri</subfield>
-    </datafield>
-    <datafield ind1=" " ind2=" " tag="542">
-      <subfield code="j">1860-</subfield>
-      <subfield code="l">Falt i det fri</subfield>
-      <subfield code="m">Upublisert</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="700">
-      <subfield code="a">Hansteen, Christopher</subfield>
-      <subfield code="4">rcp</subfield>
-      <subfield code="0">(NO-TrBIB)90712173</subfield>
-    </datafield>
-    <datafield ind1="0" ind2=" " tag="773">
-      <subfield code="t">Christopher Hansteens korrespondanse</subfield>
-    </datafield>
-    <datafield ind1="1" ind2=" " tag="787">
-      <subfield code="w">81218451430002204</subfield>
-    </datafield>
     <datafield ind1="4" ind2="0" tag="856">
-      <subfield code="f">AAstrand25066v2_v2s1.tif</subfield>
+      <subfield code="f">AAstrand250660_v2s1.tif</subfield>
       <subfield code="q">image/tiff</subfield>
       <subfield code="y">Vedlegg 2, side 1</subfield>
       <subfield code="s">10900148</subfield>

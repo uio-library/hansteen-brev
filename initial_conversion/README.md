@@ -1,4 +1,4 @@
-## The 2018 conversion
+# Notes fromt the 2018 cleanup & conversion
 
 Run `make clean && make` to re-do the conversion.
 
@@ -6,12 +6,11 @@ Run `make clean && make` to re-do the conversion.
 2. `csv2json.py` reads the tables from`src/*.csv` and creates a simpler JSON structure
    that is stored in `build/hansteen.json`.
 
-### Cleanup
+## Cleanup
 
-#### Duplicate identifiers (tilvekstnr)
+### Establishing `tilvekstnr` as a unique identifier
 
-The table `foto_kort` contains one row per letter.
-The column `tilvekstnr` was *mostly* unique, but with a few exceptions:
+The column `tilvekstnr` was *mostly* unique, but with a few exceptions.
 
 Tilvekstnr | Foto_kort_id | Filnavn | Action taken
 ---|---|---|---
@@ -31,6 +30,16 @@ Tilvekstnr | Foto_kort_id | Filnavn | Action taken
 | 642 | Svanberg220551bf.tif<br>Svanberg220551bs1.tif<br>Svanberg220551bs2.tif<br>Svanberg220551bs3.tif | Rename to `Svanbe220551_2`
 `Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Delete. This is the same letter as 691 and there is no difference in the description.
 | 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | No change needed.
+
+### Establishing filenames based on the `tilvekstnr`
+
+The files had filenames whose base were *similar* to the `tilvekstnr`, but it seems like they had been entered manually since they could vary quite a bit, sometimes an abbreviated
+version, sometimes an elongated version, sometimes a typo in the name, and so on.
+Since there is no need to have this degree of freedom, the filenames were normalized based on the `tilvekstnr`, taking care that no files were overwritten or lost in the renaming process.
+The new filenames are similar to the old ones, but are much more consistent.
+
+### Cleaning up invalid dates
+
 
 
 ### TIFF-files with multiple pages
@@ -67,4 +76,17 @@ Schumcher060332s1.tif | Schumacher060332s1.tif
 sebald140354 | Sebald140354s1.tif
 Brewter110324s1.tif | Brewster110324s1.tif
 Brimont110457s1.tif | Brimont110857s1.tif
+
+
+### Merging of letters and their attachments
+
+Attachments sometimes contained their own records, othertimes not.
+The standalone cases were merged with their parent letters so that attachments never have their own record.
+
+* `AAstrand010960v` merged into `AAstrand010960`
+* `AAstrand010164v` merged into `AAstrand010164`
+* `Banks140919v` merged into `Banks140919`
+* `AAstrand12065v1` and `AAstrand12065v2` merged into `AAstrand120659`
+* `AAstrand190961v` merged into `AAstrand190961`
+* `AAstrand25066v1` and `AAstrand25066v2` merged into `AAstrand250660`
 

@@ -4402,54 +4402,30 @@
         "filesize": 24829564,
         "mimetype": "image/tiff",
         "sha1": "9f0a178aa764ed5ad35f99d2baf5fece27ef24bc"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand010164v",
-    "descriptive": {
-      "date": "1864-01-01",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        }
       },
-      "comment": "Vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-05-27",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand010164v_v1s1.tif",
+        "filename": "AAstrand010164_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 24111068,
         "mimetype": "image/tiff",
         "sha1": "57cc38f11ef1bb4753f084bddfe826a7b0b03e1c"
       },
       {
-        "filename": "AAstrand010164v_v1s2.tif",
+        "filename": "AAstrand010164_v1s2.tif",
         "label": "Vedlegg 1, side 2",
         "filesize": 24218004,
         "mimetype": "image/tiff",
         "sha1": "66157f3cdf18b562d61635d547d9cb4a59754a68"
       },
       {
-        "filename": "AAstrand010164v_v1s3.tif",
+        "filename": "AAstrand010164_v1s3.tif",
         "label": "Vedlegg 1, side 3",
         "filesize": 24225692,
         "mimetype": "image/tiff",
         "sha1": "012622cbd1b95cfb34576b8d1cfbaf1d991d235e"
       },
       {
-        "filename": "AAstrand010164v_v1s4.tif",
+        "filename": "AAstrand010164_v1s4.tif",
         "label": "Vedlegg 1, side 4",
         "filesize": 24103956,
         "mimetype": "image/tiff",
@@ -4700,33 +4676,9 @@
         "filesize": 18469708,
         "mimetype": "image/tiff",
         "sha1": "d30cad3ce55b879b5f83392adbd333841545d45e"
-      }
-    ]
-  },
-  {
-    "id": "Banks140919v",
-    "descriptive": {
-      "date": "1819-09-14",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Banks, Joseph"
-        }
       },
-      "comment": "Vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-05-27",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "Banks140919v_v1s1.tif",
+        "filename": "Banks140919_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 23117196,
         "mimetype": "image/tiff",
@@ -6744,75 +6696,51 @@
         "filesize": 22120164,
         "mimetype": "image/tiff",
         "sha1": "02e9418a053ef86f6dfad8836559b69d4eb75c76"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand010960v",
-    "descriptive": {
-      "date": "1860-09-01",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        }
       },
-      "comment": "Vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-23",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand010960v_v1s1.tif",
+        "filename": "AAstrand010960_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 22224988,
         "mimetype": "image/tiff",
         "sha1": "a675652886a54c53b4c7fc305018252906bf1f85"
       },
       {
-        "filename": "AAstrand010960v_v1s2.tif",
+        "filename": "AAstrand010960_v1s2.tif",
         "label": "Vedlegg 1, side 2",
         "filesize": 22224988,
         "mimetype": "image/tiff",
         "sha1": "e8a979beac099925bcba14fdc8c5e8e72c3ed502"
       },
       {
-        "filename": "AAstrand010960v_v1s3.tif",
+        "filename": "AAstrand010960_v1s3.tif",
         "label": "Vedlegg 1, side 3",
         "filesize": 22341348,
         "mimetype": "image/tiff",
         "sha1": "ad88e3747b952ab3aa41455cf2f47cb0e10d4e4c"
       },
       {
-        "filename": "AAstrand010960v_v1s4.tif",
+        "filename": "AAstrand010960_v1s4.tif",
         "label": "Vedlegg 1, side 4",
         "filesize": 22004956,
         "mimetype": "image/tiff",
         "sha1": "490177d8e43ca0bd43fa1b0eec5bc273a490a297"
       },
       {
-        "filename": "AAstrand010960v_v1s5.tif",
+        "filename": "AAstrand010960_v1s5.tif",
         "label": "Vedlegg 1, side 5",
         "filesize": 22235372,
         "mimetype": "image/tiff",
         "sha1": "7b085577366916cc995fa79e9b926ec7c24f5933"
       },
       {
-        "filename": "AAstrand010960v_v1s6.tif",
+        "filename": "AAstrand010960_v1s6.tif",
         "label": "Vedlegg 1, side 6",
         "filesize": 22346540,
         "mimetype": "image/tiff",
         "sha1": "8a1474431f44a3699d383fbf96703972e75eb1ea"
       },
       {
-        "filename": "AAstrand010960v_v1s7.tif",
+        "filename": "AAstrand010960_v1s7.tif",
         "label": "Vedlegg 1, side 7",
         "filesize": 22346540,
         "mimetype": "image/tiff",
@@ -7247,71 +7175,23 @@
         "filesize": 21999188,
         "mimetype": "image/tiff",
         "sha1": "b67f8b2da0cc3f21749b42b9831ce1fbd944b46e"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand12065v1",
-    "descriptive": {
-      "date": "1859-06-12",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        },
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        }
       },
-      "comment": "Første vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-23",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand12065v1_v1s1.tif",
+        "filename": "AAstrand120659_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 21784924,
         "mimetype": "image/tiff",
         "sha1": "3f6eecec9271f31a366bda07eea52fd489ae515e"
       },
       {
-        "filename": "AAstrand12065v1_v1s2.tif",
+        "filename": "AAstrand120659_v1s2.tif",
         "label": "Vedlegg 1, side 2",
         "filesize": 21665676,
         "mimetype": "image/tiff",
         "sha1": "2f69d7814301f215e9313f123e0206cd82f82cea"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand12065v2",
-    "descriptive": {
-      "date": "1859-06-12",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        }
       },
-      "comment": null
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-23",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand12065v2_v2s1.tif",
+        "filename": "AAstrand120659_v2s1.tif",
         "label": "Vedlegg 2, side 1",
         "filesize": 23728756,
         "mimetype": "image/tiff",
@@ -7857,40 +7737,16 @@
         "filesize": 24956108,
         "mimetype": "image/tiff",
         "sha1": "737a23f83be9b9a43c9751478a651f0fcb4fba54"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand190961v",
-    "descriptive": {
-      "date": "1861-09-19",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        }
       },
-      "comment": "Vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-24",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand190961v_v1s1.tif",
+        "filename": "AAstrand190961_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 25074188,
         "mimetype": "image/tiff",
         "sha1": "90d1d9d65e22c914cf06020cba1e1e2b46c2a37c"
       },
       {
-        "filename": "AAstrand190961v_v1s2.tif",
+        "filename": "AAstrand190961_v1s2.tif",
         "label": "Vedlegg 1, side 2",
         "filesize": 25441124,
         "mimetype": "image/tiff",
@@ -8162,71 +8018,23 @@
         "filesize": 25441124,
         "mimetype": "image/tiff",
         "sha1": "a37c52dd67cd6022c1e771d0ceae3182a71671ce"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand25066v1",
-    "descriptive": {
-      "date": "1860-06-25",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        },
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        }
       },
-      "comment": "Første vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-24",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand25066v1_v1s1.tif",
+        "filename": "AAstrand250660_v1s1.tif",
         "label": "Vedlegg 1, side 1",
         "filesize": 11157484,
         "mimetype": "image/tiff",
         "sha1": "b1bbfecb16a02009b253e9330b740cb885e319b6"
       },
       {
-        "filename": "AAstrand25066v1_v1s2.tif",
+        "filename": "AAstrand250660_v1s2.tif",
         "label": "Vedlegg 1, side 2",
         "filesize": 11386804,
         "mimetype": "image/tiff",
         "sha1": "e4703f0607c8ef66e1a2924704f075c860a2b670"
-      }
-    ]
-  },
-  {
-    "id": "AAstrand25066v2",
-    "descriptive": {
-      "date": "1860-06-25",
-      "date_comment": null,
-      "places": [],
-      "agents": {
-        "correspondent": {
-          "name": "Åstrand, J. J."
-        },
-        "addressee": {
-          "name": "Hansteen, Christopher"
-        }
       },
-      "comment": "Andre vedlegg til brev av samme dato"
-    },
-    "administrative": {
-      "described_by": "Håkon Korsvold",
-      "described_at": "2004-09-24",
-      "collection": "UIO FUH"
-    },
-    "structure": [
       {
-        "filename": "AAstrand25066v2_v2s1.tif",
+        "filename": "AAstrand250660_v2s1.tif",
         "label": "Vedlegg 2, side 1",
         "filesize": 10900148,
         "mimetype": "image/tiff",
