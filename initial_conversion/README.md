@@ -31,6 +31,8 @@ Tilvekstnr | Foto_kort_id | Filnavn | Action taken
 `Baeyer010964` | 691 | Baeyer010964b.tif<br>Baeyer010964f.tif<br>Baeyer010964s1.tif | Delete. This is the same letter as 691 and there is no difference in the description.
 | 739 | Baeyer010964b_2.tif<br>Baeyer010964f_2.tif<br>Baeyer010964s1_2.tif | No change needed.
 
+This process reduced the number of records from 717 to 715.
+
 ### Establishing filenames based on the `tilvekstnr`
 
 The files had filenames whose base were *similar* to the `tilvekstnr`, but it seems like they had been entered manually since they could vary quite a bit, sometimes an abbreviated
@@ -91,3 +93,4 @@ The standalone cases were merged with their parent letters so that attachments n
 * `AAstrand190961v` merged into `AAstrand190961`
 * `AAstrand25066v1` and `AAstrand25066v2` merged into `AAstrand250660`
 
+This process reduced the number of records from 715 to 707.

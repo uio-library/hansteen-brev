@@ -1,6 +1,6 @@
 # Christopher Hansteen's correspondence
 
-This repo contains metadata for 715 scientific letters received by
+This repo contains metadata for 707 scientific letters received by
 [Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/).
 The letters themselves are stored in [Observatoriet](https://no.wikipedia.org/wiki/Observatoriet) in Oslo.
 Digitized representations are available at https://uio-library.github.io/hansteen-brev/ .
@@ -20,8 +20,8 @@ when the new building was conceived in 1934.
 
 ### 2004/2005 digitization project
 
-In 2004/2005 <s>717</s> (715 after removing duplicates) letters were digitized by
-Museumsprosjektet (later split into EDD og MUV) in collaboration with the University Library,
+In 2004/2005 707 letters were digitized by Museumsprosjektet (later split into EDD og MUV)
+in collaboration with the University Library,
 and metadata was registered in an Oracle database.
 The digitization was brought to a stop halfways because of lack of funding
 and the completed part was never published as intended.
