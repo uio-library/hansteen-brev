@@ -60,6 +60,7 @@ Perthes-Besser300861v1s1.tif | Perthes-Besser300861v1s1-0.tif | Deleting as colo
 
 From | To
 ----|----
+AAastrand010159 | AAstrand010159
 Akrell180144sf.tif | Akrell180144f.tif
 Berzeulius080844sf.tif | Berzeulius080844f.tif
 Bohr310718s2s1.tif | Bohr310718s2d1.tif

@@ -6603,7 +6603,7 @@
     ]
   },
   {
-    "id": "AAastrand010159",
+    "id": "AAstrand010159",
     "descriptive": {
       "date": "1859-01-01",
       "date_comment": null,
@@ -6632,21 +6632,21 @@
     },
     "structure": [
       {
-        "filename": "AAastrand010159_f.tif",
+        "filename": "AAstrand010159_f.tif",
         "label": "Konvoluttforside",
         "filesize": 25368548,
         "mimetype": "image/tiff",
         "sha1": "f83ba7eb97f017b3bec7b3769207a8c25c10bcdd"
       },
       {
-        "filename": "AAastrand010159_s1.tif",
+        "filename": "AAstrand010159_s1.tif",
         "label": "Side 1",
         "filesize": 25808060,
         "mimetype": "image/tiff",
         "sha1": "6f41f9242ce371996a63fee6859681a1aec160eb"
       },
       {
-        "filename": "AAastrand010159_s2.tif",
+        "filename": "AAstrand010159_s2.tif",
         "label": "Side 2",
         "filesize": 25563436,
         "mimetype": "image/tiff",
