@@ -68,7 +68,7 @@
     "structure": [
       {
         "filename": "Boeck051225_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 11880900,
         "mimetype": "image/tiff",
         "sha1": "7c261891e767fcd2602cd912c37c08758080d92f"
@@ -335,7 +335,7 @@
     "structure": [
       {
         "filename": "Boeck201225_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 11700900,
         "mimetype": "image/tiff",
         "sha1": "d403956de73cf3b5bfb559290e73aee916443317"
@@ -373,7 +373,7 @@
     "structure": [
       {
         "filename": "Boeck240426_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 12047220,
         "mimetype": "image/tiff",
         "sha1": "a8d6d2458d7f92f41c885c3cb7cd6c5dd58a5304"
@@ -577,7 +577,7 @@
     "structure": [
       {
         "filename": "Bond130651_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 4125660,
         "mimetype": "image/tiff",
         "sha1": "62b9dc338deb84acd3f0a1928d48960ce116f12e"
@@ -744,7 +744,7 @@
     "structure": [
       {
         "filename": "Busch210851_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13093812,
         "mimetype": "image/tiff",
         "sha1": "6957d7d2a2ca8e92a339e36ab3c41a18e80e21aa"
@@ -1212,7 +1212,7 @@
     "structure": [
       {
         "filename": "Buys-Ballot0504_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13443794,
         "mimetype": "image/tiff",
         "sha1": "b82ff26e13ae9757b8354b29cefec4cf9f0d9792"
@@ -1271,7 +1271,7 @@
     "structure": [
       {
         "filename": "Buys-Ballot0802_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25468898,
         "mimetype": "image/tiff",
         "sha1": "4fba18897274c75105a106a704ca829668db7bce"
@@ -1420,7 +1420,7 @@
     "structure": [
       {
         "filename": "Buys-Ballot1409_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14124443,
         "mimetype": "image/tiff",
         "sha1": "3411a50242426e51df97bb8a9672064a8d49e87c"
@@ -1531,7 +1531,7 @@
     "structure": [
       {
         "filename": "Bretteville0704_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25310786,
         "mimetype": "image/tiff",
         "sha1": "c6eb2674edcba9fe6ddcceb3c2f3629abb49ff0b"
@@ -1583,7 +1583,7 @@
     "structure": [
       {
         "filename": "Bretteville1007_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13117094,
         "mimetype": "image/tiff",
         "sha1": "7ff026428bf37f9b94e1e6f303cf39b653c457d8"
@@ -1635,7 +1635,7 @@
     "structure": [
       {
         "filename": "Brauer190555_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26209202,
         "mimetype": "image/tiff",
         "sha1": "4167c69cde2074ff1d3e6de1de4f54cfb1478758"
@@ -1725,7 +1725,7 @@
     "structure": [
       {
         "filename": "Barth200324_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23652959,
         "mimetype": "image/tiff",
         "sha1": "74779e6d086f1c4abec1f1389cc864bbe1d87d8f"
@@ -1774,7 +1774,7 @@
     "structure": [
       {
         "filename": "Berzeulius0401_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22828028,
         "mimetype": "image/tiff",
         "sha1": "1e5899638b171d5c0815b2d003b02fba456725ea"
@@ -1826,7 +1826,7 @@
     "structure": [
       {
         "filename": "Berzelius040724_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22358668,
         "mimetype": "image/tiff",
         "sha1": "47778e9330bdfebf601dcead226554805d317a48"
@@ -1885,7 +1885,7 @@
     "structure": [
       {
         "filename": "Berzelius050531_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18582220,
         "mimetype": "image/tiff",
         "sha1": "ba52683649774b99d2132ccb92091bc19aa29b7b"
@@ -1982,7 +1982,7 @@
     "structure": [
       {
         "filename": "Berzelius060646_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24270292,
         "mimetype": "image/tiff",
         "sha1": "562a8f2b681e3d9ef88b1a0eb6ccaca0741e461a"
@@ -2079,7 +2079,7 @@
     "structure": [
       {
         "filename": "Berzelius071042_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24004852,
         "mimetype": "image/tiff",
         "sha1": "1fcad87d2dbd9db6c8672c38dfe1c90076d04926"
@@ -2169,7 +2169,7 @@
     "structure": [
       {
         "filename": "Berzelius080844_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23921428,
         "mimetype": "image/tiff",
         "sha1": "a9edc2cbc2993c6c6634e201ba4dc162efba5d8a"
@@ -2484,7 +2484,7 @@
     "structure": [
       {
         "filename": "Berzelius140838_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23546220,
         "mimetype": "image/tiff",
         "sha1": "25a97cadd5aa13ea50187e4e0540a439e6ee3e15"
@@ -2657,7 +2657,7 @@
     "structure": [
       {
         "filename": "Berzelius211131_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23167148,
         "mimetype": "image/tiff",
         "sha1": "0b30688d9b449d084cca77486afc9f47ff8cfd3a"
@@ -2709,7 +2709,7 @@
     "structure": [
       {
         "filename": "Berzelius250442_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24186868,
         "mimetype": "image/tiff",
         "sha1": "a154841831ffff335ef2600b93abd46db2395f98"
@@ -2761,7 +2761,7 @@
     "structure": [
       {
         "filename": "Berzelius250644_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24103444,
         "mimetype": "image/tiff",
         "sha1": "d836c1602ec99f906f961abaef8e38249c8c4f95"
@@ -2872,7 +2872,7 @@
     "structure": [
       {
         "filename": "Berzelius270931_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23786468,
         "mimetype": "image/tiff",
         "sha1": "f3873c02965c0697144983baabcac545c02318a5"
@@ -2924,7 +2924,7 @@
     "structure": [
       {
         "filename": "Berzelius291142_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23860460,
         "mimetype": "image/tiff",
         "sha1": "25ac7d2285a2c235e30ab289d751a5f4db3536b4"
@@ -3177,7 +3177,7 @@
     "structure": [
       {
         "filename": "Bohr130920_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21313740,
         "mimetype": "image/tiff",
         "sha1": "a75023f5a9f10efe838f0d314058671f41b4c1ad"
@@ -3236,7 +3236,7 @@
     "structure": [
       {
         "filename": "Bohr181218_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20880108,
         "mimetype": "image/tiff",
         "sha1": "e37b01c7e023c9300dc82d0d97e711022998d9b5"
@@ -3597,7 +3597,7 @@
     "structure": [
       {
         "filename": "BohrUdatert_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18163772,
         "mimetype": "image/tiff",
         "sha1": "3728c60b25d05f4f3059a4c600be8ce57af1909c"
@@ -3656,7 +3656,7 @@
     "structure": [
       {
         "filename": "Brandes200422_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24393188,
         "mimetype": "image/tiff",
         "sha1": "87d4127f60da7db1f61844e51619cdafcdb829eb"
@@ -3729,7 +3729,7 @@
     "structure": [
       {
         "filename": "Brandes250226_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21622220,
         "mimetype": "image/tiff",
         "sha1": "757f616a85ab91d408fa79cb12854d28b77e06c9"
@@ -3788,7 +3788,7 @@
     "structure": [
       {
         "filename": "Brandes310325_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21049452,
         "mimetype": "image/tiff",
         "sha1": "40aeef4358dd1b42f8977a411c08ccf57686244c"
@@ -3837,7 +3837,7 @@
     "structure": [
       {
         "filename": "TilBrandesU_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18488852,
         "mimetype": "image/tiff",
         "sha1": "7ae988aa47d63f5c8f8553b084b4c4f03f8e60a8"
@@ -3882,7 +3882,7 @@
     "structure": [
       {
         "filename": "Akrell180144_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24270292,
         "mimetype": "image/tiff",
         "sha1": "56aad0850b906181f9f6237876669b1854730ca4"
@@ -3934,7 +3934,7 @@
     "structure": [
       {
         "filename": "Akrell210342_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24186868,
         "mimetype": "image/tiff",
         "sha1": "45401abf9574fcbc2453b701dee68264c0401885"
@@ -3986,7 +3986,7 @@
     "structure": [
       {
         "filename": "Andresen201214_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15405492,
         "mimetype": "image/tiff",
         "sha1": "7b26f914d004e5e454a5b61ddf840b094e4f3ace"
@@ -4190,7 +4190,7 @@
     "structure": [
       {
         "filename": "Barlow150131_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18173436,
         "mimetype": "image/tiff",
         "sha1": "87efdb33b43ab742e8566bb4cabc653d55164f54"
@@ -4280,7 +4280,7 @@
     "structure": [
       {
         "filename": "Barlow270328_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18765812,
         "mimetype": "image/tiff",
         "sha1": "227ca4259872b2fc8043de1075b4276c40e43e25"
@@ -4561,7 +4561,7 @@
     "structure": [
       {
         "filename": "Anker200517_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13226148,
         "mimetype": "image/tiff",
         "sha1": "b2bf86b6f8cef53dcd98aa51021205c7ac5c8206"
@@ -4658,7 +4658,7 @@
     "structure": [
       {
         "filename": "Banks140919_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19031636,
         "mimetype": "image/tiff",
         "sha1": "545869b21802f4b67a3706d29ae47561ca066a89"
@@ -4769,7 +4769,7 @@
     "structure": [
       {
         "filename": "Brewster100621_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21976742,
         "mimetype": "image/tiff",
         "sha1": "a8b8dd340d9d62b7a4465c96685c3ee2fd4f942f"
@@ -4828,7 +4828,7 @@
     "structure": [
       {
         "filename": "Brewster241023_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18810980,
         "mimetype": "image/tiff",
         "sha1": "fe8d59610cb8e57eeb58274e846fbad2a04f00d8"
@@ -4887,7 +4887,7 @@
     "structure": [
       {
         "filename": "Airz010255_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19055836,
         "mimetype": "image/tiff",
         "sha1": "d9112ceabf2a273ce6065fe20392c25030d2cbc9"
@@ -5832,7 +5832,7 @@
     "structure": [
       {
         "filename": "Argelander07083_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24707252,
         "mimetype": "image/tiff",
         "sha1": "b07c96aecc7b79418fc2f20761f5e480194b651b"
@@ -5950,7 +5950,7 @@
     "structure": [
       {
         "filename": "Argelander18022_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24584940,
         "mimetype": "image/tiff",
         "sha1": "3323d0423d91dace91fecc20bc44741fa24a0acf"
@@ -6009,7 +6009,7 @@
     "structure": [
       {
         "filename": "Argelander18123_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24707252,
         "mimetype": "image/tiff",
         "sha1": "b3a2206c95168067eb78f3978b523f672331c306"
@@ -6068,7 +6068,7 @@
     "structure": [
       {
         "filename": "Argelander26082_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24225692,
         "mimetype": "image/tiff",
         "sha1": "399f5066227500d35fbec20b0b58e598e2768192"
@@ -6373,7 +6373,7 @@
     "structure": [
       {
         "filename": "Agardh140552_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25491316,
         "mimetype": "image/tiff",
         "sha1": "84d9ef8fa9bc273851a6f312a801c745b08ed204"
@@ -6432,7 +6432,7 @@
     "structure": [
       {
         "filename": "Agardh240250_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25078788,
         "mimetype": "image/tiff",
         "sha1": "bee0f064a8dba352795fcf8c4147d0de527d04c5"
@@ -6477,7 +6477,7 @@
     "structure": [
       {
         "filename": "Arnold_Dent0603_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19726028,
         "mimetype": "image/tiff",
         "sha1": "d0ea5a017eaea6d4b591978b41f0250b8b7696cc"
@@ -6529,7 +6529,7 @@
     "structure": [
       {
         "filename": "Arnold_Dent1203_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20067850,
         "mimetype": "image/tiff",
         "sha1": "51e35ac14d56a15be144797dd424821b28fbf0c1"
@@ -6574,7 +6574,7 @@
     "structure": [
       {
         "filename": "NJAnderson16035_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25806308,
         "mimetype": "image/tiff",
         "sha1": "1249d7ee7da3586e1f036ba3acc54572f782a9e3"
@@ -6633,7 +6633,7 @@
     "structure": [
       {
         "filename": "AAastrand010159_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25368548,
         "mimetype": "image/tiff",
         "sha1": "f83ba7eb97f017b3bec7b3769207a8c25c10bcdd"
@@ -6685,7 +6685,7 @@
     "structure": [
       {
         "filename": "AAstrand010960_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22124204,
         "mimetype": "image/tiff",
         "sha1": "7f3a8c335083d0b7eb50489f325d9f60661d8929"
@@ -6869,7 +6869,7 @@
     "structure": [
       {
         "filename": "AAstrand050359_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25284068,
         "mimetype": "image/tiff",
         "sha1": "b144f91f6bf5998e37a07290f4aaca95a6ee484f"
@@ -6980,7 +6980,7 @@
     "structure": [
       {
         "filename": "AAstrand090959_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25015268,
         "mimetype": "image/tiff",
         "sha1": "9c8b5a6186c57a4155e24d95dc536f5e1acfa50e"
@@ -7070,7 +7070,7 @@
     "structure": [
       {
         "filename": "AAstrand120657_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25637348,
         "mimetype": "image/tiff",
         "sha1": "364a99a68f28dc394ec64c97ecb6c114ac40285f"
@@ -7268,7 +7268,7 @@
     "structure": [
       {
         "filename": "AAstrand140359_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21968628,
         "mimetype": "image/tiff",
         "sha1": "19d989c50b76c5427cfad312f56e945d5da18686"
@@ -7313,7 +7313,7 @@
     "structure": [
       {
         "filename": "AAstrand140658_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24838628,
         "mimetype": "image/tiff",
         "sha1": "79aaca26d7346b4d33c65a15d37629ce094de074"
@@ -7372,7 +7372,7 @@
     "structure": [
       {
         "filename": "AAstrand0150261_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23913876,
         "mimetype": "image/tiff",
         "sha1": "d7224d9d00fbf272dcc2b41549ecb2428dc8bab2"
@@ -7431,7 +7431,7 @@
     "structure": [
       {
         "filename": "AAstrand150759_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21829324,
         "mimetype": "image/tiff",
         "sha1": "9020a68138b5bce881dbbd832f9eb11216fe6ce2"
@@ -7504,7 +7504,7 @@
     "structure": [
       {
         "filename": "AAstrand180258_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25107428,
         "mimetype": "image/tiff",
         "sha1": "ef65d0ebfce4d2964a6527eb3f663804c7c99622"
@@ -7719,7 +7719,7 @@
     "structure": [
       {
         "filename": "AAstrand190961_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24884596,
         "mimetype": "image/tiff",
         "sha1": "32ac4639d811513572dbff12de77bd6482e34ce2"
@@ -7785,7 +7785,7 @@
     "structure": [
       {
         "filename": "AAstrand191059_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25191908,
         "mimetype": "image/tiff",
         "sha1": "8449b13c2524398c1a35fd5c11640c2c3c27fa20"
@@ -7941,7 +7941,7 @@
     "structure": [
       {
         "filename": "AAstrand230761_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20602988,
         "mimetype": "image/tiff",
         "sha1": "494cc13797c0eef1a603642917d98c6db6e0800d"
@@ -8000,7 +8000,7 @@
     "structure": [
       {
         "filename": "AAstrand250660_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25552868,
         "mimetype": "image/tiff",
         "sha1": "f5b6aa84bf90ac4eb22016aa57b7b3d49e8fc077"
@@ -8073,7 +8073,7 @@
     "structure": [
       {
         "filename": "AAstrand260660_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22181284,
         "mimetype": "image/tiff",
         "sha1": "a323347c5042c3972b29ef26a7d5534ae2aaac15"
@@ -8132,7 +8132,7 @@
     "structure": [
       {
         "filename": "AAstrand260861_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13135796,
         "mimetype": "image/tiff",
         "sha1": "cb0d1b5835d373c412ee41c1e19f8b7f28583e84"
@@ -8184,7 +8184,7 @@
     "structure": [
       {
         "filename": "AAstrand270257_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25813988,
         "mimetype": "image/tiff",
         "sha1": "b64ee2b7c32582a982f29c1d7014de7911014fae"
@@ -8236,7 +8236,7 @@
     "structure": [
       {
         "filename": "AAstrand270561_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25376228,
         "mimetype": "image/tiff",
         "sha1": "6936fa80865368689fc5c650d9736ca3ac1b3bb0"
@@ -8295,7 +8295,7 @@
     "structure": [
       {
         "filename": "AAstrand290362_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22730476,
         "mimetype": "image/tiff",
         "sha1": "782ea18b707f1d11af428bbb19b7c15d10edc7f6"
@@ -8354,7 +8354,7 @@
     "structure": [
       {
         "filename": "AAstrand290859_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25191908,
         "mimetype": "image/tiff",
         "sha1": "c67e8829ede62e9d577c5d0cdad5fa8b3d5668ec"
@@ -8615,7 +8615,7 @@
     "structure": [
       {
         "filename": "Perthes060721_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25084002,
         "mimetype": "image/tiff",
         "sha1": "f4b58af459080823b734c692059a6f592b0e5d51"
@@ -8660,7 +8660,7 @@
     "structure": [
       {
         "filename": "Perthes050620_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25080864,
         "mimetype": "image/tiff",
         "sha1": "67feb2454fd869a68ab029e22972628169126439"
@@ -8757,7 +8757,7 @@
     "structure": [
       {
         "filename": "Perthes290854_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25571388,
         "mimetype": "image/tiff",
         "sha1": "356b390416d288b162c77ab188b4f12562e11324"
@@ -8920,7 +8920,7 @@
     "structure": [
       {
         "filename": "Ertel071127_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22747236,
         "mimetype": "image/tiff",
         "sha1": "09582c6f5775388f73f3cab8299c224f15948490"
@@ -8979,7 +8979,7 @@
     "structure": [
       {
         "filename": "Ertel100527_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24025992,
         "mimetype": "image/tiff",
         "sha1": "41627326662d8b56dc059285eacf5c9e579deac1"
@@ -9031,7 +9031,7 @@
     "structure": [
       {
         "filename": "Cutterb260924_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20597428,
         "mimetype": "image/tiff",
         "sha1": "865bbadbd72d05cd709e6cb950e38243deccae94"
@@ -9128,7 +9128,7 @@
     "structure": [
       {
         "filename": "Christie160157_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 16517748,
         "mimetype": "image/tiff",
         "sha1": "5185d36e58fd82a4a5ead9035ae53cf0357e1c23"
@@ -9232,7 +9232,7 @@
     "structure": [
       {
         "filename": "Due160127_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26908868,
         "mimetype": "image/tiff",
         "sha1": "182deea5258eeb1d349b6d4e52cd2ec22022ca23"
@@ -9284,7 +9284,7 @@
     "structure": [
       {
         "filename": "Due111228_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 12365340,
         "mimetype": "image/tiff",
         "sha1": "dc3e08b211c672403b86637df882b4608a2a09f2"
@@ -9336,7 +9336,7 @@
     "structure": [
       {
         "filename": "Due160134_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20208404,
         "mimetype": "image/tiff",
         "sha1": "bacbc930aad6958b3b0464b9c3b801924db295f3"
@@ -9381,7 +9381,7 @@
     "structure": [
       {
         "filename": "Due240240_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "7aaf1fce5d7033ca4ed34859e4bedaa29d0df3f8"
@@ -9426,7 +9426,7 @@
     "structure": [
       {
         "filename": "Due250141_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14734948,
         "mimetype": "image/tiff",
         "sha1": "325ccf12372754d68f0ecdef6189bc3d26f35cae"
@@ -9471,7 +9471,7 @@
     "structure": [
       {
         "filename": "Due070642_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "77f4443fb36abf4ca07f894dbeec520f2d2a3c19"
@@ -9516,7 +9516,7 @@
     "structure": [
       {
         "filename": "Due111147_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "31cc51a0e2b123620d81e854aedd729a07474ef5"
@@ -9561,7 +9561,7 @@
     "structure": [
       {
         "filename": "Due311253_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "7b0d3e53a2ccdd7506b4428a2c10ecb64669c943"
@@ -9613,7 +9613,7 @@
     "structure": [
       {
         "filename": "Due020154_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26075108,
         "mimetype": "image/tiff",
         "sha1": "089292071ab6e48902d05b59c7c4cc8f5a8cf81f"
@@ -9658,7 +9658,7 @@
     "structure": [
       {
         "filename": "Due290654_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "c48c03827a14f38b98c0964f293268e5d7fca058"
@@ -9741,7 +9741,7 @@
     "structure": [
       {
         "filename": "Due111254_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13718988,
         "mimetype": "image/tiff",
         "sha1": "21fb97c1d8816e33b278042f621fcbf90e347e23"
@@ -9793,7 +9793,7 @@
     "structure": [
       {
         "filename": "Due010155_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25637348,
         "mimetype": "image/tiff",
         "sha1": "97463f6033b01e230956cc0dc258cc06892877b7"
@@ -9838,7 +9838,7 @@
     "structure": [
       {
         "filename": "Due250358_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 10148196,
         "mimetype": "image/tiff",
         "sha1": "c302285ff9d6c40433eb0517c186d39c81511e06"
@@ -9883,7 +9883,7 @@
     "structure": [
       {
         "filename": "Delambr230721_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19814772,
         "mimetype": "image/tiff",
         "sha1": "66f4d4fe63fd0688601ad8ba9c6da6ad2074f8d0"
@@ -9928,7 +9928,7 @@
     "structure": [
       {
         "filename": "Diricks090154_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25637348,
         "mimetype": "image/tiff",
         "sha1": "fe6c0dd89660d88fc6786f2cb43f186077a9485b"
@@ -9973,7 +9973,7 @@
     "structure": [
       {
         "filename": "Diricks140855_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20304020,
         "mimetype": "image/tiff",
         "sha1": "322dbc128a95053a967207287be37a3e0a25afaa"
@@ -10018,7 +10018,7 @@
     "structure": [
       {
         "filename": "Diricks291052_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20938820,
         "mimetype": "image/tiff",
         "sha1": "56bc950bf3846291d0fbe896f6fffdec0296f28b"
@@ -10063,7 +10063,7 @@
     "structure": [
       {
         "filename": "Dahl030656_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14900708,
         "mimetype": "image/tiff",
         "sha1": "1f286e0ce9ea8f25e4b604bb812c7a6eccbca88c"
@@ -10240,7 +10240,7 @@
     "structure": [
       {
         "filename": "Dovexxxxxx_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15049292,
         "mimetype": "image/tiff",
         "sha1": "d8a0537b268fa4a801cd34ae53a03c13cc07beaa"
@@ -10424,7 +10424,7 @@
     "structure": [
       {
         "filename": "Dircking221016_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17980092,
         "mimetype": "image/tiff",
         "sha1": "da510f6d1e8763528a6c69ff63425f9bd0e680ce"
@@ -10476,7 +10476,7 @@
     "structure": [
       {
         "filename": "Deichm261118_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18102404,
         "mimetype": "image/tiff",
         "sha1": "de81a68d49c8fc507c053e789b83b36d5713bcd7"
@@ -10535,7 +10535,7 @@
     "structure": [
       {
         "filename": "Deichm290119_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22158300,
         "mimetype": "image/tiff",
         "sha1": "531f809c45c67425609a233241aa1cbdde6dbef6"
@@ -10587,7 +10587,7 @@
     "structure": [
       {
         "filename": "Deichm220419_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18747572,
         "mimetype": "image/tiff",
         "sha1": "03145e522cd8b63ae425b5214e850317a1af825e"
@@ -10632,7 +10632,7 @@
     "structure": [
       {
         "filename": "Deichm290320_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "4363071f5eaa297549db710f633305ace90de68b"
@@ -10677,7 +10677,7 @@
     "structure": [
       {
         "filename": "Deichm161120_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19477988,
         "mimetype": "image/tiff",
         "sha1": "d4b91e9a115ce0dc080635bbe0671e3edc5d6b3d"
@@ -10722,7 +10722,7 @@
     "structure": [
       {
         "filename": "Daniele100640_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18759236,
         "mimetype": "image/tiff",
         "sha1": "ac77acb805f612c103817d1777edeeba4a3a721b"
@@ -10767,7 +10767,7 @@
     "structure": [
       {
         "filename": "Daniele090140_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19325524,
         "mimetype": "image/tiff",
         "sha1": "bf3234a16267358bc99bc71ce1e51aa6349b9d65"
@@ -10812,7 +10812,7 @@
     "structure": [
       {
         "filename": "Daniele180241_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19964932,
         "mimetype": "image/tiff",
         "sha1": "dc2aedf013d94e0c5bb3078b68672ab432117984"
@@ -10947,7 +10947,7 @@
     "structure": [
       {
         "filename": "Dublin150141_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23571732,
         "mimetype": "image/tiff",
         "sha1": "24b688ca335735b7902173cd703e4e2d4c7d7942"
@@ -11093,7 +11093,7 @@
     "structure": [
       {
         "filename": "Due051063_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "ff22b6fc4e755cd921cf0d496331d313b164521c"
@@ -11388,7 +11388,7 @@
     "structure": [
       {
         "filename": "Due150829_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17490844,
         "mimetype": "image/tiff",
         "sha1": "fd3cad1082a722773c4c2a70a0c35dd0837dee6c"
@@ -11596,7 +11596,7 @@
     "structure": [
       {
         "filename": "Due210138_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18836276,
         "mimetype": "image/tiff",
         "sha1": "bd3b558db67d6e9e6c18d2b6e5a57ea479636cee"
@@ -11654,18 +11654,18 @@
     },
     "structure": [
       {
-        "filename": "Baeyer260662_b.tif",
-        "label": "Konvolutt-bakside",
-        "filesize": 8694468,
-        "mimetype": "image/tiff",
-        "sha1": "c30bcf7c62f587aeb5c73deb6f96e95ab7d5fd71"
-      },
-      {
         "filename": "Baeyer260662_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 8716068,
         "mimetype": "image/tiff",
         "sha1": "013e347c5e3781fba0a1c5bbf9ce56d39eedb261"
+      },
+      {
+        "filename": "Baeyer260662_b.tif",
+        "label": "Konvoluttbakside",
+        "filesize": 8694468,
+        "mimetype": "image/tiff",
+        "sha1": "c30bcf7c62f587aeb5c73deb6f96e95ab7d5fd71"
       },
       {
         "filename": "Baeyer260662_s1.tif",
@@ -11770,7 +11770,7 @@
     "structure": [
       {
         "filename": "Beaufoy070435_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19743612,
         "mimetype": "image/tiff",
         "sha1": "49873257e4b61b0d76c6429cf2ec71777eb024cc"
@@ -11815,7 +11815,7 @@
     "structure": [
       {
         "filename": "Beaufoy080835_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20152836,
         "mimetype": "image/tiff",
         "sha1": "eaceabe02f1c46c6a3968477ea97089bfc30f5b3"
@@ -12016,7 +12016,7 @@
     "structure": [
       {
         "filename": "Due310161_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "91bd8e0cee70f76b87191b51cc4e6a45cd5523fb"
@@ -12075,7 +12075,7 @@
     "structure": [
       {
         "filename": "Due160461_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19173084,
         "mimetype": "image/tiff",
         "sha1": "4b5a60f7eb9905597e849b9375994de9edae388e"
@@ -12252,7 +12252,7 @@
     "structure": [
       {
         "filename": "Due010862_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20208404,
         "mimetype": "image/tiff",
         "sha1": "d950eff81e6d0b8ff43bcfd5050347cf1a5bd250"
@@ -12637,7 +12637,7 @@
     "structure": [
       {
         "filename": "Erman140741_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14987228,
         "mimetype": "image/tiff",
         "sha1": "da45ebf77ed67d593cd82b6046da84acfc50e1d6"
@@ -13081,7 +13081,7 @@
     "structure": [
       {
         "filename": "Erman180828_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26958308,
         "mimetype": "image/tiff",
         "sha1": "5410a5629c601960980fe43e855889a506fdfffa"
@@ -13126,7 +13126,7 @@
     "structure": [
       {
         "filename": "Ermanxxxxxx_6_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "3a938afd2fb2913a004533b8f7c95b0dcc5f5312"
@@ -13171,7 +13171,7 @@
     "structure": [
       {
         "filename": "Ermanxxxxxx_2_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "c245a258b1e439c41f5c48fd6582f210c38c6ace"
@@ -13317,7 +13317,7 @@
     "structure": [
       {
         "filename": "Ermanxxxxxx_3_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23973380,
         "mimetype": "image/tiff",
         "sha1": "1c4261dab766ce5f9c3967ee17c18929410d43bb"
@@ -13376,7 +13376,7 @@
     "structure": [
       {
         "filename": "Erman080229_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24095692,
         "mimetype": "image/tiff",
         "sha1": "5ffa75c65eff1db352ef8d2b3aa0928670d2bb9c"
@@ -13459,7 +13459,7 @@
     "structure": [
       {
         "filename": "Ermanxxxxxx_5_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14546796,
         "mimetype": "image/tiff",
         "sha1": "3f7386de74206d1afceede894eecbe506d09380e"
@@ -13747,7 +13747,7 @@
     "structure": [
       {
         "filename": "Erman290827_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19325524,
         "mimetype": "image/tiff",
         "sha1": "150ae7038e7f7ef0c836e3dd80d0600fd17d5dba"
@@ -13806,7 +13806,7 @@
     "structure": [
       {
         "filename": "Erichsen130327_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "dd8b9b02f722eaf2a683828ca26fefc12bfd71e7"
@@ -13865,7 +13865,7 @@
     "structure": [
       {
         "filename": "Erichsen120626_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18931916,
         "mimetype": "image/tiff",
         "sha1": "c23608c34a83644d3ac21626434b9bf26b4589d0"
@@ -13910,7 +13910,7 @@
     "structure": [
       {
         "filename": "Erichsen230326_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18102404,
         "mimetype": "image/tiff",
         "sha1": "2c2dc50559d18f23a158afc7ccf199c41808dbec"
@@ -13969,7 +13969,7 @@
     "structure": [
       {
         "filename": "Erichse270423_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18328996,
         "mimetype": "image/tiff",
         "sha1": "930428016adddc1d9501916bf86ef78a0cd271a0"
@@ -14028,7 +14028,7 @@
     "structure": [
       {
         "filename": "Erichse101222_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17773684,
         "mimetype": "image/tiff",
         "sha1": "9b07592fed0e56c66a7071358be42a3cd5e27198"
@@ -14340,7 +14340,7 @@
     "structure": [
       {
         "filename": "Evense151040_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14521196,
         "mimetype": "image/tiff",
         "sha1": "71ffd9fc229a6bea0bf3785de6d815a21a862fa0"
@@ -14392,7 +14392,7 @@
     "structure": [
       {
         "filename": "Evense071240_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15094940,
         "mimetype": "image/tiff",
         "sha1": "dd8a637028d73e10ff1df8fa1511fc8acf032cbc"
@@ -14482,7 +14482,7 @@
     "structure": [
       {
         "filename": "Farrada200444_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26416940,
         "mimetype": "image/tiff",
         "sha1": "c0c624c90036b02091e3cd34117262278ef833e0"
@@ -14624,7 +14624,7 @@
     "structure": [
       {
         "filename": "Fiandt241029_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19325524,
         "mimetype": "image/tiff",
         "sha1": "d93dfbcee317d9fd1cf7900f8fc4792334f272f6"
@@ -14922,7 +14922,7 @@
     "structure": [
       {
         "filename": "Focke250540_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21282516,
         "mimetype": "image/tiff",
         "sha1": "54eab5865e0c1d1e2b46172815e109ae898a0a6e"
@@ -15019,7 +15019,7 @@
     "structure": [
       {
         "filename": "Forbes160758_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18869308,
         "mimetype": "image/tiff",
         "sha1": "8e7921f2c7b504e3ded6ea2e6cd810665162fb65"
@@ -15300,7 +15300,7 @@
     "structure": [
       {
         "filename": "Forbes120657_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 12842988,
         "mimetype": "image/tiff",
         "sha1": "11f5c4c9b78c6b14e50ec42a2cb949a6bdd4eb10"
@@ -15345,7 +15345,7 @@
     "structure": [
       {
         "filename": "Forbes050557_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13454548,
         "mimetype": "image/tiff",
         "sha1": "fb0dec893a9ceddbddc3f144f19e17994b3fbf52"
@@ -15404,7 +15404,7 @@
     "structure": [
       {
         "filename": "Forbes170245_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19570148,
         "mimetype": "image/tiff",
         "sha1": "cfec5ac31c43aef66791adc5bbd38ba7b606fb34"
@@ -15449,7 +15449,7 @@
     "structure": [
       {
         "filename": "Forbes130332_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18102404,
         "mimetype": "image/tiff",
         "sha1": "255e068629bf3f6f451d6f1c99fb3b720a91ac1b"
@@ -15522,7 +15522,7 @@
     "structure": [
       {
         "filename": "Forbes270343_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18836276,
         "mimetype": "image/tiff",
         "sha1": "dbd87d14c4efcc119513c9f342cf0e71756c3e41"
@@ -16281,7 +16281,7 @@
     "structure": [
       {
         "filename": "Forchha150652_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 12799084,
         "mimetype": "image/tiff",
         "sha1": "3ba9dd8cdfc49ae0fa25ae67aa18962f65bb3dc3"
@@ -16326,7 +16326,7 @@
     "structure": [
       {
         "filename": "Forchha220552_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19937084,
         "mimetype": "image/tiff",
         "sha1": "91586b92bec2d121d6523e2b839db1b2d3258c3d"
@@ -16378,7 +16378,7 @@
     "structure": [
       {
         "filename": "Forchha140451_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19814772,
         "mimetype": "image/tiff",
         "sha1": "3a1d9e98068d4d8318a3f8816486a6e8242e0693"
@@ -16430,7 +16430,7 @@
     "structure": [
       {
         "filename": "Flugel281151_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20915580,
         "mimetype": "image/tiff",
         "sha1": "a995e1c9e2dbbbdc986311fb0fb555aba0d18699"
@@ -16697,7 +16697,7 @@
     "structure": [
       {
         "filename": "Feldtma161124_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "3149e775b4c00396bde7dd5a40a3f37698399245"
@@ -16901,7 +16901,7 @@
     "structure": [
       {
         "filename": "Fahraeu260663_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "b0be4fb5fd8c421ccd7c9f98a72c632764162ea0"
@@ -17109,7 +17109,7 @@
     "structure": [
       {
         "filename": "Fearnle170262_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13239740,
         "mimetype": "image/tiff",
         "sha1": "377bde3efb6bf7e4cdebac6f84d13796d9f1a393"
@@ -17175,7 +17175,7 @@
     "structure": [
       {
         "filename": "Fehr240860_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21894076,
         "mimetype": "image/tiff",
         "sha1": "3279ef3f92b29a1f7f11239a85b55efdb520ca46"
@@ -17220,7 +17220,7 @@
     "structure": [
       {
         "filename": "Foss101046_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19655420,
         "mimetype": "image/tiff",
         "sha1": "4458f8a1c3fa93dd3f2b514128519f5d2232b377"
@@ -17317,7 +17317,7 @@
     "structure": [
       {
         "filename": "Fuss220140_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23333636,
         "mimetype": "image/tiff",
         "sha1": "874794659d3a3bb49e25adf4ce7a1cab49733aae"
@@ -17362,7 +17362,7 @@
     "structure": [
       {
         "filename": "Fleming130442_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "560b89723900405e65524bee4a17e77418585777"
@@ -17421,7 +17421,7 @@
     "structure": [
       {
         "filename": "Flod0406xx_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17685804,
         "mimetype": "image/tiff",
         "sha1": "3c5c19aaa692888767edf2e9e643f64eb272e7f8"
@@ -17466,7 +17466,7 @@
     "structure": [
       {
         "filename": "Furrbye271016_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15872188,
         "mimetype": "image/tiff",
         "sha1": "6c53198bdb7872e187669b93cb61da0675cebb95"
@@ -17518,7 +17518,7 @@
     "structure": [
       {
         "filename": "Fogtma200225_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19325524,
         "mimetype": "image/tiff",
         "sha1": "cc83452fa305119f3a09385d9cac422e370670c6"
@@ -17570,7 +17570,7 @@
     "structure": [
       {
         "filename": "FitzRoy171061_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 9888116,
         "mimetype": "image/tiff",
         "sha1": "76c083cee6fff306c16f6c023fc7cce9026256db"
@@ -17653,7 +17653,7 @@
     "structure": [
       {
         "filename": "Farinxxxxxx_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19234516,
         "mimetype": "image/tiff",
         "sha1": "3e8060c08fb77d8f9b14842b250a59d5e490a079"
@@ -17704,7 +17704,7 @@
     "structure": [
       {
         "filename": "Fabrie051039_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25441124,
         "mimetype": "image/tiff",
         "sha1": "394ebfee72760b64aad1efb6cd653f3cdc095c32"
@@ -17749,7 +17749,7 @@
     "structure": [
       {
         "filename": "Fuhr070557_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15001812,
         "mimetype": "image/tiff",
         "sha1": "729856cffe22b9f630e1ca517db629361a0432c0"
@@ -17974,7 +17974,7 @@
     "structure": [
       {
         "filename": "Galle260140_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20718588,
         "mimetype": "image/tiff",
         "sha1": "c1393c992e5ff486bfbdb167f660130b6ab52cf3"
@@ -18019,7 +18019,7 @@
     "structure": [
       {
         "filename": "Galle110265_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21404828,
         "mimetype": "image/tiff",
         "sha1": "66d83a516e3a409596ae337d84bf28ec03a4c6b4"
@@ -18109,7 +18109,7 @@
     "structure": [
       {
         "filename": "Geelmu241142_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20915580,
         "mimetype": "image/tiff",
         "sha1": "e3e7a078e4b700c92064220c7cd7a66f28c66c64"
@@ -18154,7 +18154,7 @@
     "structure": [
       {
         "filename": "Geelmu161250_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13454548,
         "mimetype": "image/tiff",
         "sha1": "0028304c0685ae34077fe93992e3b7abba5ad309"
@@ -18206,7 +18206,7 @@
     "structure": [
       {
         "filename": "Geelmu150151_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17001596,
         "mimetype": "image/tiff",
         "sha1": "57a36af8c1e874e773568f678b62ecdd35c05616"
@@ -18251,7 +18251,7 @@
     "structure": [
       {
         "filename": "Gelmuxxxxxx_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20059396,
         "mimetype": "image/tiff",
         "sha1": "c539b8687bd96d6f8a0da2485470e89817a1dc80"
@@ -18407,7 +18407,7 @@
     "structure": [
       {
         "filename": "Greiner020848_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20861260,
         "mimetype": "image/tiff",
         "sha1": "8675ea0511f88e9edbe14412bd41f9c979378b54"
@@ -18542,7 +18542,7 @@
     "structure": [
       {
         "filename": "Goldsch041139_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19843196,
         "mimetype": "image/tiff",
         "sha1": "f2877477d4b18748649619308f097d34115dd084"
@@ -18594,7 +18594,7 @@
     "structure": [
       {
         "filename": "Goldsch160542_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20793268,
         "mimetype": "image/tiff",
         "sha1": "cb7e5f26299db71af73f801d95d95ad7697c7b78"
@@ -18757,7 +18757,7 @@
     "structure": [
       {
         "filename": "Goldsch140843_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "e7becd2990d757c3108802edcb3a78626ffb14bc"
@@ -18816,7 +18816,7 @@
     "structure": [
       {
         "filename": "Goldsch050943_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18747572,
         "mimetype": "image/tiff",
         "sha1": "6dcca0ef83930917f7ecb4f3f68caf0cdbac1018"
@@ -18868,7 +18868,7 @@
     "structure": [
       {
         "filename": "Goldsch291043_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "e7a02ab0f33e9961674e0a6ddbbc8b1ad4f699f8"
@@ -18986,7 +18986,7 @@
     "structure": [
       {
         "filename": "Goldsch250344_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19814772,
         "mimetype": "image/tiff",
         "sha1": "aa3114d76862d22b301fc8417d98dbd186590aff"
@@ -19045,7 +19045,7 @@
     "structure": [
       {
         "filename": "Goldsch310544_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21649452,
         "mimetype": "image/tiff",
         "sha1": "438c819f3d862dc4395bd35b0b74312e486dc99b"
@@ -19170,7 +19170,7 @@
     "structure": [
       {
         "filename": "Grieseb140942_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23851068,
         "mimetype": "image/tiff",
         "sha1": "bee86b8e85e56565954a490db56002d1b51f17d7"
@@ -19215,7 +19215,7 @@
     "structure": [
       {
         "filename": "Gutkaes300341_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15338964,
         "mimetype": "image/tiff",
         "sha1": "3e6ac1165b8da7d8b8d980cd496f96d7d9036e67"
@@ -19260,7 +19260,7 @@
     "structure": [
       {
         "filename": "Graah130932_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20208404,
         "mimetype": "image/tiff",
         "sha1": "c1787cc52c5670e664be13e1ce716794e0c833e9"
@@ -19305,7 +19305,7 @@
     "structure": [
       {
         "filename": "Gasman280221_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19870468,
         "mimetype": "image/tiff",
         "sha1": "d7b7a0afa6c636fb79377b6e98a7d4e35ecca501"
@@ -19357,7 +19357,7 @@
     "structure": [
       {
         "filename": "Gasse230533_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19080900,
         "mimetype": "image/tiff",
         "sha1": "ffcf905d94e25d160edca8ee0458afa7098f3e0d"
@@ -19409,7 +19409,7 @@
     "structure": [
       {
         "filename": "Graham250847_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 16145412,
         "mimetype": "image/tiff",
         "sha1": "d904a99e78f00d9f7d2e3a4690ef1cdea55b49a2"
@@ -19454,7 +19454,7 @@
     "structure": [
       {
         "filename": "Galton270465_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21527140,
         "mimetype": "image/tiff",
         "sha1": "776e3a0ca8996ac5362e96b9da328877f77e4792"
@@ -19551,7 +19551,7 @@
     "structure": [
       {
         "filename": "Galtonxx0466_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20304020,
         "mimetype": "image/tiff",
         "sha1": "47d55a3c7f8274efd154d5a2d0a68afa2e44a0c4"
@@ -19641,7 +19641,7 @@
     "structure": [
       {
         "filename": "Gorbitz110352_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20670956,
         "mimetype": "image/tiff",
         "sha1": "852691188905ec6a092e44504d75481c96e7c6d5"
@@ -19686,7 +19686,7 @@
     "structure": [
       {
         "filename": "Grosch190727_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19325524,
         "mimetype": "image/tiff",
         "sha1": "1ec8e24cb96e5b37ffd5c6bf645c15dc6ce17082"
@@ -20276,7 +20276,7 @@
     "structure": [
       {
         "filename": "Schuma190628_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "c025b3ca094a0f3517305dd0800cce0bae3b1628"
@@ -20411,7 +20411,7 @@
     "structure": [
       {
         "filename": "Schuma151015_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18224716,
         "mimetype": "image/tiff",
         "sha1": "713bda7e0d9cc3302b0349a580c39e85ed285061"
@@ -20463,7 +20463,7 @@
     "structure": [
       {
         "filename": "Schuma121016_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19385828,
         "mimetype": "image/tiff",
         "sha1": "585ae07a43182cb0cfece2eb47a5ed6000d922fa"
@@ -20515,7 +20515,7 @@
     "structure": [
       {
         "filename": "Schuma160217_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17490844,
         "mimetype": "image/tiff",
         "sha1": "689ff22784529d29a4c7bcf46e6c6494f1167a5a"
@@ -20567,7 +20567,7 @@
     "structure": [
       {
         "filename": "Schuma200417_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15241244,
         "mimetype": "image/tiff",
         "sha1": "968945bb69ad34d8d0c055311401573b888e4656"
@@ -20657,7 +20657,7 @@
     "structure": [
       {
         "filename": "Schuma231018_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "4747cb799b94d6e91c25c45b9a20d8ac3f33efd4"
@@ -20702,7 +20702,7 @@
     "structure": [
       {
         "filename": "Schuma190621_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18869308,
         "mimetype": "image/tiff",
         "sha1": "e5dece293e86e5213e84075d4a8943c96b490ec9"
@@ -20754,7 +20754,7 @@
     "structure": [
       {
         "filename": "Schuma151021_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19356252,
         "mimetype": "image/tiff",
         "sha1": "47f2cc579c5a55917326efee2c8d63d4bd3bf5c1"
@@ -20799,7 +20799,7 @@
     "structure": [
       {
         "filename": "Schuma281221_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18591652,
         "mimetype": "image/tiff",
         "sha1": "4cf0aa25ef177c9db52bead7ca6d15c51c06e1d5"
@@ -20844,7 +20844,7 @@
     "structure": [
       {
         "filename": "Schuma080122_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "8fa262a9894317f170c7f49272a59addcc5f495e"
@@ -20927,7 +20927,7 @@
     "structure": [
       {
         "filename": "Schuma250622_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "bcd573558318935351cb3e139af4df8c666bf380"
@@ -21010,7 +21010,7 @@
     "structure": [
       {
         "filename": "Schuma060822_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "eee94220e4a845780d15499c7cdf27845dbe7fcb"
@@ -21055,7 +21055,7 @@
     "structure": [
       {
         "filename": "Schuma011022_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18224716,
         "mimetype": "image/tiff",
         "sha1": "9fcdc052ef4ba1f1a73368d6cc3b3318bb51e41d"
@@ -21100,7 +21100,7 @@
     "structure": [
       {
         "filename": "Schuma091122_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17568428,
         "mimetype": "image/tiff",
         "sha1": "f45d70c17b3421613d7d54637094e2a395726615"
@@ -21145,7 +21145,7 @@
     "structure": [
       {
         "filename": "Schuma181122_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17568428,
         "mimetype": "image/tiff",
         "sha1": "b3f5273a42867695a72fd3395037db7837c1563c"
@@ -21242,7 +21242,7 @@
     "structure": [
       {
         "filename": "Schuma200123_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18991044,
         "mimetype": "image/tiff",
         "sha1": "3cd4c4f2b9be2a405a3db0c68d83b33201d65e34"
@@ -21287,7 +21287,7 @@
     "structure": [
       {
         "filename": "Schuma280223_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 11134956,
         "mimetype": "image/tiff",
         "sha1": "727c4eb39acad6ae5b55ccfaaab8e02affe12b20"
@@ -21332,7 +21332,7 @@
     "structure": [
       {
         "filename": "Schuma200523_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "35d8a09e7e44f7755ac7d3720dc30aba575a2e8d"
@@ -21377,7 +21377,7 @@
     "structure": [
       {
         "filename": "Schuma270424_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 11295652,
         "mimetype": "image/tiff",
         "sha1": "ffabca3866c27b2a5fe1d9f0c38cf425b87772df"
@@ -21422,7 +21422,7 @@
     "structure": [
       {
         "filename": "Schuma020824_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18713964,
         "mimetype": "image/tiff",
         "sha1": "4ddc2a8faa4c90508c53d4b2b7a59deb944bf1f2"
@@ -21505,7 +21505,7 @@
     "structure": [
       {
         "filename": "Schuma080425_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "08e61b763e9da19fed13cd1c1c6650868973f2d2"
@@ -21550,7 +21550,7 @@
     "structure": [
       {
         "filename": "Schuma150525_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19477988,
         "mimetype": "image/tiff",
         "sha1": "19c3f5acfe54920732cd509857e5e843240ccbf1"
@@ -21595,7 +21595,7 @@
     "structure": [
       {
         "filename": "Schuma160525_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17857780,
         "mimetype": "image/tiff",
         "sha1": "fca37a72fe6fd2819c803e47e0417d2d8f5f17f2"
@@ -21640,7 +21640,7 @@
     "structure": [
       {
         "filename": "Schuma250525_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18224716,
         "mimetype": "image/tiff",
         "sha1": "07a4a7f11255c4c89bf2e36a534a1a70f574801e"
@@ -21782,7 +21782,7 @@
     "structure": [
       {
         "filename": "Schuma260126_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20426332,
         "mimetype": "image/tiff",
         "sha1": "4b46697b6b7870cc5d4053fd2ffe8a0d4b750aa4"
@@ -21827,7 +21827,7 @@
     "structure": [
       {
         "filename": "Schuma3001226_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19937084,
         "mimetype": "image/tiff",
         "sha1": "b5f7c24ea325120b5e481c821811c390b7565f92"
@@ -21910,7 +21910,7 @@
     "structure": [
       {
         "filename": "Schuma160326_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20793268,
         "mimetype": "image/tiff",
         "sha1": "cea576bd7921cd1bd72ed136fe0e5fa01c23e3c9"
@@ -21955,7 +21955,7 @@
     "structure": [
       {
         "filename": "Schuma300326_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21282516,
         "mimetype": "image/tiff",
         "sha1": "32aaaa4189d73c9fc82b42422b57d42d5f535cc3"
@@ -22007,7 +22007,7 @@
     "structure": [
       {
         "filename": "Schuma020626_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "4f3d3ab0f8cc604b1989d9f77090e855b996f166"
@@ -22066,7 +22066,7 @@
     "structure": [
       {
         "filename": "Schuma160626_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "b080ff0c2bbcdf22e701e4cb0a3b343df582a49b"
@@ -22111,7 +22111,7 @@
     "structure": [
       {
         "filename": "Schuma200626_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19080900,
         "mimetype": "image/tiff",
         "sha1": "d3fbcaf6133f1965b52d00e7ac06a35e3775760c"
@@ -22156,7 +22156,7 @@
     "structure": [
       {
         "filename": "Schuma130826_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "ce92b627acc96ce321232619b83b00a854825ef8"
@@ -22284,7 +22284,7 @@
     "structure": [
       {
         "filename": "Schuma090127_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18570164,
         "mimetype": "image/tiff",
         "sha1": "344a86d343cb44c4e9b758623331369f2a7f1462"
@@ -22367,7 +22367,7 @@
     "structure": [
       {
         "filename": "Schuma230323_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17530212,
         "mimetype": "image/tiff",
         "sha1": "496fa0461fb0eef328a23c6ff648d7e0ed622732"
@@ -22412,7 +22412,7 @@
     "structure": [
       {
         "filename": "Schuma050727_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20915580,
         "mimetype": "image/tiff",
         "sha1": "02020bc151887199e35775842154f00022ea9f2a"
@@ -22457,7 +22457,7 @@
     "structure": [
       {
         "filename": "Schuma030827_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "866f6ae9d0f8ee2834bf9162c3c335eb59eff24f"
@@ -22502,7 +22502,7 @@
     "structure": [
       {
         "filename": "Schuma140827_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19721460,
         "mimetype": "image/tiff",
         "sha1": "0a37720751388d5f338dc3e3809ea4d0462eb67c"
@@ -22592,7 +22592,7 @@
     "structure": [
       {
         "filename": "Schuma101227_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19447836,
         "mimetype": "image/tiff",
         "sha1": "fe03cc6b28cc57dc69ebe01a4a247f940520294e"
@@ -22651,7 +22651,7 @@
     "structure": [
       {
         "filename": "Schuma050228_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "b104b875df5895104d7b83738d5ed0cfba4446d0"
@@ -22696,7 +22696,7 @@
     "structure": [
       {
         "filename": "Schuma210328_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18591652,
         "mimetype": "image/tiff",
         "sha1": "099cd54d21b88fb65da0693b0613cbaab5e94205"
@@ -22741,7 +22741,7 @@
     "structure": [
       {
         "filename": "Schuma010428_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17857780,
         "mimetype": "image/tiff",
         "sha1": "1b3c6ede955d276528a5bcf7b30b65e8b9997c1a"
@@ -22786,7 +22786,7 @@
     "structure": [
       {
         "filename": "Schuma040428_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18869308,
         "mimetype": "image/tiff",
         "sha1": "c56bbf0041aaa5e414069fb52fe1038948a07097"
@@ -22831,7 +22831,7 @@
     "structure": [
       {
         "filename": "Schuma110428_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "e546084ad4450d088d5272a227f89420b0d1b211"
@@ -22876,7 +22876,7 @@
     "structure": [
       {
         "filename": "Schuma220628_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "cf2216d0635db24a10deb1923d2acbf9af935a27"
@@ -22921,7 +22921,7 @@
     "structure": [
       {
         "filename": "Schuma010828_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19112780,
         "mimetype": "image/tiff",
         "sha1": "abb8a4b3c239ad31d3796a4f65a743808af581de"
@@ -23084,7 +23084,7 @@
     "structure": [
       {
         "filename": "Schuma050531_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18836276,
         "mimetype": "image/tiff",
         "sha1": "33bc3ad87086ca166e83c732c276c5cc51cb85ef"
@@ -23129,7 +23129,7 @@
     "structure": [
       {
         "filename": "Schuma270631_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18017156,
         "mimetype": "image/tiff",
         "sha1": "fb81eefd837d7e47b0ed01faaa29739ebe1f6f08"
@@ -23254,7 +23254,7 @@
     "structure": [
       {
         "filename": "Schuma171134_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18224716,
         "mimetype": "image/tiff",
         "sha1": "1d5ab0ce85b4e1356d521247467b120f6ff77386"
@@ -23306,7 +23306,7 @@
     "structure": [
       {
         "filename": "Schuma100435_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17773684,
         "mimetype": "image/tiff",
         "sha1": "0149fc10041d4356578f351688699dd580b4b200"
@@ -23351,7 +23351,7 @@
     "structure": [
       {
         "filename": "Schuma250835_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17735468,
         "mimetype": "image/tiff",
         "sha1": "43febf4ec3c1834a60b17272d06fa811a0b805c2"
@@ -23396,7 +23396,7 @@
     "structure": [
       {
         "filename": "Schuma280835_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18138892,
         "mimetype": "image/tiff",
         "sha1": "8e96de7d165593f641e258289b959a4be4919b0d"
@@ -23441,7 +23441,7 @@
     "structure": [
       {
         "filename": "Schuma261237_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19570148,
         "mimetype": "image/tiff",
         "sha1": "6919a28475684b4c1f2f9b20011d985b42f745be"
@@ -23576,7 +23576,7 @@
     "structure": [
       {
         "filename": "Schuma290639_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18224716,
         "mimetype": "image/tiff",
         "sha1": "fc9869f73dada99ce6c9c04955dec3184f799b47"
@@ -23621,7 +23621,7 @@
     "structure": [
       {
         "filename": "Schuma090839_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13889324,
         "mimetype": "image/tiff",
         "sha1": "c34df18af1b0e799d07c3e55f18801b3ef7e409b"
@@ -23746,7 +23746,7 @@
     "structure": [
       {
         "filename": "Schuma170242_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19570148,
         "mimetype": "image/tiff",
         "sha1": "e24ef1c6dd70e705d55000bbcc0d0426dd683b3f"
@@ -23791,7 +23791,7 @@
     "structure": [
       {
         "filename": "Schuma180342_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18958588,
         "mimetype": "image/tiff",
         "sha1": "013530573320172c02080ef657ca22dbc28cffaf"
@@ -23836,7 +23836,7 @@
     "structure": [
       {
         "filename": "Schuma170644_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "0d4c15c63a572c168c1f162a8b0d6243a4d1b149"
@@ -23940,7 +23940,7 @@
     "structure": [
       {
         "filename": "Schuma220647_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18836276,
         "mimetype": "image/tiff",
         "sha1": "34fc318f7a6fa35a3ec4789dab8401e9fb6e0cc8"
@@ -23999,7 +23999,7 @@
     "structure": [
       {
         "filename": "Schuma050744_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "a3af6ad1d1a86b505ab48e6ee03f6fc2e998330a"
@@ -24141,7 +24141,7 @@
     "structure": [
       {
         "filename": "Schuma050847_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 9463108,
         "mimetype": "image/tiff",
         "sha1": "55a9ddf12dfa43456cf3c5b29cad19de909f688c"
@@ -24304,7 +24304,7 @@
     "structure": [
       {
         "filename": "Schuma270947_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18747572,
         "mimetype": "image/tiff",
         "sha1": "e1ddb57365793179e09e45be5cb809c3fbae6316"
@@ -24460,7 +24460,7 @@
     "structure": [
       {
         "filename": "Donner050849_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21445548,
         "mimetype": "image/tiff",
         "sha1": "910e6b6dded96eed7ac00024b280834bb48c669a"
@@ -24713,7 +24713,7 @@
     "structure": [
       {
         "filename": "Sabine150528_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 12428140,
         "mimetype": "image/tiff",
         "sha1": "b68d11a47c18a13b83ab5fb1000b260808b89194"
@@ -25241,7 +25241,7 @@
     "structure": [
       {
         "filename": "Sabine010836_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 10099212,
         "mimetype": "image/tiff",
         "sha1": "3d4d6a5b43070132ffde354266c14ae7a1dbc916"
@@ -25293,7 +25293,7 @@
     "structure": [
       {
         "filename": "Sabine160234_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18102404,
         "mimetype": "image/tiff",
         "sha1": "b60bdbf17792106a6a38de103dee94ff019449ef"
@@ -25380,7 +25380,7 @@
     "structure": [
       {
         "filename": "Sabine190835_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19112780,
         "mimetype": "image/tiff",
         "sha1": "95b81a6a7cbe8f16beb92c8a995988d1e5a0d481"
@@ -25512,7 +25512,7 @@
     "structure": [
       {
         "filename": "Sabine141136_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17689588,
         "mimetype": "image/tiff",
         "sha1": "c1c9b413c844e4a408cea5c36618a3f5ed549b82"
@@ -25703,7 +25703,7 @@
     "structure": [
       {
         "filename": "Sabine121035_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20793268,
         "mimetype": "image/tiff",
         "sha1": "b63172d498afb81ff1e42e8573b10ecab292a0f0"
@@ -25776,7 +25776,7 @@
     "structure": [
       {
         "filename": "Sabine250638_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17857780,
         "mimetype": "image/tiff",
         "sha1": "8f9e35db42b44ae13414cda98b4b4f7888799f6a"
@@ -25821,7 +25821,7 @@
     "structure": [
       {
         "filename": "Sabine150439_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 10120948,
         "mimetype": "image/tiff",
         "sha1": "a0e84a7bf2dc461dc97ecebe924931249af261b1"
@@ -26106,7 +26106,7 @@
     "structure": [
       {
         "filename": "Sabine050640_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17246220,
         "mimetype": "image/tiff",
         "sha1": "368761e53b1f14244e65221567aa16733fc6cf24"
@@ -26217,7 +26217,7 @@
     "structure": [
       {
         "filename": "Sabine280341_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19203212,
         "mimetype": "image/tiff",
         "sha1": "82335b7710cd9bc23c597e73d6b8b661839ff784"
@@ -26276,7 +26276,7 @@
     "structure": [
       {
         "filename": "Sabine120242_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19570148,
         "mimetype": "image/tiff",
         "sha1": "c0956479fa2787eb37912cdf6ac4d55e7b8123f5"
@@ -26321,7 +26321,7 @@
     "structure": [
       {
         "filename": "Sabine010344_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19814772,
         "mimetype": "image/tiff",
         "sha1": "ef6abf9cd84ea326bea707e4afb50e9acc8539f3"
@@ -26366,7 +26366,7 @@
     "structure": [
       {
         "filename": "Sabine030244_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17165004,
         "mimetype": "image/tiff",
         "sha1": "af5f03243a40970c02e80b8ad7a3f1f47c74673e"
@@ -26439,7 +26439,7 @@
     "structure": [
       {
         "filename": "Sabine051244_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14851708,
         "mimetype": "image/tiff",
         "sha1": "560d65d376f973d2e5b2c19de6c9353ac2d7df5c"
@@ -27335,7 +27335,7 @@
     "structure": [
       {
         "filename": "Sabine291057_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17735468,
         "mimetype": "image/tiff",
         "sha1": "0c39f52aaa17b88d4631507543525c23d55d42c4"
@@ -29926,7 +29926,7 @@
     "structure": [
       {
         "filename": "Schmidt240246_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19937084,
         "mimetype": "image/tiff",
         "sha1": "07e74ee3920c4e45e727c948848369a1bdeb4e0c"
@@ -29985,7 +29985,7 @@
     "structure": [
       {
         "filename": "Schmidt040746_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19937084,
         "mimetype": "image/tiff",
         "sha1": "6ba9f12e3eaaadbe830893f06aded4747cc97dd0"
@@ -30075,7 +30075,7 @@
     "structure": [
       {
         "filename": "Schmidt260855_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19749308,
         "mimetype": "image/tiff",
         "sha1": "85b111c7c7ce3badadb069a436c6227422c45dca"
@@ -30329,7 +30329,7 @@
     "structure": [
       {
         "filename": "Scheere041050_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20226108,
         "mimetype": "image/tiff",
         "sha1": "5d11be5fe717041143a70df2c7c1a11e7ea37e70"
@@ -30402,7 +30402,7 @@
     "structure": [
       {
         "filename": "Scheer020851_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21649452,
         "mimetype": "image/tiff",
         "sha1": "2309853314222defbf624087402e340a4ac5d725"
@@ -30638,7 +30638,7 @@
     "structure": [
       {
         "filename": "Sommer011033_2_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15676148,
         "mimetype": "image/tiff",
         "sha1": "7e56c2b20eb83957950ec7ddf8d955fac5c542af"
@@ -30728,7 +30728,7 @@
     "structure": [
       {
         "filename": "Skaar220448_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14476484,
         "mimetype": "image/tiff",
         "sha1": "e25acda6b0e063d33d1932ee6d76c348d53cbf51"
@@ -30922,7 +30922,7 @@
     "structure": [
       {
         "filename": "Sibbern251055_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 13139116,
         "mimetype": "image/tiff",
         "sha1": "1eb590db3b4bc6efa94b0f07ef74c2b0273687b1"
@@ -31473,7 +31473,7 @@
     "structure": [
       {
         "filename": "Schram051065_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14084012,
         "mimetype": "image/tiff",
         "sha1": "cd88ed74b588b4464a73dfedcf3e92eefacec971"
@@ -31532,7 +31532,7 @@
     "structure": [
       {
         "filename": "Stjerne290629_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18869308,
         "mimetype": "image/tiff",
         "sha1": "35d9430ae98ac590385a79a9ed8475aa2c0ff6f9"
@@ -31577,7 +31577,7 @@
     "structure": [
       {
         "filename": "Stjerne240650_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20059396,
         "mimetype": "image/tiff",
         "sha1": "c8fce3e628406fae1229afe1326b64f5248e57f2"
@@ -31740,7 +31740,7 @@
     "structure": [
       {
         "filename": "Sefstro221039_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "c63ddf2e69b4334b626e66a1250285d3056100d3"
@@ -31799,7 +31799,7 @@
     "structure": [
       {
         "filename": "Scharlin230843_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19937084,
         "mimetype": "image/tiff",
         "sha1": "d12b69aa81002f42022e863be4a225825cd0755f"
@@ -32031,7 +32031,7 @@
     "structure": [
       {
         "filename": "Svanbe220551_1_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "ba79cbcacbd5b4dc9f5c62d2af14e3a67716fad1"
@@ -32236,7 +32236,7 @@
     "structure": [
       {
         "filename": "Svanbe140652_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20426332,
         "mimetype": "image/tiff",
         "sha1": "17fd4052780c9e83b0e63634ea3ba548ed10ae64"
@@ -32281,7 +32281,7 @@
     "structure": [
       {
         "filename": "Svanbe170652_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20548644,
         "mimetype": "image/tiff",
         "sha1": "6d3473863151e74a7b5a32e0a284eaf4e9768470"
@@ -32385,7 +32385,7 @@
     "structure": [
       {
         "filename": "Svanbe130753_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19991628,
         "mimetype": "image/tiff",
         "sha1": "0e50db22bcbf1330b3b4864711723b6db1a38a65"
@@ -32430,7 +32430,7 @@
     "structure": [
       {
         "filename": "Svanbe030754_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20181708,
         "mimetype": "image/tiff",
         "sha1": "0779dbda10d113ae1cb4b664040acf033e7fdf12"
@@ -32683,7 +32683,7 @@
     "structure": [
       {
         "filename": "Sterky190930_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20817084,
         "mimetype": "image/tiff",
         "sha1": "fce5aaa4ed7d51b1de435f04448ab90d1bec249a"
@@ -32742,7 +32742,7 @@
     "structure": [
       {
         "filename": "Sievers280247_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21404828,
         "mimetype": "image/tiff",
         "sha1": "d3be5b62dfd302d19012be3f09dbecc55d4fb8d6"
@@ -32884,7 +32884,7 @@
     "structure": [
       {
         "filename": "Schube030819_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17083788,
         "mimetype": "image/tiff",
         "sha1": "bcda9111c4dc8e47791759f4b44431fece1e3363"
@@ -33273,7 +33273,7 @@
     "structure": [
       {
         "filename": "Segelck200128_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21037892,
         "mimetype": "image/tiff",
         "sha1": "9ec2fa8d183939d11746f805a8f546d958661047"
@@ -33593,7 +33593,7 @@
     "structure": [
       {
         "filename": "Segelck120331_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20378924,
         "mimetype": "image/tiff",
         "sha1": "e9fd2dc4d6e9837ef06eac5260b069287aa5ab6a"
@@ -33652,7 +33652,7 @@
     "structure": [
       {
         "filename": "Schwei210314_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19080900,
         "mimetype": "image/tiff",
         "sha1": "9e0da7984c36649d035631ba24f210cc1b4866a1"
@@ -33756,7 +33756,7 @@
     "structure": [
       {
         "filename": "Schwei270920_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 20059396,
         "mimetype": "image/tiff",
         "sha1": "ae74bb5505d5dcf58a523afe4484690668116179"
@@ -33971,7 +33971,7 @@
     "structure": [
       {
         "filename": "Cappel121227_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 22105140,
         "mimetype": "image/tiff",
         "sha1": "e73c52d59bd7940911742443238c1be89159c7ad"
@@ -34030,7 +34030,7 @@
     "structure": [
       {
         "filename": "Cappelen260923_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 21745080,
         "mimetype": "image/tiff",
         "sha1": "3aedce0e7e37932d86a8208e70bb990da1e84114"
@@ -34269,7 +34269,7 @@
     "structure": [
       {
         "filename": "Cronstran200127_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19421796,
         "mimetype": "image/tiff",
         "sha1": "1f001a950a4c62614600f9ce335725b3e08c5abd"
@@ -34366,7 +34366,7 @@
     "structure": [
       {
         "filename": "Cronstran290518_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 18570948,
         "mimetype": "image/tiff",
         "sha1": "40aa2e650064a6958dbd9e57e6029ed6816f3b68"
@@ -34477,7 +34477,7 @@
     "structure": [
       {
         "filename": "Ertel300127_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 23154576,
         "mimetype": "image/tiff",
         "sha1": "082b265f03fe6178c2bd9feeed9d2070edc5d745"
@@ -34588,7 +34588,7 @@
     "structure": [
       {
         "filename": "Cronstran190520_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 7834500,
         "mimetype": "image/tiff",
         "sha1": "af2612fbd2f4b07228ebf11a689294969b5adc9c"
@@ -34789,7 +34789,7 @@
     "structure": [
       {
         "filename": "Bergsager260562_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 17095140,
         "mimetype": "image/tiff",
         "sha1": "b0159b6bf996ae5dd136667df057acb9a1a14818"
@@ -35138,18 +35138,18 @@
     },
     "structure": [
       {
-        "filename": "Berghaus081124_b.tif",
-        "label": "Konvolutt-bakside",
-        "filesize": 5823324,
-        "mimetype": "image/tiff",
-        "sha1": "505471936cc67acd5e13716f132cb85ea4869a85"
-      },
-      {
         "filename": "Berghaus081124_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 5677200,
         "mimetype": "image/tiff",
         "sha1": "9decc79b51e9e8262ad43d9e17e6147198dd65d4"
+      },
+      {
+        "filename": "Berghaus081124_b.tif",
+        "label": "Konvoluttbakside",
+        "filesize": 5823324,
+        "mimetype": "image/tiff",
+        "sha1": "505471936cc67acd5e13716f132cb85ea4869a85"
       },
       {
         "filename": "Berghaus081124_s1.tif",
@@ -35243,7 +35243,7 @@
       },
       {
         "filename": "Boignet080659_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 14306436,
         "mimetype": "image/tiff",
         "sha1": "ea2c8c6398e93ab9a733af10aac89e1d42936d76"
@@ -35340,7 +35340,7 @@
     "structure": [
       {
         "filename": "Brewster110324_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 19398420,
         "mimetype": "image/tiff",
         "sha1": "0fd6e957598855c3985fb198108ac5fde3dcd27a"
@@ -35558,7 +35558,7 @@
     "structure": [
       {
         "filename": "Perthes041150_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26395632,
         "mimetype": "image/tiff",
         "sha1": "aed4b2f27705208cf613a934f7026940e64f4266"
@@ -35603,7 +35603,7 @@
     "structure": [
       {
         "filename": "Perthes051132_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 24897408,
         "mimetype": "image/tiff",
         "sha1": "10e633615ecb2b47e036ea695009bc5bfd071756"
@@ -35686,7 +35686,7 @@
     "structure": [
       {
         "filename": "Perthes100542_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25868196,
         "mimetype": "image/tiff",
         "sha1": "db374ae0115763a4331d6772dffca741075fb870"
@@ -35845,7 +35845,7 @@
     "structure": [
       {
         "filename": "Perthes130358_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26479716,
         "mimetype": "image/tiff",
         "sha1": "92237a93184373b7f6e45e2afc8975bd6c4cf31d"
@@ -36094,7 +36094,7 @@
     "structure": [
       {
         "filename": "Perthes200152_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25608300,
         "mimetype": "image/tiff",
         "sha1": "cbb1fa2d2a25b1dfb6cc70a431ca7a48eedb36e2"
@@ -36177,7 +36177,7 @@
     "structure": [
       {
         "filename": "Perthes210153_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25487700,
         "mimetype": "image/tiff",
         "sha1": "ffbf1aacfa92050b9287f640011dbea34d6680a8"
@@ -36222,7 +36222,7 @@
     "structure": [
       {
         "filename": "Perthes220353_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25487700,
         "mimetype": "image/tiff",
         "sha1": "88078321bdbbf28fbd0504c87f6b3142707521e1"
@@ -36305,7 +36305,7 @@
     "structure": [
       {
         "filename": "Perthes220652_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25340760,
         "mimetype": "image/tiff",
         "sha1": "088558c78081e2192fcb1ccd9abc7fef71de1a05"
@@ -36388,7 +36388,7 @@
     "structure": [
       {
         "filename": "Perthes240550_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 26655528,
         "mimetype": "image/tiff",
         "sha1": "00c89aaa473fee0ff0952357b51eab1b86264049"
@@ -36478,7 +36478,7 @@
     "structure": [
       {
         "filename": "Perthes251152_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 25487700,
         "mimetype": "image/tiff",
         "sha1": "ffa0bf7fcd6e594c2b4279caf50341c65cef21d8"
@@ -36703,7 +36703,7 @@
     "structure": [
       {
         "filename": "Perthes311250_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 15894528,
         "mimetype": "image/tiff",
         "sha1": "2087c01bdead6b37ff6d3bee5218340295397d98"
@@ -36785,18 +36785,18 @@
     },
     "structure": [
       {
-        "filename": "Baeyer010964_b.tif",
-        "label": "Konvolutt-bakside",
-        "filesize": 8923572,
-        "mimetype": "image/tiff",
-        "sha1": "d3f26028b60eea31020eddbb58731468f5778052"
-      },
-      {
         "filename": "Baeyer010964_f.tif",
-        "label": "Konvolutt-forside",
+        "label": "Konvoluttforside",
         "filesize": 9093060,
         "mimetype": "image/tiff",
         "sha1": "62ad0d4f7c0f8dab8ea0988a4c4b6603cc7d0973"
+      },
+      {
+        "filename": "Baeyer010964_b.tif",
+        "label": "Konvoluttbakside",
+        "filesize": 8923572,
+        "mimetype": "image/tiff",
+        "sha1": "d3f26028b60eea31020eddbb58731468f5778052"
       },
       {
         "filename": "Baeyer010964_s1.tif",
