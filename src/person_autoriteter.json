@@ -1,7 +1,7 @@
 {
     "Agardh, John Mortimer": {
         "0": "5018420",
-        "a": null
+        "a": "Agardh, John Mortimer"
     },
     "Airz, G. B.": {
         "0": null,
@@ -24,16 +24,16 @@
         "a": null
     },
     "Anker, Carsten": {
-        "0": null,
-        "a": null
+        "0": "11030714",
+        "a": "Anker, Carsten"
     },
     "Arago, Dominique François Jean": {
         "0": null,
         "a": null
     },
     "Argelander, Friedrich Wilhelm August": {
-        "0": null,
-        "a": null
+        "0": "9057651",
+        "a": "Argelander, F.W.A."
     },
     "Arnold & Dent": {
         "0": null,
@@ -48,8 +48,8 @@
         "a": null
     },
     "Baeyer": {
-        "0": null,
-        "a": null
+        "0": "10017460",
+        "a": "Baeyer, Johann Jacob"
     },
     "Balfur": {
         "0": null,
@@ -108,8 +108,8 @@
         "a": null
     },
     "Bond, G. P.": {
-        "0": null,
-        "a": null
+        "0": "9064341",
+        "a": "Bond, George Phillips"
     },
     "Brandes, H. W.": {
         "0": null,
@@ -148,8 +148,8 @@
         "a": null
     },
     "Buys-Ballot": {
-        "0": null,
-        "a": null
+        "0": "9065692",
+        "a": "Buys Ballot, C.H.D."
     },
     "Bystrøm, Th.": {
         "0": null,
@@ -159,9 +159,13 @@
         "0": null,
         "a": null
     },
+    "Cappelen, Peder": {
+        "0": "15038635",
+        "a": "Cappelen, Peder von"
+    },
     "Cappelen, Jørgen W.": {
-        "0": null,
-        "a": null
+        "0": "90612333",
+        "a": "Cappelen, Jørgen Wright"
     },
     "Christie, J. K.": {
         "0": null,
@@ -172,8 +176,8 @@
         "a": null
     },
     "Cronstrand, Simon Anders": {
-        "0": null,
-        "a": null
+        "0": "5013268",
+        "a": "Cronstrand, Simon Anders"
     },
     "Crowe, J. R.": {
         "0": null,
@@ -362,8 +366,8 @@
         "a": null
     },
     "Forbes, J.": {
-        "0": null,
-        "a": null
+        "0": "98062815",
+        "a": "Forbes, James D."
     },
     "Forchhammer": {
         "0": null,
@@ -406,8 +410,8 @@
         "a": null
     },
     "Gaimard": {
-        "0": null,
-        "a": null
+        "0": "11003422",
+        "a": "Gaimard, Joseph-Paul"
     },
     "Galle, G.": {
         "0": null,
@@ -430,8 +434,8 @@
         "a": null
     },
     "Geelmuyden": {
-        "0": "97045692",
-        "a": "Geelmuyden, Hans"
+        "0": null,
+        "a": null
     },
     "Gibson, Milner": {
         "0": null,
@@ -506,8 +510,8 @@
         "a": null
     },
     "Rosseland, s": {
-        "0": null,
-        "a": null
+        "0": "1533887388176",
+        "a": "Rosseland, Svein"
     },
     "Sabine": {
         "0": "1049022",
@@ -654,8 +658,8 @@
         "a": null
     },
     "d'Abbadie, Antoine Thomson": {
-        "0": null,
-        "a": null
+        "0": "2113860",
+        "a": "Abbadie, Antoine Thompson d'"
     },
     "de Boigne, Paul": {
         "0": null,

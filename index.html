@@ -88,7 +88,15 @@ var app = new Vue({
       <tbody>
         <tr v-for="row in rows">
           <td>{{ row.id }}</td>
-          <td>{{ row.sender }}</td>
+          <td>
+            {{ row.sender }}
+            <a v-if="row.sender_bibsys_id" target="_blank" :href="'https://tools.wmflabs.org/bsaut/show/' + row.sender_bibsys_id">
+              <i class="fas fa-user-check"></i>
+            </a>
+            <a v-if="row.sender_wd_id" target="_blank" :href="'https://tools.wmflabs.org/reasonator/?lang=nb&q=' + row.sender_wd_id">
+              <i class="fab fa-wikipedia-w"></i>
+            </a>
+          </td>
           <td>{{ row.date }}</td>
           <td>{{ row.place }}</td>
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
@@ -155,6 +163,8 @@ var app = new Vue({
                 return {
                     id: _.get(row, 'id'),
                     sender: _.get(row, 'descriptive.agents.correspondent.name'),
+                    sender_bibsys_id: _.get(row, 'descriptive.agents.correspondent.bibsys_id'),
+                    sender_wd_id: _.get(row, 'descriptive.agents.correspondent.wikidata_id'),
                     date: _.get(row, 'descriptive.date'),
                     place: place,
                     files: _.get(row, 'structure'),
