@@ -359,14 +359,15 @@ def build_doc(xml, row, authorities):
         # ---------------------------------------------------------------------------
 
         # Vi kan evt. også generere en 580-note.
-        with xml.datafield(tag='773', ind1='0', ind2=' '):
-            xml.subfield('Christopher Hansteens korrespondanse', code='t')
+        # with xml.datafield(tag='773', ind1='0', ind2=' '):
+        #     xml.subfield('Christopher Hansteens korrespondanse', code='t')
 
         # ---------------------------------------------------------------------------
-        # 787: Alma collection ID
+        # 787: Alma Digital collection
         # ---------------------------------------------------------------------------
 
         with xml.datafield(tag='787', ind1='1', ind2=' '):
+            xml.subfield('Christopher Hansteens korrespondanse', code='t')
             xml.subfield('81218451430002204', code='w')
 
         # ---------------------------------------------------------------------------
