@@ -90,7 +90,7 @@ def build_doc(xml, row):
                 dato_type = 'e'  # Detaljert dato
             else:
                 dato_type = 's'  # Kun år
-            year = dato[:5]
+            year = dato[:4]
 
         # Bearbeid sted
         place = None
