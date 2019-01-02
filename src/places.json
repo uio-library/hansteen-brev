@@ -1,0 +1,382 @@
+[
+  {
+    "country": null,
+    "name": "Allerly by Melrose",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Altona",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Ask",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Augsburg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Bergen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Berlin",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Bodø",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Bonn",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Bremen",
+    "wikidata_id": null
+  },
+  {
+    "country": null,
+    "name": "Breslau",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Cambridge",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Christiania",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Detmold",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Dorset",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Drammen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Dresden",
+    "wikidata_id": null
+  },
+  {
+    "country": "Irland",
+    "name": "Dublin",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Dunse",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Edinburgh",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Eidskog",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Eidsvold",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Fredriksværn",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Freiberg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Gierpen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Giessen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Greenwich",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Göttingen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Gøteborg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Halle",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Hamburg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Hammerfest",
+    "wikidata_id": null
+  },
+  {
+    "country": "Danmark",
+    "name": "Helsingør",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Horten",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Irkutsk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Jakutsk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Kiel",
+    "wikidata_id": null
+  },
+  {
+    "country": null,
+    "name": "Kiev",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Kirensk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Kristiansand",
+    "wikidata_id": null
+  },
+  {
+    "country": "Danmark",
+    "name": "Köbenhavn",
+    "wikidata_id": null
+  },
+  {
+    "country": null,
+    "name": "Königsberg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Larvik",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "Leipzig",
+    "wikidata_id": null
+  },
+  {
+    "country": "Portugal",
+    "name": "Lisboa",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "London",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Lund",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Lyngdal",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Manchester",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Modum",
+    "wikidata_id": null
+  },
+  {
+    "country": "Tyskland",
+    "name": "München",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Namdalen",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Okhotsk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Omsk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Danmark",
+    "name": "Oxøe",
+    "wikidata_id": null
+  },
+  {
+    "country": "Frankrike",
+    "name": "Paris",
+    "wikidata_id": null
+  },
+  {
+    "country": "USA",
+    "name": "Philadelphia",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Porsgrunn",
+    "wikidata_id": null
+  },
+  {
+    "country": null,
+    "name": "Pulkova",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Ringebu",
+    "wikidata_id": null
+  },
+  {
+    "country": "Danmark",
+    "name": "Sorøe",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "St. Petersburg",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Stavanger",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Stockholm",
+    "wikidata_id": null
+  },
+  {
+    "country": "Russland",
+    "name": "Tobolsk",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Tromsø",
+    "wikidata_id": null
+  },
+  {
+    "country": "Norge",
+    "name": "Trondheim",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Uddevalla",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Uppsala",
+    "wikidata_id": null
+  },
+  {
+    "country": "Frankrike",
+    "name": "Urrugne",
+    "wikidata_id": null
+  },
+  {
+    "country": "Nederland",
+    "name": "Utrecht",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sverige",
+    "name": "Wadstena",
+    "wikidata_id": null
+  },
+  {
+    "country": "USA",
+    "name": "Washington D. C.",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "Woolwish",
+    "wikidata_id": null
+  },
+  {
+    "country": "Storbritannia",
+    "name": "York",
+    "wikidata_id": null
+  },
+  {
+    "country": "Sveits",
+    "name": "Zürich",
+    "wikidata_id": null
+  },
+  {
+    "country": "Finland",
+    "name": "Åbo",
+    "wikidata_id": null
+  }
+]
