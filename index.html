@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hansteens brevsamling</title>
+    <title>Christopher Hansteens korrespondanse</title>
     <link rel="stylesheet" href="">
 
     <!-- development version, includes helpful console warnings-->
@@ -25,6 +25,15 @@
             display: inline-block;
             width: 20px;
         }
+        .error {
+            background: red;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1, p {
+            padding: 5px 20px;
+        }
     </style>
 </head>
 <body>
@@ -34,10 +43,20 @@ var app = new Vue({
     el: '#app',
     template: `
 <div>
+    <h1>Christopher Hansteen's correspondence : overview</h1>
     <p>
-        <a href="https://github.com/uio-library/hansteen-brev">https://github.com/uio-library/hansteen-brev</a>
+        The table below provides an overview to the digitized letters.
+        See <a href="https://github.com/uio-library/hansteen-brev">https://github.com/uio-library/hansteen-brev</a>
+        for more info.
+        The letters are also available <a href="" title="">in Oria</a>.
     </p>
-    <table class="table table-striped">
+    <p v-if="loading">
+        Loading data…
+    </p>
+    <p v-if="error" class="error">
+        {{ error }}
+    </p>
+    <table class="table table-striped" v-if="!loading">
       <thead>
         <tr>
           <th scope="col" style="width: 160px;">
@@ -46,16 +65,7 @@ var app = new Vue({
                     <i class="fas fa-sort-alpha-down" v-show="sortKey == 'id' && sortOrder == 'asc'"></i>
                     <i class="fas fa-sort-alpha-up" v-show="sortKey == 'id' && sortOrder == 'desc'"></i>
                 </span>
-                Tilvekstnr.
-            </button>
-          </th>
-          <th scope="col" style="width: 220px;">
-            <button class="btn btn-link" @click="setSortKey('sender')">
-                <span style="width:20px;">
-                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'sender' && sortOrder == 'asc'"></i>
-                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'sender' && sortOrder == 'desc'"></i>
-                </span>
-                Avsender
+                Identifier
             </button>
           </th>
           <th scope="col" style="width: 220px;">
@@ -64,7 +74,16 @@ var app = new Vue({
                     <i class="fas fa-sort-alpha-down" v-show="sortKey == 'date' && sortOrder == 'asc'"></i>
                     <i class="fas fa-sort-alpha-up" v-show="sortKey == 'date' && sortOrder == 'desc'"></i>
                 </span>
-                Dato
+                Date
+            </button>
+          </th>
+          <th scope="col" style="width: 220px;">
+            <button class="btn btn-link" @click="setSortKey('sender')">
+                <span style="width:20px;">
+                    <i class="fas fa-sort-alpha-down" v-show="sortKey == 'sender' && sortOrder == 'asc'"></i>
+                    <i class="fas fa-sort-alpha-up" v-show="sortKey == 'sender' && sortOrder == 'desc'"></i>
+                </span>
+                Correspondent
             </button>
           </th>
           <th scope="col" style="width: 220px;">
@@ -73,21 +92,22 @@ var app = new Vue({
                     <i class="fas fa-sort-alpha-down" v-show="sortKey == 'place' && sortOrder == 'asc'"></i>
                     <i class="fas fa-sort-alpha-up" v-show="sortKey == 'place' && sortOrder == 'desc'"></i>
                 </span>
-                Sted
+                Sent from
             </button>
           </th>
           <th scope="col">Filer</th>
         </tr>
         <tr>
           <th scope="col"><input placeholder="Søk" v-model="filters.id" style="width:100%"></th>
-          <th scope="col"><input placeholder="Søk" v-model="filters.sender" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.date" style="width:100%"></th>
+          <th scope="col"><input placeholder="Søk" v-model="filters.sender" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.place" style="width:100%"></th>
         </tr>
       </thead>
       <tbody>
-        <tr v-for="row in rows">
+        <tr v-for="row in rows" ref="rows">
           <td>{{ row.id }}</td>
+          <td>{{ row.date }}</td>
           <td>
             {{ row.sender }}
             <a v-if="row.sender_bibsys_id" target="_blank" :href="'https://tools.wmflabs.org/bsaut/show/' + row.sender_bibsys_id">
@@ -97,10 +117,9 @@ var app = new Vue({
               <i class="fab fa-wikipedia-w"></i>
             </a>
           </td>
-          <td>{{ row.date }}</td>
           <td>{{ row.place }}</td>
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
-            <div style="flex: 0 0 auto; padding: .4em;" v-for="page in row.files">
+            <div v-if="row.showThumbs" style="flex: 0 0 auto; padding: .4em;" v-for="page in row.files">
                 <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
                 <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '_thumb.jpg')" alt=""><br>
 
@@ -116,6 +135,8 @@ var app = new Vue({
         octicon: window.VueOcticon,
     },
     data: {
+        loading: true,
+        error: null,
         allRows: [],
         sortKey: 'id',
         sortOrder: 'asc',
@@ -134,7 +155,8 @@ var app = new Vue({
                 this.sortKey = key;
             }
         },
-        updateUri: function() {
+        updateQueryString: function() {
+            // Update the query string from the current data
             let qs = []
             Object.keys(this.filters).forEach(key => {
                 if (this.filters[key]) {
@@ -143,10 +165,23 @@ var app = new Vue({
             });
             qs.push(`sort=${this.sortKey}:${this.sortOrder}`)
             window.history.replaceState(null, null, window.location.pathname + '?' + qs.join('&'));
+        },
+        checkRowVisibility: function() {
+            // Show thumbnails for rows that are currently visible (within the viewport).
+            // It's not a problem that we load a few extra rows, so we don't bother taking
+            // into account the fact that rows expand when thumbs are added.
+            let viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+            for (let i = 0; i < this.rows.length; i++) {
+                let rect = this.$refs.rows[i].getBoundingClientRect();
+                if (!(rect.bottom < 0 || rect.top - viewHeight >= 0)) {
+                    this.rows[i].showThumbs = true;
+                }
+            }
         }
     },
     computed: {
         rows: function() {
+            // Define filters
             let filters = [];
             Object.keys(this.filters).forEach(columnName => {
                 if (this.filters[columnName].length) {
@@ -155,23 +190,32 @@ var app = new Vue({
                 }
             });
 
-            return _.orderBy(this.allRows.filter(row => {
+            // Filter rows
+            let rows = this.allRows.filter(row => {
                 for (var i = filters.length - 1; i >= 0; i--) {
                     if (!filters[i](row)) return false;
                 }
                 return true;
-            }), row => (row[this.sortKey] + '').toLowerCase(), [this.sortOrder]);
+            });
+
+            // Return sorted rows
+            return _.orderBy(rows, row => (row[this.sortKey] + '').toLowerCase(), [this.sortOrder]);
         },
     },
     watch: {
-        'filters.id': function() { this.updateUri() },
-        'filters.sender': function() { this.updateUri() },
-        'filters.date': function() { this.updateUri() },
-        'filters.place': function() { this.updateUri() },
-        'sortKey': function() { this.updateUri() },
-        'sortOrder': function() { this.updateUri() },
+        'filters.id': function() { this.updateQueryString() },
+        'filters.sender': function() { this.updateQueryString() },
+        'filters.date': function() { this.updateQueryString() },
+        'filters.place': function() { this.updateQueryString() },
+        'sortKey': function() { this.updateQueryString() },
+        'sortOrder': function() { this.updateQueryString() },
+        'rows': function() { Vue.nextTick(_ => this.checkRowVisibility()) }
     },
     mounted: function() {
+
+        window.addEventListener('scroll', _.throttle(_ => {
+            this.checkRowVisibility();
+        }, 300));
 
         // Set filter values from query string params
         let uri = window.location.search.substring(1);
@@ -185,6 +229,8 @@ var app = new Vue({
 
         // Get data
         axios.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then(resp => {
+            this.loading = false;
+            this.error = 'Failed to process data!'; // Set error in case processing fails
             let processed = resp.data.map(function(row) {
                 let place = _.get(row, 'descriptive.places.0');
                 if (place) {
@@ -198,9 +244,14 @@ var app = new Vue({
                     date: _.get(row, 'descriptive.date'),
                     place: place,
                     files: _.get(row, 'structure'),
+                    showThumbs: false,
                 };
             });
             this.allRows = processed;
+            this.error = null; // Reset error
+        }, resp => {
+            this.loading = false;
+            this.error = 'Failed to fetch data!';
         });
     }
 })
