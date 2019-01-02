@@ -134,11 +134,21 @@ var app = new Vue({
                 this.sortKey = key;
             }
         },
+        updateUri: function() {
+            let qs = []
+            Object.keys(this.filters).forEach(key => {
+                if (this.filters[key]) {
+                    qs.push(key + '=' + encodeURIComponent(this.filters[key]));
+                }
+            });
+            qs.push(`sort=${this.sortKey}:${this.sortOrder}`)
+            window.history.replaceState(null, null, window.location.pathname + '?' + qs.join('&'));
+        }
     },
     computed: {
         rows: function() {
             let filters = [];
-            ['id', 'sender', 'date', 'place'].forEach(columnName => {
+            Object.keys(this.filters).forEach(columnName => {
                 if (this.filters[columnName].length) {
                     let v = this.filters[columnName].toLowerCase();
                     filters.push(x => x[columnName] && x[columnName].toLowerCase().indexOf(v) !== -1);
@@ -153,8 +163,28 @@ var app = new Vue({
             }), row => (row[this.sortKey] + '').toLowerCase(), [this.sortOrder]);
         },
     },
+    watch: {
+        'filters.id': function() { this.updateUri() },
+        'filters.sender': function() { this.updateUri() },
+        'filters.date': function() { this.updateUri() },
+        'filters.place': function() { this.updateUri() },
+        'sortKey': function() { this.updateUri() },
+        'sortOrder': function() { this.updateUri() },
+    },
     mounted: function() {
-        axios.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then((resp) => {
+
+        // Set filter values from query string params
+        let uri = window.location.search.substring(1);
+        let params = new URLSearchParams(uri);
+        Object.keys(this.filters).forEach(key => {
+            this.filters[key] = params.get(key) || '';
+        });
+        let sortParams = (params.get('sort') || 'id:asc').split(':');
+        this.sortKey = sortParams[0];
+        this.sortOrder = sortParams[1];
+
+        // Get data
+        axios.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then(resp => {
             let processed = resp.data.map(function(row) {
                 let place = _.get(row, 'descriptive.places.0');
                 if (place) {
