@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Christopher Hansteens korrespondanse</title>
+    <title>Christopher Hansteen's correspondence</title>
     <link rel="stylesheet" href="">
 
     <!-- development version, includes helpful console warnings-->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js" integrity="sha256-TuNPk8D8FMWPo5dDIBWwBuu+lxtA7yyN+i8LmHQudrc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js" integrity="sha256-ui3vFTgbIIvd9ePh+wF+ju05O3jympV4FyFlpNMV2cw=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
 
@@ -32,7 +32,7 @@
             margin: 10px;
         }
         h1, p {
-            padding: 5px 20px;
+            margin: 8px 20px;
         }
     </style>
 </head>
@@ -45,10 +45,19 @@ var app = new Vue({
 <div>
     <h1>Christopher Hansteen's correspondence : overview</h1>
     <p>
-        The table below provides an overview to the digitized letters.
-        See <a href="https://github.com/uio-library/hansteen-brev">https://github.com/uio-library/hansteen-brev</a>
-        for more info.
-        The letters are also available <a href="" title="">in Oria</a>.
+        The table below provides an overview of the letters
+        from Christopher Hansteen's correspondence
+        that have been digitized and described,
+        using data from the <a href="https://github.com/uio-library/hansteen-brev">Git repo</a>.
+        The letters are also available in <a href="https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/collectionDiscovery?vid=UIO&lang=en_US">Oria Digital Collections</a>.
+        See <a href="https://github.com/uio-library/hansteen-brev#christopher-hansteens-correspondence">the README</a>
+        for more info about the collection.
+    </p>
+    <p>
+        Note that not all records have been quality controlled.
+        Please report metadata errors in our
+        <a href="https://github.com/uio-library/hansteen-brev/issues">issue tracker</a>
+        or by e-mail to <a href="mailto:realfagsbiblioteket@ub.uio.no">realfagsbiblioteket@ub.uio.no</a>.
     </p>
     <p v-if="loading">
         Loading data…
@@ -95,7 +104,7 @@ var app = new Vue({
                 Sent from
             </button>
           </th>
-          <th scope="col">Filer</th>
+          <th scope="col">Files</th>
         </tr>
         <tr>
           <th scope="col"><input placeholder="Søk" v-model="filters.id" style="width:100%"></th>

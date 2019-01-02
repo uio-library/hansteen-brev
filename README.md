@@ -3,7 +3,8 @@
 This repo contains metadata for 707 scientific letters received by
 [Christopher Hansteen](https://www.ub.uio.no/fag/naturvitenskap-teknologi/astro/hansteen/).
 The letters themselves are stored in [Observatoriet](https://no.wikipedia.org/wiki/Observatoriet) in Oslo.
-Digitized representations are available at https://uio-library.github.io/hansteen-brev/ .
+Digitized representations are available at https://uio-library.github.io/hansteen-brev/ 
+and in [Oria Digital Collections](https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/collectionDiscovery?vid=UIO&lang=en_US).
 
 ## History
 
