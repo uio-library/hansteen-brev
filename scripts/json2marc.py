@@ -228,7 +228,10 @@ def build_doc(xml, row, authorities):
             title += ' ' + dato_s
         if place_s is not None:
             title += ', ' + place_s
-        title += ' [til] Hansteen, Christopher'
+        if 'addressee' in desc['agents']:
+            title += ' [til] ' + desc['agents']['addressee']['name']
+        else:
+            title += ' [til] Hansteen, Christopher'
         with xml.datafield(tag='245', ind1='0', ind2='0'):
             xml.subfield(title, code='a')
             if 'correspondent' in desc['agents']:
