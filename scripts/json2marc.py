@@ -51,19 +51,19 @@ def format_date(dato):
     return '???????'
 
 
-def build(metadata, authorities, filename=None):
+def build(metadata, filename=None):
 
     # Ex: build('build/{id}/record.xml')
     if filename is None:
         xml = xmlwitch.Builder(version='1.0', encoding='utf-8')
         with xml.collection:
             for row in metadata:
-                build_doc(xml, row, authorities)
+                build_doc(xml, row)
         print(xml)
     else:
         for row in metadata:
             xml = xmlwitch.Builder(version='1.0', encoding='utf-8')
-            build_doc(xml, row, authorities)
+            build_doc(xml, row)
             fn = filename.format(**row)
             if not os.path.exists(os.path.dirname(fn)):
                 os.mkdir(os.path.dirname(fn))
@@ -71,7 +71,7 @@ def build(metadata, authorities, filename=None):
                 fd.write(str(xml))
 
 
-def build_doc(xml, row, authorities):
+def build_doc(xml, row):
     # Unik identifikator
     ident = row['id']
 
@@ -200,16 +200,15 @@ def build_doc(xml, row, authorities):
         else:
             with xml.datafield(tag='100', ind1='1', ind2=' '):
                 agent = desc['agents']['correspondent']
-                aut = authorities.get(agent['name'], {'a': None, '0': None})
-                if aut['a'] is not None:
-                    xml.subfield(aut['a'], code='a')
+                if agent.get('aut_name'):
+                    xml.subfield(agent.get('aut_name'), code='a')
                 else:
                     xml.subfield(agent['name'], code='a')
 
                 xml.subfield('crp', code='4')
 
-                if aut['0'] is not None:
-                    aut_id = '(NO-TrBIB)%s' % aut['0']
+                if agent.get('bibsys_id') is not None:
+                    aut_id = '(NO-TrBIB)%s' % agent.get('bibsys_id')
                     xml.subfield(aut_id, code='0')
 
         # ---------------------------------------------------------------------------
@@ -333,16 +332,15 @@ def build_doc(xml, row, authorities):
         else:
             with xml.datafield(tag='700', ind1='1', ind2=' '):
                 agent = desc['agents']['addressee']
-                aut = authorities.get(agent['name'], {'a': None, '0': None})
-                if aut['a'] is not None:
-                    xml.subfield(aut['a'], code='a')
+                if agent.get('aut_name'):
+                    xml.subfield(agent.get('aut_name'), code='a')
                 else:
                     xml.subfield(agent['name'], code='a')
 
                 xml.subfield('rcp', code='4')
 
-                if aut['0'] is not None:
-                    aut_id = '(NO-TrBIB)%s' % aut['0']
+                if agent.get('bibsys_id') is not None:
+                    aut_id = '(NO-TrBIB)%s' % agent.get('bibsys_id')
                     xml.subfield(aut_id, code='0')
 
         # ---------------------------------------------------------------------------
@@ -391,21 +389,15 @@ def build_doc(xml, row, authorities):
 
 def main():
     parser = argparse.ArgumentParser(description='Build MARCXML from JSON file')
-    parser.add_argument('-a', '--authorities', nargs='?', dest='autfile', help='Authorities JSON file')
     parser.add_argument('infile', help='Input JSON file')
     parser.add_argument('-o', '--out', nargs='?', dest='outfile',
                         help='Output MARC filename pattern (leave blank to output to stdout)')
     args = parser.parse_args()
 
-    authorities = []
-    if args.autfile is not None:
-        with open(args.autfile) as fp:
-            authorities = json.load(fp)
-
     with open(args.infile) as fp:
         metadata = json.load(fp)
 
-    build(metadata, authorities, args.outfile)
+    build(metadata, args.outfile)
 
 if __name__ == '__main__':
     main()

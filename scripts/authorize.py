@@ -7,10 +7,10 @@ filename = 'src/hansteen.json'
 aut_file = 'src/person_autoriteter.json'
 
 
-auts = {}
-with open('src/openrefine_reconcile.tsv') as fp:
-    for row in csv.DictReader(fp, delimiter='\t'):
-        auts[row['id']] = row
+# auts = {}
+# with open('src/openrefine_reconcile.tsv') as fp:
+#     for row in csv.DictReader(fp, delimiter='\t'):
+#         auts[row['id']] = row
 
 
 with open(aut_file, 'r') as fp:
@@ -23,18 +23,20 @@ with open(filename, 'r') as fp:
     for letter in data:
         for agent_type, agent in letter['descriptive']['agents'].items():
 
-            if agent_type == 'correspondent' and auts.get(letter['id']):
-                a = auts.get(letter['id'])
-                agent['wikidata_id'] = a['wd']
-                agent['aut_name'] = a['name']
+            # if agent_type == 'correspondent' and auts.get(letter['id']):
+            #     aut = auts.get(letter['id'])
+            #     agent['wikidata_id'] = aut['wd']
+            #     agent['aut_name'] = aut['name']
 
             aut = authorities.get(agent['name'])
-            if aut is not None and aut.get('0') is not None:
-                agent['bibsys_id'] = aut['0']
-            if aut is not None and aut.get('wd') is not None:
-                agent['wikidata_id'] = aut['wd']
-            if aut is not None and aut.get('a') is not None:
-                agent['aut_name'] = aut['a']
+            if aut is not None and aut.get('bibsys_id') is not None:
+                agent['bibsys_id'] = aut['bibsys_id']
+            if aut is not None and aut.get('wikidata_id') is not None:
+                agent['wikidata_id'] = aut['wikidata_id']
+            elif agent.get('wikidata_id'):
+                print('Oi:', agent.get('wikidata_id'))
+            if aut is not None and aut.get('bibsys_name') is not None:
+                agent['aut_name'] = aut['bibsys_name']
 
 
 
