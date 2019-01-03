@@ -7,7 +7,7 @@
   {
     "country": "Tyskland",
     "name": "Altona",
-    "wikidata_id": null
+    "wikidata_id": "Q1630"
   },
   {
     "country": "Norge",
@@ -17,72 +17,72 @@
   {
     "country": "Tyskland",
     "name": "Augsburg",
-    "wikidata_id": null
+    "wikidata_id": "Q2749"
   },
   {
     "country": "Norge",
     "name": "Bergen",
-    "wikidata_id": null
+    "wikidata_id": "Q26793"
   },
   {
     "country": "Tyskland",
     "name": "Berlin",
-    "wikidata_id": null
+    "wikidata_id": "Q64"
   },
   {
     "country": "Norge",
     "name": "Bodø",
-    "wikidata_id": null
+    "wikidata_id": "Q39383"
   },
   {
     "country": "Tyskland",
     "name": "Bonn",
-    "wikidata_id": null
+    "wikidata_id": "Q586"
   },
   {
     "country": "Tyskland",
     "name": "Bremen",
-    "wikidata_id": null
+    "wikidata_id": "Q24879"
   },
   {
     "country": null,
     "name": "Breslau",
-    "wikidata_id": null
+    "wikidata_id": "Q1799"
   },
   {
     "country": "Storbritannia",
     "name": "Cambridge",
-    "wikidata_id": null
+    "wikidata_id": "Q350"
   },
   {
     "country": "Norge",
     "name": "Christiania",
-    "wikidata_id": null
+    "wikidata_id": "Q585"
   },
   {
     "country": "Tyskland",
     "name": "Detmold",
-    "wikidata_id": null
+    "wikidata_id": "Q3922"
   },
   {
     "country": "Storbritannia",
     "name": "Dorset",
-    "wikidata_id": null
+    "wikidata_id": "Q23159"
   },
   {
     "country": "Norge",
     "name": "Drammen",
-    "wikidata_id": null
+    "wikidata_id": "Q26525"
   },
   {
     "country": "Tyskland",
     "name": "Dresden",
-    "wikidata_id": null
+    "wikidata_id": "Q1731"
   },
   {
     "country": "Irland",
     "name": "Dublin",
-    "wikidata_id": null
+    "wikidata_id": "Q1761"
   },
   {
     "country": "Storbritannia",
@@ -92,27 +92,27 @@
   {
     "country": "Storbritannia",
     "name": "Edinburgh",
-    "wikidata_id": null
+    "wikidata_id": "Q23436"
   },
   {
     "country": "Norge",
     "name": "Eidskog",
-    "wikidata_id": null
+    "wikidata_id": "Q48913"
   },
   {
     "country": "Norge",
     "name": "Eidsvold",
-    "wikidata_id": null
+    "wikidata_id": "Q57080"
   },
   {
     "country": "Norge",
     "name": "Fredriksværn",
-    "wikidata_id": null
+    "wikidata_id": "Q5499579"
   },
   {
     "country": "Tyskland",
     "name": "Freiberg",
-    "wikidata_id": null
+    "wikidata_id": "Q14819"
   },
   {
     "country": "Norge",
@@ -122,7 +122,7 @@
   {
     "country": "Tyskland",
     "name": "Giessen",
-    "wikidata_id": null
+    "wikidata_id": "Q3874"
   },
   {
     "country": "Storbritannia",
@@ -132,12 +132,12 @@
   {
     "country": "Tyskland",
     "name": "Göttingen",
-    "wikidata_id": null
+    "wikidata_id": "Q3033"
   },
   {
     "country": "Sverige",
     "name": "Gøteborg",
-    "wikidata_id": null
+    "wikidata_id": "Q25287"
   },
   {
     "country": "Tyskland",
@@ -147,42 +147,47 @@
   {
     "country": "Tyskland",
     "name": "Hamburg",
-    "wikidata_id": null
+    "wikidata_id": "Q1055"
   },
   {
     "country": "Norge",
     "name": "Hammerfest",
-    "wikidata_id": null
+    "wikidata_id": "Q721374"
   },
   {
     "country": "Danmark",
     "name": "Helsingør",
-    "wikidata_id": null
+    "wikidata_id": "Q26881"
   },
   {
     "country": "Norge",
     "name": "Horten",
-    "wikidata_id": null
+    "wikidata_id": "Q109048"
   },
   {
     "country": "Russland",
     "name": "Irkutsk",
-    "wikidata_id": null
+    "wikidata_id": "Q6576"
   },
   {
     "country": "Russland",
     "name": "Jakutsk",
-    "wikidata_id": null
+    "wikidata_id": "Q6610"
   },
   {
     "country": "Storbritannia",
     "name": "Kew Observatory",
-    "wikidata_id": "Q3348489"
+    "wikidata_id": null
   },
   {
     "country": "Tyskland",
     "name": "Kiel",
-    "wikidata_id": null
+    "wikidata_id": "Q1707"
+  },
+  {
+    "country": null,
+    "name": "Kiev",
+    "wikidata_id": "Q1899"
   },
   {
     "country": "Russland",
@@ -192,37 +197,37 @@
   {
     "country": "Norge",
     "name": "Kristiansand",
-    "wikidata_id": null
+    "wikidata_id": "Q2415"
   },
   {
     "country": "Danmark",
     "name": "Köbenhavn",
-    "wikidata_id": null
+    "wikidata_id": "Q1748"
   },
   {
-    "country": null,
+    "country": "Preussen",
     "name": "Königsberg",
-    "wikidata_id": null
+    "wikidata_id": "Q4120832"
   },
   {
     "country": "Norge",
     "name": "Larvik",
-    "wikidata_id": null
+    "wikidata_id": "Q156125"
   },
   {
     "country": "Tyskland",
     "name": "Leipzig",
-    "wikidata_id": null
+    "wikidata_id": "Q2079"
   },
   {
     "country": "Portugal",
     "name": "Lisboa",
-    "wikidata_id": null
+    "wikidata_id": "Q597"
   },
   {
     "country": "Storbritannia",
     "name": "London",
-    "wikidata_id": null
+    "wikidata_id": "Q84"
   },
   {
     "country": "Sverige",
@@ -232,12 +237,12 @@
   {
     "country": "Norge",
     "name": "Lyngdal",
-    "wikidata_id": null
+    "wikidata_id": "Q505952"
   },
   {
     "country": "Storbritannia",
     "name": "Manchester",
-    "wikidata_id": null
+    "wikidata_id": "Q18125"
   },
   {
     "country": "Norge",
@@ -247,7 +252,7 @@
   {
     "country": "Tyskland",
     "name": "München",
-    "wikidata_id": null
+    "wikidata_id": "Q1726"
   },
   {
     "country": "Norge",
@@ -262,7 +267,7 @@
   {
     "country": "Russland",
     "name": "Omsk",
-    "wikidata_id": null
+    "wikidata_id": "Q898"
   },
   {
     "country": "Danmark",
@@ -272,22 +277,22 @@
   {
     "country": "Frankrike",
     "name": "Paris",
-    "wikidata_id": null
+    "wikidata_id": "Q90"
   },
   {
     "country": "USA",
     "name": "Philadelphia",
-    "wikidata_id": null
+    "wikidata_id": "Q1345"
   },
   {
     "country": "Norge",
     "name": "Porsgrunn",
-    "wikidata_id": null
+    "wikidata_id": "Q10637941"
   },
   {
-    "country": null,
+    "country": "Russland",
     "name": "Pulkova",
-    "wikidata_id": null
+    "wikidata_id": "Q384573"
   },
   {
     "country": "Norge",
@@ -302,17 +307,17 @@
   {
     "country": "Russland",
     "name": "St. Petersburg",
-    "wikidata_id": null
+    "wikidata_id": "Q656"
   },
   {
     "country": "Norge",
     "name": "Stavanger",
-    "wikidata_id": null
+    "wikidata_id": "Q25416"
   },
   {
     "country": "Sverige",
     "name": "Stockholm",
-    "wikidata_id": null
+    "wikidata_id": "Q1754"
   },
   {
     "country": "Russland",
@@ -322,12 +327,12 @@
   {
     "country": "Norge",
     "name": "Tromsø",
-    "wikidata_id": null
+    "wikidata_id": "Q42328401"
   },
   {
     "country": "Norge",
     "name": "Trondheim",
-    "wikidata_id": null
+    "wikidata_id": "Q25804"
   },
   {
     "country": "Sverige",
@@ -337,17 +342,17 @@
   {
     "country": "Sverige",
     "name": "Uppsala",
-    "wikidata_id": null
+    "wikidata_id": "Q25286"
   },
   {
     "country": "Frankrike",
     "name": "Urrugne",
-    "wikidata_id": null
+    "wikidata_id": "Q672401"
   },
   {
     "country": "Nederland",
     "name": "Utrecht",
-    "wikidata_id": null
+    "wikidata_id": "Q39297398"
   },
   {
     "country": "Sverige",
@@ -357,7 +362,7 @@
   {
     "country": "USA",
     "name": "Washington D. C.",
-    "wikidata_id": null
+    "wikidata_id": "Q61"
   },
   {
     "country": "Storbritannia",
@@ -367,16 +372,16 @@
   {
     "country": "Storbritannia",
     "name": "York",
-    "wikidata_id": null
+    "wikidata_id": "Q42462"
   },
   {
     "country": "Sveits",
     "name": "Zürich",
-    "wikidata_id": null
+    "wikidata_id": "Q72"
   },
   {
     "country": "Finland",
     "name": "Åbo",
-    "wikidata_id": null
+    "wikidata_id": "Q38511"
   }
 ]

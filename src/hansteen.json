@@ -9,7 +9,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -48,7 +49,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -140,7 +142,8 @@
           "place": "Zürich",
           "country": "Sveits",
           "country_code": "CH",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q72"
         }
       ],
       "agents": {
@@ -232,7 +235,8 @@
           "place": "Leipzig",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2079"
         }
       ],
       "agents": {
@@ -320,7 +324,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -451,7 +456,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -568,7 +574,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -638,7 +645,8 @@
           "place": "Cambridge",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q350"
         }
       ],
       "agents": {
@@ -687,7 +695,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -743,7 +752,8 @@
           "place": "Königsberg",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q4120832"
         }
       ],
       "agents": {
@@ -803,7 +813,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -859,7 +870,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -908,7 +920,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1132,7 +1145,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -1194,7 +1208,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1243,7 +1258,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1306,7 +1322,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1369,7 +1386,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1411,7 +1429,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1467,7 +1486,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1530,7 +1550,8 @@
           "place": "Utrecht",
           "country": "Nederland",
           "country_code": "NL",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39297398"
         }
       ],
       "agents": {
@@ -1586,7 +1607,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -1692,7 +1714,8 @@
           "place": "Kiel",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1707"
         }
       ],
       "agents": {
@@ -1784,7 +1807,8 @@
           "place": "Leipzig",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2079"
         }
       ],
       "agents": {
@@ -1837,7 +1861,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -1888,7 +1913,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -1950,7 +1976,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2012,7 +2039,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2053,7 +2081,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2115,7 +2144,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2156,7 +2186,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2204,7 +2235,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2252,7 +2284,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2307,7 +2340,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2348,7 +2382,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2430,7 +2465,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2492,7 +2528,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2547,7 +2584,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2588,7 +2626,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2636,7 +2675,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2684,7 +2724,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2732,7 +2773,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2773,7 +2815,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2828,7 +2871,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2883,7 +2927,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -2945,7 +2990,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -3000,7 +3046,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -3055,7 +3102,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -3211,7 +3259,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3264,7 +3313,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3317,7 +3367,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3377,7 +3428,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3437,7 +3489,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3490,7 +3543,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3585,7 +3639,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3645,7 +3700,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3691,7 +3747,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -3804,7 +3861,8 @@
           "place": "Breslau",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1799"
         }
       ],
       "agents": {
@@ -3878,7 +3936,8 @@
           "place": "Breslau",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1799"
         }
       ],
       "agents": {
@@ -3938,7 +3997,8 @@
           "place": "Breslau",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1799"
         }
       ],
       "agents": {
@@ -4033,7 +4093,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -4086,7 +4147,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -4139,7 +4201,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -4192,7 +4255,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -4231,7 +4295,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -4270,7 +4335,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -4316,7 +4382,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -4500,7 +4567,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -4546,7 +4614,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -4630,7 +4699,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -4679,7 +4749,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -4735,7 +4806,8 @@
           "place": "Eidsvold",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q57080"
         }
       ],
       "agents": {
@@ -4837,7 +4909,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -4898,7 +4971,8 @@
           "place": "Stavanger",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25416"
         }
       ],
       "agents": {
@@ -4951,7 +5025,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -5011,7 +5086,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -5945,7 +6021,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -5984,7 +6061,8 @@
           "place": "Bonn",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q586"
         }
       ],
       "agents": {
@@ -6040,7 +6118,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6103,7 +6182,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6166,7 +6246,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6229,7 +6310,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6292,7 +6374,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6369,7 +6452,8 @@
           "place": "Åbo",
           "country": "Finland",
           "country_code": "FI",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q38511"
         }
       ],
       "agents": {
@@ -6432,7 +6516,8 @@
           "place": "Urrugne",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q672401"
         }
       ],
       "agents": {
@@ -6474,7 +6559,8 @@
           "place": "Urrugne",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q672401"
         }
       ],
       "agents": {
@@ -6516,7 +6602,8 @@
           "place": "Urrugne",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q672401"
         }
       ],
       "agents": {
@@ -6558,7 +6645,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -6733,7 +6821,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -6786,7 +6875,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -6832,7 +6922,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -6892,7 +6983,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -6948,7 +7040,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7046,7 +7139,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7102,7 +7196,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7144,7 +7239,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7207,7 +7303,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7270,7 +7367,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {},
@@ -7308,7 +7406,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {},
@@ -7353,7 +7452,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7437,7 +7537,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7521,7 +7622,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7563,7 +7665,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7612,7 +7715,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7675,7 +7779,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7738,7 +7843,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7879,7 +7985,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7935,7 +8042,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -7998,7 +8106,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {},
@@ -8043,7 +8152,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8113,7 +8223,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8169,7 +8280,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8218,7 +8330,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8281,7 +8394,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8344,7 +8458,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8421,7 +8536,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8484,7 +8600,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8540,7 +8657,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8596,7 +8714,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8659,7 +8778,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8722,7 +8842,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8778,7 +8899,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -8956,7 +9078,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -8995,7 +9118,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -9041,7 +9165,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -9094,7 +9219,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -9140,7 +9266,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -9186,7 +9313,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -9232,7 +9360,8 @@
           "place": "München",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1726"
         }
       ],
       "agents": {
@@ -9306,7 +9435,8 @@
           "place": "München",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1726"
         }
       ],
       "agents": {
@@ -9366,7 +9496,8 @@
           "place": "München",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1726"
         }
       ],
       "agents": {
@@ -9419,7 +9550,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -9465,7 +9597,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -9518,7 +9651,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -9578,7 +9712,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": "Kilde: Fortegnelse over vitenskapelige brev"
+          "comment": "Kilde: Fortegnelse over vitenskapelige brev",
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -9624,7 +9759,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9677,7 +9813,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9730,7 +9867,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9776,7 +9914,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9822,7 +9961,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9868,7 +10008,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9914,7 +10055,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -9960,7 +10102,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10013,7 +10156,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10059,7 +10203,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10105,7 +10250,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10144,7 +10290,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10197,7 +10344,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10243,7 +10391,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -10289,7 +10438,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -10335,7 +10485,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -10381,7 +10532,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -10427,7 +10579,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -10473,7 +10626,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -10600,7 +10754,8 @@
           "place": "Omsk",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q898"
         }
       ],
       "agents": {
@@ -10713,7 +10868,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -10787,7 +10943,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -10893,7 +11050,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -10953,7 +11111,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11006,7 +11165,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11052,7 +11212,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11098,7 +11259,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11144,7 +11306,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -11190,7 +11353,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -11236,7 +11400,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -11282,7 +11447,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -11335,7 +11501,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11374,7 +11541,8 @@
           "place": "Dublin",
           "country": "Irland",
           "country_code": "IE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1761"
         }
       ],
       "agents": {
@@ -11420,7 +11588,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -11522,7 +11691,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -11628,7 +11798,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -11688,7 +11859,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -11762,7 +11934,8 @@
           "place": "Jakutsk",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q6610"
         }
       ],
       "agents": {
@@ -11822,7 +11995,8 @@
           "place": "Jakutsk",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q6610"
         }
       ],
       "agents": {
@@ -11882,7 +12056,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -11928,7 +12103,8 @@
           "place": "Bodø",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q39383"
         }
       ],
       "agents": {
@@ -11981,7 +12157,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12034,7 +12211,8 @@
           "place": "Tromsø",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q42328401"
         }
       ],
       "agents": {
@@ -12094,7 +12272,8 @@
           "place": "Breslau",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1799"
         }
       ],
       "agents": {
@@ -12213,7 +12392,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": "Usikker"
+          "comment": "Usikker",
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -12260,7 +12440,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": "Usikkert"
+          "comment": "Usikkert",
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -12308,7 +12489,8 @@
           "place": "Tromsø",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q42328401"
         }
       ],
       "agents": {
@@ -12361,7 +12543,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12414,7 +12597,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12467,7 +12651,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12527,7 +12712,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12587,7 +12773,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12647,7 +12834,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12707,7 +12895,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -12792,7 +12981,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -12831,7 +13021,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -12894,7 +13085,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -12985,7 +13177,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13048,7 +13241,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13111,7 +13305,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13160,7 +13355,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13209,7 +13405,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13286,7 +13483,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13349,7 +13547,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13412,7 +13611,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13475,7 +13675,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -13524,7 +13725,8 @@
           "place": "Jakutsk",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q6610"
         }
       ],
       "agents": {
@@ -13587,7 +13789,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13902,7 +14105,8 @@
           "place": "Irkutsk",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q6576"
         }
       ],
       "agents": {
@@ -13951,7 +14155,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -13992,7 +14197,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14068,7 +14274,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14144,7 +14351,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14206,7 +14414,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14248,7 +14457,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14296,7 +14506,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -14358,7 +14569,8 @@
           "place": "Kristiansand",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2415"
         }
       ],
       "agents": {
@@ -14418,7 +14630,8 @@
           "place": "Kristiansand",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2415"
         }
       ],
       "agents": {
@@ -14464,7 +14677,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -14524,7 +14738,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -14584,7 +14799,8 @@
           "place": "Kristiansand",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2415"
         }
       ],
       "agents": {
@@ -14644,7 +14860,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -14697,7 +14914,8 @@
           "place": "Helsingør",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26881"
         }
       ],
       "agents": {
@@ -14750,7 +14968,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -15010,7 +15229,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -15054,7 +15274,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -15099,7 +15320,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -15145,7 +15367,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -15502,7 +15725,8 @@
           "place": "Bremen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q24879"
         }
       ],
       "agents": {
@@ -15562,7 +15786,8 @@
           "place": "Bremen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q24879"
         }
       ],
       "agents": {
@@ -15601,7 +15826,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15650,7 +15876,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15706,7 +15933,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15769,7 +15997,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15839,7 +16068,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15902,7 +16132,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -15951,7 +16182,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -16014,7 +16246,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -16063,7 +16296,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -16140,7 +16374,8 @@
           "place": "Edinburgh",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23436"
         }
       ],
       "agents": {
@@ -16203,7 +16438,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16245,7 +16481,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16294,7 +16531,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16371,7 +16609,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16427,7 +16666,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16483,7 +16723,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16532,7 +16773,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16581,7 +16823,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16637,7 +16880,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16693,7 +16937,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16742,7 +16987,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16805,7 +17051,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16847,7 +17094,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16903,7 +17151,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -16959,7 +17208,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -17008,7 +17258,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -17064,7 +17315,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -17120,7 +17372,8 @@
           "place": "Leipzig",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2079"
         }
       ],
       "agents": {
@@ -17173,7 +17426,8 @@
           "place": "Leipzig",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2079"
         }
       ],
       "agents": {
@@ -17226,7 +17480,8 @@
           "place": "Detmold",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3922"
         }
       ],
       "agents": {
@@ -17286,7 +17541,8 @@
           "place": "Detmold",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3922"
         }
       ],
       "agents": {
@@ -17346,7 +17602,8 @@
           "place": "Detmold",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3922"
         }
       ],
       "agents": {
@@ -17438,7 +17695,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -17484,7 +17742,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -17523,7 +17782,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -17562,7 +17822,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -17601,7 +17862,8 @@
           "place": "Gøteborg",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25287"
         }
       ],
       "agents": {
@@ -17654,7 +17916,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -17707,7 +17970,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -17767,7 +18031,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -17813,7 +18078,8 @@
           "place": "Eidskog",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q48913"
         }
       ],
       "agents": {
@@ -17880,7 +18146,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -17926,7 +18193,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -17979,7 +18247,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -18025,7 +18294,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -18071,7 +18341,8 @@
           "place": "Manchester",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q18125"
         }
       ],
       "agents": {
@@ -18131,7 +18402,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -18177,7 +18449,8 @@
           "place": "Larvik",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q156125"
         }
       ],
       "agents": {
@@ -18283,7 +18556,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -18329,7 +18603,8 @@
           "place": "Horten",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q109048"
         }
       ],
       "agents": {
@@ -18414,13 +18689,15 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         },
         {
           "place": "Horten",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q109048"
         }
       ],
       "agents": {
@@ -18466,7 +18743,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -18519,7 +18797,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -18558,7 +18837,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -18604,7 +18884,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -18650,7 +18931,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -18696,7 +18978,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -18742,7 +19025,8 @@
           "place": "Breslau",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1799"
         }
       ],
       "agents": {
@@ -18795,7 +19079,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -18834,7 +19119,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -18880,7 +19166,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -18933,7 +19220,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -18979,7 +19267,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -19039,7 +19328,8 @@
           "place": "Horten",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q109048"
         }
       ],
       "agents": {
@@ -19085,7 +19375,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -19138,7 +19429,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -19191,7 +19483,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -19233,7 +19526,8 @@
           "place": "Hammerfest",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q721374"
         }
       ],
       "agents": {
@@ -19282,7 +19576,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19335,7 +19630,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19395,7 +19691,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19441,7 +19738,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19501,7 +19799,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19561,7 +19860,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19614,7 +19914,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19674,7 +19975,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19734,7 +20036,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19794,7 +20097,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19868,7 +20172,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -19921,7 +20226,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -19967,7 +20273,8 @@
           "place": "Dresden",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1731"
         }
       ],
       "agents": {
@@ -20013,7 +20320,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -20059,7 +20367,8 @@
           "place": "Porsgrunn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q10637941"
         }
       ],
       "agents": {
@@ -20112,7 +20421,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -20165,7 +20475,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -20211,7 +20522,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -20257,7 +20569,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -20310,7 +20623,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -20356,7 +20670,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -20402,7 +20717,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -20448,7 +20764,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -20501,7 +20818,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -20553,7 +20871,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -20599,7 +20918,8 @@
           "place": "Trondheim",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25804"
         }
       ],
       "agents": {
@@ -21001,7 +21321,8 @@
           "place": "York",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q42462"
         }
       ],
       "agents": {
@@ -21047,7 +21368,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21095,7 +21417,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21150,7 +21473,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21191,7 +21515,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21246,7 +21571,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21301,7 +21627,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21356,7 +21683,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21404,7 +21732,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21452,7 +21781,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21500,7 +21830,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21555,7 +21886,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21603,7 +21935,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21651,7 +21984,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21699,7 +22033,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21740,7 +22075,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21788,7 +22124,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21829,7 +22166,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21877,7 +22215,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21925,7 +22264,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -21973,7 +22313,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22021,7 +22362,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22076,7 +22418,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22124,7 +22467,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22172,7 +22516,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22220,7 +22565,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22268,7 +22614,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22316,7 +22663,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22357,7 +22705,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22405,7 +22754,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22453,7 +22803,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22501,7 +22852,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22549,7 +22901,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22597,7 +22950,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22652,7 +23006,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22700,7 +23055,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22748,7 +23104,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22789,7 +23146,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22837,7 +23195,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22892,7 +23251,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -22954,7 +23314,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23002,7 +23363,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23050,7 +23412,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23098,7 +23461,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23139,7 +23503,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23187,7 +23552,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23235,7 +23601,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23276,7 +23643,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23324,7 +23692,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23372,7 +23741,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23420,7 +23790,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23468,7 +23839,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23516,7 +23888,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23578,7 +23951,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23626,7 +24000,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23674,7 +24049,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23722,7 +24098,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23770,7 +24147,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23818,7 +24196,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23866,7 +24245,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23921,7 +24301,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -23969,7 +24350,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24038,7 +24420,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24086,7 +24469,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24141,7 +24525,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24189,7 +24574,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24274,7 +24660,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24322,7 +24709,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24370,7 +24758,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24418,7 +24807,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24473,7 +24863,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24521,7 +24912,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24562,7 +24954,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24610,7 +25003,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24658,7 +25052,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24741,7 +25136,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24837,7 +25233,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24899,7 +25296,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -24947,7 +25345,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25009,7 +25408,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25071,7 +25471,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25112,7 +25513,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25160,7 +25562,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25215,7 +25618,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25256,7 +25660,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25380,7 +25785,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25442,7 +25848,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25497,7 +25904,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -25550,7 +25958,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25591,7 +26000,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25653,7 +26063,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25715,7 +26126,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25763,7 +26175,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25825,7 +26238,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25915,7 +26329,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -25977,7 +26392,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26039,7 +26455,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26101,7 +26518,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26198,7 +26616,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26260,7 +26679,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26315,7 +26735,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26370,7 +26791,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26460,7 +26882,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26522,7 +26945,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26598,7 +27022,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26674,7 +27099,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26722,7 +27148,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26798,7 +27225,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26874,7 +27302,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26922,7 +27351,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -26984,7 +27414,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27039,7 +27470,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27129,7 +27561,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27219,7 +27652,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27281,7 +27715,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27336,7 +27771,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27398,7 +27834,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27446,7 +27883,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27494,7 +27932,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27570,7 +28009,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27646,7 +28086,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27708,7 +28149,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27756,7 +28198,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27832,7 +28275,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -27922,7 +28366,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28012,7 +28457,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28067,7 +28513,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28129,7 +28576,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28191,7 +28639,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28253,7 +28702,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28315,7 +28765,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28377,7 +28828,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28467,7 +28919,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28508,7 +28961,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28584,7 +29038,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28680,7 +29135,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28742,7 +29198,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28804,7 +29261,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28866,7 +29324,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28928,7 +29387,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -28990,7 +29450,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -29052,7 +29513,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -29114,7 +29576,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -29190,7 +29653,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -29245,7 +29709,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -29307,7 +29772,8 @@
           "place": "Drammen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26525"
         }
       ],
       "agents": {
@@ -29367,7 +29833,8 @@
           "place": "Philadelphia",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1345"
         }
       ],
       "agents": {
@@ -29406,7 +29873,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29417,7 +29885,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29461,7 +29930,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29472,7 +29942,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29516,7 +29987,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29527,7 +29999,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29564,7 +30037,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29575,7 +30049,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29626,7 +30101,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29637,7 +30113,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29681,7 +30158,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29692,7 +30170,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29743,7 +30222,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29754,7 +30234,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29798,7 +30279,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29809,7 +30291,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29860,7 +30343,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29871,7 +30355,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29908,7 +30393,8 @@
           "place": "Bonn",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q586"
         }
       ],
       "agents": {
@@ -29919,7 +30405,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -29963,7 +30450,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -29974,7 +30462,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -30025,7 +30514,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -30036,7 +30526,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -30066,7 +30557,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -30077,7 +30569,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -30128,7 +30621,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -30139,7 +30633,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -30183,7 +30678,8 @@
           "place": "Pulkova",
           "country": null,
           "country_code": null,
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q384573"
         }
       ],
       "agents": {
@@ -30194,7 +30690,8 @@
         "correspondent": {
           "name": "Struve, W.",
           "bibsys_id": "5082395",
-          "aut_name": "Struve, F.G.W."
+          "aut_name": "Struve, F.G.W.",
+          "wikidata_id": "Q57164"
         }
       },
       "comment": null
@@ -30273,7 +30770,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30333,7 +30831,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30386,7 +30885,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30446,7 +30946,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30506,7 +31007,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30559,7 +31061,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30612,7 +31115,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30665,7 +31169,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30711,7 +31216,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30757,7 +31263,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30810,7 +31317,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30870,7 +31378,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30930,7 +31439,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -30990,7 +31500,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -31043,7 +31554,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -31110,7 +31622,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -31156,7 +31669,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31202,7 +31716,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31262,7 +31777,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31315,7 +31831,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31354,7 +31871,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31456,7 +31974,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -31530,7 +32049,8 @@
           "place": "Freiberg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q14819"
         }
       ],
       "agents": {
@@ -31611,7 +32131,8 @@
           "place": "Freiberg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q14819"
         }
       ],
       "agents": {
@@ -31685,7 +32206,8 @@
           "place": "Freiberg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q14819"
         }
       ],
       "agents": {
@@ -31745,7 +32267,8 @@
           "place": "Giessen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3874"
         }
       ],
       "agents": {
@@ -31813,7 +32336,8 @@
           "place": "Giessen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3874"
         }
       ],
       "agents": {
@@ -31981,7 +32505,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -32080,7 +32605,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
@@ -32126,7 +32652,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -32179,7 +32706,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -32218,7 +32746,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -32278,7 +32807,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -32324,7 +32854,8 @@
           "place": "Washington D. C.",
           "country": "USA",
           "country_code": "US",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q61"
         }
       ],
       "agents": {
@@ -32377,7 +32908,8 @@
           "place": "Lisboa",
           "country": "Portugal",
           "country_code": "PT",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q597"
         }
       ],
       "agents": {
@@ -32423,7 +32955,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -32529,7 +33062,8 @@
           "place": "München",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1726"
         }
       ],
       "agents": {
@@ -32582,7 +33116,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -32635,7 +33170,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -32681,7 +33217,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -32727,7 +33264,8 @@
           "place": "Dorset",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q23159"
         }
       ],
       "agents": {
@@ -32781,7 +33319,8 @@
           "place": "Dresden",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1731"
         }
       ],
       "agents": {
@@ -32841,7 +33380,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -32887,7 +33427,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -33053,7 +33594,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -33113,7 +33655,8 @@
           "place": "Köbenhavn",
           "country": "Danmark",
           "country_code": "DK",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1748"
         }
       ],
       "agents": {
@@ -33166,7 +33709,8 @@
           "place": "Augsburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q2749"
         }
       ],
       "agents": {
@@ -33212,7 +33756,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -33258,7 +33803,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -33355,7 +33901,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33415,7 +33962,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33475,7 +34023,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33563,7 +34112,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33609,7 +34159,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33669,7 +34220,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33715,7 +34267,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33761,7 +34314,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33881,7 +34435,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33927,7 +34482,8 @@
           "place": "Uppsala",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q25286"
         }
       ],
       "agents": {
@@ -33973,7 +34529,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34019,7 +34576,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34079,7 +34637,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -34125,7 +34684,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -34178,7 +34738,8 @@
           "place": "Altona",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1630"
         }
       ],
       "agents": {
@@ -34224,7 +34785,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34277,7 +34839,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34330,7 +34893,8 @@
           "place": "Göttingen",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q3033"
         }
       ],
       "agents": {
@@ -34467,7 +35031,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34527,7 +35092,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34573,7 +35139,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -34619,7 +35186,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -34679,7 +35247,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -34753,7 +35322,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -34855,7 +35425,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -34943,7 +35514,8 @@
           "place": "Fredriksværn",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q5499579"
         }
       ],
       "agents": {
@@ -35328,7 +35900,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -35391,7 +35964,8 @@
           "place": "Drammen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26525"
         }
       ],
       "agents": {
@@ -35440,7 +36014,8 @@
           "place": "Bergen",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q26793"
         }
       ],
       "agents": {
@@ -35486,7 +36061,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35535,7 +36111,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35598,7 +36175,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35647,7 +36225,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35703,7 +36282,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35808,7 +36388,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35871,7 +36452,8 @@
           "place": "München",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1726"
         }
       ],
       "agents": {
@@ -35931,7 +36513,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -35987,7 +36570,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -36043,7 +36627,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -36106,7 +36691,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -36162,7 +36748,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -36201,7 +36788,8 @@
           "place": "Lyngdal",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q505952"
         }
       ],
       "agents": {
@@ -36426,7 +37014,8 @@
           "place": "Stockholm",
           "country": "Sverige",
           "country_code": "SE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1754"
         }
       ],
       "agents": {
@@ -36472,7 +37061,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -36525,7 +37115,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -36564,7 +37155,8 @@
           "place": "London",
           "country": "Storbritannia",
           "country_code": "GB",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q84"
         }
       ],
       "agents": {
@@ -36656,7 +37248,8 @@
           "place": "Christiania",
           "country": "Norge",
           "country_code": "NO",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q585"
         }
       ],
       "agents": {
@@ -36829,7 +37422,8 @@
           "place": "Paris",
           "country": "Frankrike",
           "country_code": "FR",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q90"
         }
       ],
       "agents": {
@@ -36875,7 +37469,8 @@
           "place": "St. Petersburg",
           "country": "Russland",
           "country_code": "RU",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q656"
         }
       ],
       "agents": {
@@ -36914,7 +37509,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -36953,7 +37549,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -36992,7 +37589,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37038,7 +37636,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37084,7 +37683,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37123,7 +37723,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37169,7 +37770,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37208,7 +37810,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37247,7 +37850,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37286,7 +37890,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37339,7 +37944,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37378,7 +37984,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37417,7 +38024,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37456,7 +38064,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37502,7 +38111,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37541,7 +38151,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37587,7 +38198,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37626,7 +38238,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37672,7 +38285,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37718,7 +38332,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37757,7 +38372,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37803,7 +38419,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37842,7 +38459,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37895,7 +38513,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37934,7 +38553,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -37994,7 +38614,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38040,7 +38661,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38079,7 +38701,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38125,7 +38748,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38164,7 +38788,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38210,7 +38835,8 @@
           "place": "Hamburg",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q1055"
         }
       ],
       "agents": {
@@ -38249,7 +38875,8 @@
           "place": "Berlin",
           "country": "Tyskland",
           "country_code": "DE",
-          "comment": null
+          "comment": null,
+          "wikidata_id": "Q64"
         }
       ],
       "agents": {
