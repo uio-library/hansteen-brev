@@ -48176,11 +48176,11 @@
       <subfield code="0">(NO-TrBIB)18371</subfield>
     </datafield>
     <datafield ind1="0" ind2="0" tag="245">
-      <subfield code="a">[Brev] 2. september 1865, Kiev [til] Hansteen, Christopher</subfield>
+      <subfield code="a">[Brev] 2. september 1865, Kew Observatory [til] Hansteen, Christopher</subfield>
       <subfield code="c">[fra] Stewart, Balfour</subfield>
     </datafield>
     <datafield ind1=" " ind2="0" tag="264">
-      <subfield code="a">Kiev</subfield>
+      <subfield code="a">Kew Observatory</subfield>
       <subfield code="c">1865-09-02</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="300">
@@ -48209,7 +48209,7 @@
       <subfield code="0">(NO-TrBIB)90712173</subfield>
     </datafield>
     <datafield ind1=" " ind2=" " tag="751">
-      <subfield code="a">Kiev</subfield>
+      <subfield code="a">Kew Observatory</subfield>
       <subfield code="4">prp</subfield>
     </datafield>
     <datafield ind1="1" ind2=" " tag="787">

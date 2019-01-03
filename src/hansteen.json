@@ -33301,10 +33301,11 @@
       "date_comment": null,
       "places": [
         {
-          "place": "Kiev",
-          "country": null,
-          "country_code": null,
-          "comment": null
+          "place": "Kew Observatory",
+          "country": "Storbritannia",
+          "country_code": "GB",
+          "comment": null,
+          "wikidata_id": "Q3348489"
         }
       ],
       "agents": {
@@ -33324,6 +33325,7 @@
     "administrative": {
       "described_by": "Marianne Kern",
       "described_at": "2005-05-30",
+      "updated_at": "2019-01-03",
       "collection": "UIO FUH"
     },
     "structure": [
