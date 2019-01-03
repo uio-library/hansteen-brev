@@ -211,6 +211,10 @@ def build_doc(xml, row):
                     aut_id = '(NO-TrBIB)%s' % agent.get('bibsys_id')
                     xml.subfield(aut_id, code='0')
 
+                if agent.get('wikidata_id'):
+                    xml.subfield('http://www.wikidata.org/entity/' + agent.get('wikidata_id'), code='1')
+
+
         # ---------------------------------------------------------------------------
         # 245: Tittel
         # ---------------------------------------------------------------------------
@@ -343,6 +347,9 @@ def build_doc(xml, row):
                     aut_id = '(NO-TrBIB)%s' % agent.get('bibsys_id')
                     xml.subfield(aut_id, code='0')
 
+                if agent.get('wikidata_id'):
+                    xml.subfield('http://www.wikidata.org/entity/' + agent.get('wikidata_id'), code='1')
+
         # ---------------------------------------------------------------------------
         # 751: Avsendersted
         # ---------------------------------------------------------------------------
@@ -354,6 +361,8 @@ def build_doc(xml, row):
             with xml.datafield(tag='751', ind1=' ', ind2=' '):
                 xml.subfield(place_s, code='a')
                 xml.subfield('prp', code='4')
+                if place.get('wikidata_id'):
+                    xml.subfield('http://www.wikidata.org/entity/' + place.get('wikidata_id'), code='1')
 
         # ---------------------------------------------------------------------------
         # 773: Samling (lenkefelt)
