@@ -32736,7 +32736,7 @@
           "bibsys_id": "90712173"
         },
         "correspondent": {
-          "name": "Sterks Eaton, Henry"
+          "name": "Eaton, Henry Storks"
         }
       },
       "comment": null
@@ -32744,6 +32744,7 @@
     "administrative": {
       "described_by": "Marianne Kern",
       "described_at": "2005-05-27",
+      "updated_at": "2019-01-03",
       "collection": "UIO FUH"
     },
     "structure": [
