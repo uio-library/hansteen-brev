@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Christopher Hansteen's correspondence</title>
+    <title>Christopher Hansteen’s correspondence</title>
     <link rel="stylesheet" href="">
 
     <!-- development version, includes helpful console warnings-->
@@ -34,16 +34,198 @@
         h1, p {
             margin: 8px 20px;
         }
+        #popup p {
+            margin: 8px 0;
+        }
+        #popup {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background: white;
+            padding: 10px;
+            box-shadow: 1px 1px 2px #aaa;
+            width: 450px;
+        }
+        #popup h3 {
+            font-weight: 500;
+            font-size: 115%;
+            margin: 8px 0;
+        }
+        #popup .small {
+            font-size: 70%;
+        }
     </style>
 </head>
 <body>
     <div id="app"></div>
 <script>
+
+// Very simple in-memory cache adapter for the popups
+class Http {
+    constructor() {
+        this.cache = {};
+    }
+    get(url) {
+        if (!this.cache[url]) {
+            return axios.get(url).then(resp => {
+                this.cache[url] = resp;
+                return resp;
+            })
+        }
+        return new Promise((resolve, reject) => {
+            resolve(this.cache[url]);
+        });
+    }
+}
+let http = new Http();
+
+class BibsysEntity {
+    constructor(id) {
+        this.type = 'Bibsys:';
+        this.id = id;
+        this.link = 'https://tools.wmflabs.org/bsaut/show/' + id;
+
+        this.label = '';
+        this.description = '';
+        this.thumb = {};
+        this.coords = {};
+        this.dates = {};
+        this.links = [
+            // {
+                //link: `https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,${id}&tab=default_tab&search_scope=default_scope&vid=UIO&lang=no_NO&offset=0`,
+            // name: 'Oria',
+            //}
+        ];
+    }
+    get() {
+        return http.get(`https://tools.wmflabs.org/bsaut/api.php?origin=*&id=${this.id}`)
+            .then(resp => {
+                let rec = _.get(resp.data, 'records.0')
+                this.label = {value: rec.label};
+                this.dates.birth = rec.birth;
+                this.dates.death = rec.death;
+            })
+            .then(_ => this.fetchPubs());
+    }
+    fetchPubs() {
+        return http.get(`https://tools.wmflabs.org/bsaut/api.php?origin=*&pub=${this.id}`)
+            .then(resp => {
+                this.numberOfRecords = resp.data.numberOfRecords;
+                return this;
+            })
+    }
+}
+
+class WikidataEntity {
+    constructor(id) {
+        this.type = 'Wikidata:';
+        this.id = id;
+        this.link = 'https://wikidata.org/wiki/' + id;
+        this.langChain = ['fr', 'de', 'en', 'sv', 'da', 'nn', 'nb'];  // most-preferred last
+        this.services = [
+            {
+                prop: 'P214',
+                link: 'https://viaf.org/viaf/%s',
+                name: 'VIAF',
+            },
+            {
+                prop: 'P1015',
+                link: 'https://tools.wmflabs.org/bsaut/show/%s',
+                name: 'Bibsys',
+            },
+        ];
+        this.data = {};
+
+        this.label = '';
+        this.description = '';
+        this.thumb = {};
+        this.coords = {};
+        this.dates = {};
+        this.links = [{
+            link: 'https://tools.wmflabs.org/reasonator/?lang=nb&q=' + id,
+            name: 'Reasonator',
+        }];
+    }
+    getBestValue(obj) {
+        let values = _.sortBy(Object.values(obj), [x => {
+            return this.langChain.length - this.langChain.indexOf(x.language);
+        }]);
+        if (!values.length) {
+            return {value: '', language: ''};
+        }
+        return values[0];
+    }
+    get() {
+        return http.get(`https://www.wikidata.org/wiki/Special:EntityData/${this.id}.json`)
+            .then(resp => {
+                this.data = _.get(resp.data, `entities.${this.id}`);
+
+                this.label = this.getBestValue(this.data.labels)
+                this.description = this.getBestValue(this.data.descriptions)
+
+                this.coords = _.get(this.data.claims, 'P625.0.mainsnak.datavalue.value') || {};
+                this.dates.birth = _.get(this.data.claims, 'P569.0.mainsnak.datavalue.value.time');
+                if (this.dates.birth) {
+                    this.dates.birth = this.dates.birth.substring(1, 5);
+                }
+                this.dates.death = _.get(this.data.claims, 'P570.0.mainsnak.datavalue.value.time');
+                if (this.dates.death) {
+                    this.dates.death = this.dates.death.substring(1, 5);
+                }
+                this.services.forEach(service => {
+                    let aut = _.get(this.data.claims, `${service.prop}.0.mainsnak.datavalue.value`);
+                    if (aut) {
+                        this.links.push({
+                            link: service.link.replace('%s', aut),
+                            name: service.name,
+                        });
+                    }
+                });
+                if (this.data.sitelinks.nowiki) {
+                    this.links.push({
+                        link: this.data.sitelinks.nowiki.url,
+                        name: 'Wikipedia på bokmål',
+                    });
+                }
+                if (this.data.sitelinks.nnwiki) {
+                    this.links.push({
+                        link: this.data.sitelinks.nnwiki.url,
+                        name: 'Wikipedia på nynorsk',
+                    });
+                }
+                if (this.data.sitelinks.enwiki) {
+                    this.links.push({
+                        link: this.data.sitelinks.enwiki.url,
+                        name: 'Wikipedia på engelsk',
+                    });
+                }
+            })
+            .then(_ => this.fetchCommonsThumb());
+    }
+    fetchCommonsThumb() {
+        let title = _.get(this.data.claims, 'P18.0.mainsnak.datavalue.value');
+        if (!title) {
+            return this;
+        }
+        title = encodeURIComponent('File:' + title)
+
+        return http.get(`https://commons.wikimedia.org/w/api.php?action=query&titles=${title}&prop=imageinfo&iiurlwidth=260&iiurlheight=400&iiprop=url|size&format=json&origin=*`)
+            .then(resp => {
+                resp = Object.values(resp.data.query.pages)[0];
+                if (resp.imageinfo) {
+                    this.thumb = _.get(resp, 'imageinfo.0');
+                }
+                return this;
+            });
+    }
+}
+
+
 var app = new Vue({
     el: '#app',
     template: `
 <div>
-    <h1>Christopher Hansteen's correspondence : overview</h1>
+    <h1>Christopher Hansteen’s correspondence : overview</h1>
     <p>
         The table below provides an overview of the letters
         from Christopher Hansteen's correspondence
@@ -65,6 +247,38 @@ var app = new Vue({
     <p v-if="error" class="error">
         {{ error }}
     </p>
+    <div id="popup" v-show="popup.visible" :style="{top: popup.top, left: popup.left}" @mouseenter.stop="popupOver()" @mouseleave.stop="popupOut()">
+        <div v-if="popup.loading">
+            Fetching...
+        </div>
+        <div v-else>
+            <div class="small">{{popup.entity.type}}</div>
+            <h3>{{popup.entity.label.value}} (<a target="_blank" :href="popup.entity.link">{{popup.entity.id}}</a>)</h3>
+            <p v-show="popup.entity.thumb" style="float:right;">
+                <img :src="popup.entity.thumb.thumburl" style="width:150px;">
+            </p>
+            <p v-show="popup.entity.description.value">
+                {{popup.entity.description.value}}
+                <span v-show="popup.entity.description.language">({{popup.entity.description.language}})</span>
+            </p>
+            <p v-show="popup.entity.dates.birth">
+                <span>{{popup.entity.dates.birth}}</span><span v-show="popup.entity.dates.death">–{{popup.entity.dates.death}}</span>
+            </p>
+            <p v-show="popup.entity.numberOfRecords">
+                <a target="_blank" :href="popup.entity.link">{{ popup.entity.numberOfRecords }} katalogposter</a>
+            </p>
+            <p v-show="popup.entity.coords.longitude">
+                <a target="_blank" :href="'https://maps.wikimedia.org/#9/' + popup.entity.coords.latitude + '/' + popup.entity.coords.longitude">Kart</a>
+                /
+                <a target="_blank" :href="'https://tools.wmflabs.org/wikidata-todo/around.html?lat=' + popup.entity.coords.latitude + '&lon=' + popup.entity.coords.longitude + '&radius=15&lang=en'">Kart</a>
+            </p>
+            <p>
+                <span v-for="link in popup.entity.links">
+                    <a target="_blank" :href="link.link">» {{ link.name}}</a>&#20;
+                </span>
+            </p>
+        </div>
+    </div>
     <table class="table table-striped" v-if="!loading">
       <thead>
         <tr>
@@ -119,17 +333,22 @@ var app = new Vue({
           <td>{{ row.date }}</td>
           <td>
             {{ row.sender }}
-            <a v-if="row.sender_bibsys_id" target="_blank" :href="'https://tools.wmflabs.org/bsaut/show/' + row.sender_bibsys_id">
+            <a v-if="row.sender_bibsys_id" target="_blank" :href="'https://tools.wmflabs.org/bsaut/show/' + row.sender_bibsys_id"  @mouseenter="showBibsysPopup($event, row.sender_bibsys_id)" @mouseleave="linkOut">
               <i class="fas fa-user-check"></i>
             </a>
-            <a v-if="row.sender_wd_id" target="_blank" :href="'https://tools.wmflabs.org/reasonator/?lang=nb&q=' + row.sender_wd_id">
+            <a v-if="row.sender_wd_id" target="_blank" :href="'https://tools.wmflabs.org/reasonator/?lang=nb&q=' + row.sender_wd_id" @mouseenter="showWikidataPopup($event, row.sender_wd_id)" @mouseleave="linkOut">
               <i class="fab fa-wikipedia-w"></i>
             </a>
           </td>
-          <td>{{ row.place }}</td>
+          <td>
+            {{ row.place }}
+            <a v-if="row.place_wd_id" target="_blank" :href="'https://tools.wmflabs.org/reasonator/?lang=nb&q=' + row.place_wd_id" @mouseenter="showWikidataPopup($event, row.place_wd_id)" @mouseleave="linkOut">
+              <i class="fab fa-wikipedia-w"></i>
+            </a>
+          </td>
           <td style="display:flex; justify-content: flex-start; align-items: center; flex-wrap: wrap;">
             <div v-if="row.showThumbs" style="flex: 0 0 auto; padding: .4em;" v-for="page in row.files">
-                <a :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
+                <a target="_blank" :href="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename">
                 <img style="max-width:90px;" :src="'http://ub-media.uio.no/arkiv/hansteen/files/' + page.filename.replace('.tif', '_thumb.jpg')" alt=""><br>
 
                 {{ page.label }}</a>
@@ -154,6 +373,13 @@ var app = new Vue({
             sender: '',
             date: '',
             place: '',
+        },
+        popup: {
+            loading: true,
+            visible: false,
+            entity: null,
+            top: '',
+            left: '',
         },
     },
     methods: {
@@ -186,7 +412,37 @@ var app = new Vue({
                     this.rows[i].showThumbs = true;
                 }
             }
-        }
+        },
+        popupOver: function () {
+            this.popup.visible = true;
+        },
+        popupOut: function() {
+            this.popup.visible = false;
+        },
+        showPopup: function(evt, entity) {
+            this.popup.loading = true;
+            this.popup.visible = true;
+            this.popup.top = `${evt.pageY-20}px`,
+            this.popup.left = `${evt.pageX}px`,
+            this.popup.entity = {id: entity.id};
+            entity.get().then(entity => {
+                if (this.popup.entity.id == entity.id) {
+                    this.popup.loading = false;
+                    this.popup.entity = entity;
+                }
+            });
+        },
+        showBibsysPopup: function(evt, id) {
+            this.showPopup(evt, new BibsysEntity(id));
+        },
+        showWikidataPopup: function(evt, id) {
+            this.showPopup(evt, new WikidataEntity(id));
+        },
+        linkOut: function(evt) {
+            if (evt.relatedTarget.id != 'popup') {
+                this.popup.visible = false;
+            }
+        },
     },
     computed: {
         rows: function() {
@@ -237,7 +493,7 @@ var app = new Vue({
         this.sortOrder = sortParams[1];
 
         // Get data
-        axios.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then(resp => {
+        http.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then(resp => {
             this.loading = false;
             this.error = 'Failed to process data!'; // Set error in case processing fails
             let processed = resp.data.map(function(row) {
@@ -250,6 +506,7 @@ var app = new Vue({
                     sender: _.get(row, 'descriptive.agents.correspondent.name'),
                     sender_bibsys_id: _.get(row, 'descriptive.agents.correspondent.bibsys_id'),
                     sender_wd_id: _.get(row, 'descriptive.agents.correspondent.wikidata_id'),
+                    place_wd_id: _.get(row, 'descriptive.places.0.wikidata_id'),
                     date: _.get(row, 'descriptive.date'),
                     place: place,
                     files: _.get(row, 'structure'),
