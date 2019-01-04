@@ -496,7 +496,7 @@ var app = new Vue({
         http.get('https://uio-library.github.io/hansteen-brev/src/hansteen.json').then(resp => {
             this.loading = false;
             this.error = 'Failed to process data!'; // Set error in case processing fails
-            let processed = resp.data.map(function(row) {
+            let processed = resp.data.members.map(function(row) {
                 let place = _.get(row, 'descriptive.places.0');
                 if (place) {
                     place = _.get(place, 'place') + ', ' + _.get(place, 'country');

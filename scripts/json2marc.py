@@ -51,19 +51,19 @@ def format_date(dato):
     return '???????'
 
 
-def build(metadata, filename=None):
+def build(collection, filename=None):
 
     # Ex: build('build/{id}/record.xml')
     if filename is None:
         xml = xmlwitch.Builder(version='1.0', encoding='utf-8')
         with xml.collection:
-            for row in metadata:
-                build_doc(xml, row)
+            for row in collection['members']:
+                build_doc(xml, row, collection['collection'])
         print(xml)
     else:
-        for row in metadata:
+        for row in collection['members']:
             xml = xmlwitch.Builder(version='1.0', encoding='utf-8')
-            build_doc(xml, row)
+            build_doc(xml, row, collection['collection'])
             fn = filename.format(**row)
             if not os.path.exists(os.path.dirname(fn)):
                 os.mkdir(os.path.dirname(fn))
@@ -71,7 +71,7 @@ def build(metadata, filename=None):
                 fd.write(str(xml))
 
 
-def build_doc(xml, row):
+def build_doc(xml, row, collection):
     # Unik identifikator
     ident = row['id']
 
@@ -306,10 +306,10 @@ def build_doc(xml, row):
         # ---------------------------------------------------------------------------
 
         with xml.datafield(tag='535', ind1='1', ind2=' '):
-            xml.subfield('Christopher Hansteens korrespondanse', code='3')
-            xml.subfield('Observatoriet', code='a')
-            xml.subfield('Observatoriegata 1, Oslo', code='b')
-            xml.subfield('no', code='g')
+            xml.subfield(collection['name']['nb'], code='3')
+            xml.subfield(collection['location']['name'], code='a')
+            xml.subfield(collection['location']['address'], code='b')
+            xml.subfield(collection['location']['country'], code='g')
 
         # ---------------------------------------------------------------------------
         # 540 / 542: Tilgang
@@ -365,20 +365,12 @@ def build_doc(xml, row):
                     xml.subfield('http://www.wikidata.org/entity/' + place.get('wikidata_id'), code='1')
 
         # ---------------------------------------------------------------------------
-        # 773: Samling (lenkefelt)
-        # ---------------------------------------------------------------------------
-
-        # Vi kan evt. også generere en 580-note.
-        # with xml.datafield(tag='773', ind1='0', ind2=' '):
-        #     xml.subfield('Christopher Hansteens korrespondanse', code='t')
-
-        # ---------------------------------------------------------------------------
         # 787: Alma Digital collection
         # ---------------------------------------------------------------------------
 
         with xml.datafield(tag='787', ind1='1', ind2=' '):
-            xml.subfield('Christopher Hansteens korrespondanse', code='t')
-            xml.subfield('81218451430002204', code='w')
+            xml.subfield(collection['name']['nb'], code='t')
+            xml.subfield(collection['alma_id'], code='w')
 
         # ---------------------------------------------------------------------------
         # 856: Filnavn
@@ -404,9 +396,9 @@ def main():
     args = parser.parse_args()
 
     with open(args.infile) as fp:
-        metadata = json.load(fp)
+        collection = json.load(fp)
 
-    build(metadata, args.outfile)
+    build(collection, args.outfile)
 
 if __name__ == '__main__':
     main()
