@@ -282,6 +282,7 @@ var app = new Vue({
     <table class="table table-striped" v-if="!loading">
       <thead>
         <tr>
+          <th scope="col">Permalink</th>
           <th scope="col" style="width: 160px;">
             <button class="btn btn-link" @click="setSortKey('id')">
                 <span>
@@ -321,6 +322,7 @@ var app = new Vue({
           <th scope="col">Files</th>
         </tr>
         <tr>
+          <th scope="col"> </th>
           <th scope="col"><input placeholder="Søk" v-model="filters.id" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.date" style="width:100%"></th>
           <th scope="col"><input placeholder="Søk" v-model="filters.sender" style="width:100%"></th>
@@ -329,6 +331,7 @@ var app = new Vue({
       </thead>
       <tbody>
         <tr v-for="row in rows" ref="rows">
+          <td><a :href="'https://urn.nb.no/' + row.urn">{{ row.urn }}</a></td>
           <td>{{ row.id }}</td>
           <td>{{ row.date }}</td>
           <td>
@@ -503,6 +506,7 @@ var app = new Vue({
                 }
                 return {
                     id: _.get(row, 'id'),
+                    urn: _.get(row, 'urn'),
                     sender: _.get(row, 'descriptive.agents.correspondent.name'),
                     sender_bibsys_id: _.get(row, 'descriptive.agents.correspondent.bibsys_id'),
                     sender_wd_id: _.get(row, 'descriptive.agents.correspondent.wikidata_id'),

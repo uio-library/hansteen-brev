@@ -51,22 +51,24 @@ and are also archived at ub-prod01-imgs.
 
 ## Metadata structure
 
-Brevsamlingen har følgende metadatastruktur:
+The collection members have the following metadata structure:
 
-
-    id: Tilvekstnummer, unik ID for hvert brev
-    descriptive:
+    id: Identifier unique to the collection
+    alma_id: The MMS id of the linked Alma record (UIO)
+    alma_representation_id: The ID of the linked Alma digital representation (UIO)
+    urn: Globally unique and persistent identifier
+    descriptive: object
         date: 
         date_comment:
-        places:
-        agents:
+        places: object indexed by role (TODO)
+        agents: object indexed by role
         comment:
-    administrative:
+    administrative: object
         described_by:
-        created_at:
+        described_at:
         updated_at:
         collection:
-    structure:
+    structure: list
         filename:
         label:
         filesize:
