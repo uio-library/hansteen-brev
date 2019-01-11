@@ -222,21 +222,38 @@ def build_doc(xml, row, collection):
         # Eksempler fra Katalogiseringsregler 4.1B2
         #  - [Brev] 1926-11-04, Paris [til] Jappe Nilssen, Oslo
         #  - [Brev] 1901 March 6, Dublin [til] Henrik Ibsen, Kristiania
+        # Eksempel fra https://www.loc.gov/marc/bibliographic/bd245.html:
+        #  - $kLetter,$f1901 March 6,$bDublin, to Henrik Ibsen, Kristiana [Oslo].
 
-        title = '[Brev]'
         if dato is None:
-            title += ' [Udatert]'
+            dato_s = '[Udatert]'
         else:
             dato_s = format_date(dato)
-            title += ' ' + dato_s
+
+        title = '[Brev] %s' % dato_s
+
         if place_s is not None:
             title += ', ' + place_s
         if 'addressee' in desc['agents']:
             title += ' [til] ' + desc['agents']['addressee']['name']
+
+        remainder = ''
+        if place_s is not None:
+            remainder = place_s + ', '
+        if 'addressee' in desc['agents']:
+            remainder += '[til] ' + desc['agents']['addressee']['name']
+
         with xml.datafield(tag='245', ind1='0', ind2='0'):
-            xml.subfield(title, code='a')
+            xml.subfield('Brev', code='k')
+            xml.subfield(dato_s + ',', code='f')
+            xml.subfield(remainder, code='b')
             if 'correspondent' in desc['agents']:
                 xml.subfield('[fra] ' + desc['agents']['correspondent']['name'], code='c')
+
+        # with xml.datafield(tag='245', ind1='0', ind2='0'):
+        #     xml.subfield(title, code='a')
+        #     if 'correspondent' in desc['agents']:
+        #         xml.subfield('[fra] ' + desc['agents']['correspondent']['name'], code='c')
 
         # ---------------------------------------------------------------------------
         # 264: Sted og dato
