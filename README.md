@@ -6,6 +6,13 @@ The letters themselves are stored in [Observatoriet](https://no.wikipedia.org/wi
 Digitized representations are available at https://uio-library.github.io/hansteen-brev/ 
 and in [Oria Digital Collections](https://bibsys-almaprimo.hosted.exlibrisgroup.com/primo-explore/collectionDiscovery?vid=UIO&lang=en_US).
 
+## License
+
+The original catalog/inventory created by Harald Hansteen in 1877 is in public domain in Norway and other countries and areas where the copyright term is the author's life plus 100 years or fewer.
+We consider the 2004/2005 digitization as a faithful representation of the original catalog that did not add new copyright.
+Any database rights that may have been induced from the creation or refactoring of the data are waived 
+under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed.no), together with any copyright or other rights related to scripts and other files in this repository.
+
 ## History
 
 ### 1877 Registration
