@@ -4,8 +4,36 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Christopher Hansteen’s correspondence</title>
-    <link rel="stylesheet" href="">
 
+    <script type="application/ld+json">
+    {
+        "@context": {
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfa": "http://www.w3.org/ns/rdfa#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "https://schema.org/",
+            "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "@graph": [
+            {
+                "@id": "https://uio-library.github.io/hansteen-brev/",
+                "@type": "schema:Collection",
+                "schema:creator": {
+                    "@type": "schema:Organization",
+                    "name": "University of Oslo Library",
+                    "@id": "http://www.wikidata.org/entity/Q3354774"
+                },
+                "schema:about": {
+                    "@type": "schema:Person",
+                    "name": "Christopher Hansteen",
+                    "@id": "http://www.wikidata.org/entity/Q705048"
+                },
+                "schema:name": "Christopher Hansteen’s correspondence"
+            }
+        ]
+    }
+    </script>
+    
     <!-- development version, includes helpful console warnings-->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js" integrity="sha256-ui3vFTgbIIvd9ePh+wF+ju05O3jympV4FyFlpNMV2cw=" crossorigin="anonymous"></script>
 
